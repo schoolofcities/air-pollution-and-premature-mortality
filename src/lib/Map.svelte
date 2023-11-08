@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import maplibregl from 'maplibre-gl';
 	import cma2021dbf from '../data/cma-2021-dbf.geo.json';
+	import torontoPM2021 from '../data/2021ToPM25.geo.json';
 
 	let pageHeight;
 	let pageWidth;
@@ -21,8 +22,8 @@
 			container: 'map',
 			center: [-79.36, 43.715], 
 			zoom: 10.5,
-			minZoom: 9,
-			maxZoom: 13,
+			// minZoom: 9,
+			// maxZoom: 13,
 			bearing: 0,
 			// maxBounds: [ 
 			// 	[-80.28, 43.21], 
@@ -36,6 +37,8 @@
 		map.dragRotate.disable();
 		map.touchZoomRotate.disableRotation();
 		// map.scrollZoom.disable();
+
+		map.addControl(new maplibregl.NavigationControl());
 
 		map.addSource('osm-raster-tiles', {
 			'type': 'raster',
@@ -69,34 +72,31 @@
 		}
 	});
 
-	// map.addSource('torontoPM2021', {
-	// 	'type': 'tiff',
-	// 	'data': torontoPM2021
-	// });
-	// map.addLayer({
-	// 	'id': 'torontoPM2021',
-	// 	'type': 'raster',
-	// 	'source': 'torontoPM2021',
-	// });
+	map.addSource('torontoPM2021', {
+		'type': 'geojson',
+		'data': torontoPM2021
+	});
+	map.addLayer({
+		'id': 'torontoPM2021',
+		'type': 'fill',
+		'source': 'torontoPM2021',
+		'paint': {
+			'fill-color': [
+				'interpolate',
+				['linear'], 
+				['get', 'VALUE'],
+				7.2,
+				'#8DBF2E',
+				9.05,
+				'#F1C500',
+				10.9,
+				'#DC4633'
+			] 
+		}
+	});
 	
-map.on("load", function () {
-  map.loadImage("2021_Toronto_PM25.tif", function (error, image) {
-    if (error) throw error;
-
-    map.addImage("2021_Toronto_PM25.tif", image);
-
-    map.addLayer({
-      id: "TorontoPM25",
-      type: "raster",
-      source: "2021_Toronto_PM25.tif",
-      paint: {
-        "raster-opacity": 0.8, // Adjust opacity
-      },
-    });
-  });
 });
 
-});
 
 
 </script>
