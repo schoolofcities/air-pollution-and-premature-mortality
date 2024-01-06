@@ -1,6 +1,5 @@
 <script>
-
-	import { onMount } from 'svelte';
+	import {onMount} from 'svelte';
 	import maplibregl from 'maplibre-gl';
 	import Select from "svelte-select";
 	import cma2006 from '../data/2006cmas33.geo.json';
@@ -15,7 +14,7 @@
 		mapHeight = pageHeight - 200;
 	} else {
 		mapHeight = 600
-	}
+	};
  
 	//alphabetize CMAs so the desired CMA is easy to find in the dropdown
 	let cmaAll = cmaSummary
@@ -160,10 +159,10 @@ async function loadPollution(checked) {
 
 		map = new maplibregl.Map({
 			container: 'map',
-			center: [-79.36, 43.715], 
-			zoom: 10.5,
-			minZoom: 9,
-			maxZoom: 13,
+			center: [-79.580, 43.905],
+			zoom: 8,
+			minZoom: 6,
+			maxZoom: 10,
 			bearing: 0,
 			// maxBounds: [ 
 			// 	[-80.28, 43.21], 
@@ -233,6 +232,17 @@ function zoomIn() {
 
 
 <main>
+	<div class="toggle">
+		<p>Select pollution type:
+		</p>	
+	<button
+        role="switch"
+        aria-checked={checked}
+        on:click={handleClick}>
+            <span>PM2.5</span>
+            <span>NO2</span>
+			</button>
+	</div>
 
 	<div class = bar>
 		<div id="select-wrapper">
@@ -263,51 +273,11 @@ function zoomIn() {
 			<span on:click={zoomOut} class="map-zoom">–</span>	
 			<span on:click={zoomIn} class="map-zoom">+</span>		
 		</div>		
-	</div>
-	<div class="s s--inner">
-	<button
-        role="switch"
-        aria-checked={checked}
-        on:click={handleClick}>
-            <span>PM2.5</span>
-            <span>NO2</span>
-			</button>
-	</div>
-<p>
-</p>	
-	 
+	</div>	 
 </main>
 
 
 <style>
-
-:root {
-		--accent-color: CornflowerBlue;
-		--gray: #ccc;
-	}
-    /* Inner Design Option */
-    .s--inner button {
-        padding: 0.5em;
-        background-color: #fff;
-        border: 1px solid var(--gray);
-    }
-    [role='switch'][aria-checked='true'] :first-child,
-    [role='switch'][aria-checked='false'] :last-child {
-        display: none;
-        color: #fff;
-    }
-
-    .s--inner button span {
-        user-select: none;
-        pointer-events:none;
-        padding: 0.25em;
-    }
-
-    .s--inner button:focus {
-        outline: var(--accent-color) solid 1px;
-    }
-
-
 	#map {
 		width: 100%;
 		margin: 0 auto;
@@ -353,6 +323,41 @@ function zoomIn() {
 		cursor: pointer;
 		background-color: var(--brandGray90);
 	}
+    /* Toggle switch styling */
+	:root {
+		--accent-color: CornflowerBlue;
+		--gray: #ccc;
+	}
+
+    .toggle button {
+        padding: 3px;
+        background-color: #fff;
+        border: 1px solid var(--gray);
+		border-radius: 50px;
+    }
+   
+    .toggle button span {
+        pointer-events:none;
+        padding: 8px;
+    }
+
+    /* .toggle button:focus {
+        outline: var(--accent-color) solid 1px;
+    } */
+
+	[role='switch'][aria-checked='false'] :first-child,
+    [role='switch'][aria-checked='true'] :last-child {
+        background: var(--accent-color);
+        display: inline-block;
+		color: #fff;
+		border-radius: 50px;
+    }
+
+    /* .toggle button:focus {
+        box-shadow: 0 0px 8px var(--accent-color);
+        border-radius: 0.1em;
+    } */
+
 
 /* The switch - the box around the slider 
 .switch {
