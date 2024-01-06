@@ -2,13 +2,9 @@
 
 	import { onMount } from 'svelte';
 	import maplibregl from 'maplibre-gl';
-<<<<<<< Updated upstream
-=======
 	import Select from "svelte-select";
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
-
->>>>>>> Stashed changes
 
 	let pageHeight;
 	let pageWidth;
@@ -20,8 +16,6 @@
 	} else {
 		mapHeight = 600
 	}
-<<<<<<< Updated upstream
-=======
  
 	//alphabetize CMAs so the desired CMA is easy to find in the dropdown
 	let cmaAll = cmaSummary
@@ -29,12 +23,11 @@
 		return a.cmaname < b.cmaname ? -1 : 1;
 	})
 	.map((item) => item.cmaname);
-
+	
 
 	// Functions for what happens when the CMA changes
 
 	let cmanameSelected = 'Toronto'; // default to Toronto for now
-
 	let filteredData;
 	$: filteredData = cmaSummary.filter(
 		(item) => item.cmaSummary === cmanameSelected
@@ -91,6 +84,7 @@
 				'type': 'fill',
 				'source': 'cmaPolygon',
 			}, 'cma2006');
+			loadPollution(checked)
 		} catch {
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
@@ -100,10 +94,67 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
-			}, 'cma2006');
+			}, 'cma2006')
+			loadPollution(checked)
 		}
 	}
->>>>>>> Stashed changes
+	
+
+// 	// function for changing the type of pollution displayed
+let checkValue = 'PM2.5';
+let checked = false;
+		
+async function loadPollution(checked) {
+	if (checked === false) {
+		map.setPaintProperty( 
+		'cmaPolygon', 'fill-color', [
+			'interpolate',
+					['linear'], 
+					['get', 'PM'],
+					1.9,
+					'#1e3765',
+					3.5,
+					'#6fc7ea',
+					6,
+					'#f1c500',
+					8.5,
+					'#e7861a',
+					10.9,
+					'#DC4633'
+				])
+			} else {
+				map.setPaintProperty(
+				'cmaPolygon', 'fill-color', [
+					'interpolate',
+						['linear'], 
+						['get', 'NO'],
+						0,
+						'#1e3765',
+						5,
+						'#6fc7ea',
+						10,
+						'#f1c500',
+						20,
+						'#e7861a',
+						30,
+						'#DC4633'
+			])
+	 }
+}
+	 function handleClick(event){
+        let target = event.target
+
+        let state = target.getAttribute('aria-checked')
+
+        checked = state === 'true' ? false : true
+
+        checkValue = checked === false ? 'PM2.5' : 'NO2'
+	 }
+
+	 $: {
+        loadPollution(checked);
+    }
+
 
 	onMount(() => {
 
@@ -144,10 +195,6 @@
 			}
 		})	
 		
-<<<<<<< Updated upstream
-	});
-
-=======
 		map.addSource('cma2006', {
 			'type': 'geojson',
 			'data': cma2006
@@ -173,12 +220,8 @@ function zoomIn() {
 	function zoomOut() {
 		map.zoomOut();
 	}
-	function onClick(event) {
-		if (event.target === element) {}
-	}
->>>>>>> Stashed changes
-</script>
 
+</script>
 
 
 
@@ -189,8 +232,6 @@ function zoomIn() {
 <p>Data Sources: OpenStreetMap</p>
 
 
-<<<<<<< Updated upstream
-=======
 <main>
 
 	<div class = bar>
@@ -214,72 +255,59 @@ function zoomIn() {
 				--item-is-active-color="#0D534D"
 				--item-is-active-bg="#6FC7EA"
 			/>
-		</div>
+		
         
-		<form>
-			<fieldset id="pollutiontype">
-				<select id="attribute" name="attribute">
-					<option value="PM2.5">PM2.5</option> 
-					<option value="NO2">NO2</option> 
-			</select>
-		</fieldset>	
-	</form>
 	</div>		
 	<div id="map" class="map" style="height: {mapHeight}px">		
 		<div class="map-zoom-wrapper">	
 			<span on:click={zoomOut} class="map-zoom">–</span>	
 			<span on:click={zoomIn} class="map-zoom">+</span>		
 		</div>		
-	</div>	
-	<h1 on:click|preventDefault|stopPropagation|capture|nonpassive={onClick}>Event listeners</h1>
-	<div on:click|self={() => map.setPaintProperty( 
-		'cmaPolygon', 'fill-color', [
-			'interpolate',
-					['linear'], 
-					['get', 'PM'],
-					1.9,
-					'#1e3765',
-					3.5,
-					'#6fc7ea',
-					6,
-					'#f1c500',
-					8.5,
-					'#e7861a',
-					10.9,
-					'#DC4633'
-				],
-			)}>
-		PM2.5
-		<div on:click={() => {map.setPaintProperty(
-			'cmaPolygon', 'fill-colour', [
-				'interpolate'
-				['linear'],
-				['get','NO'],
-				0,
-				'#1e3765',
-				5,
-				'#6fc7ea',
-				10,
-				'#f1c500',
-				20,
-				'#e7861a',
-				30,
-				'#DC4633'
-			])}}>
-			NO2
-		</div>
-	</div>	
-
-	
-	
- 	
-	
-
+	</div>
+	<div class="s s--inner">
+	<button
+        role="switch"
+        aria-checked={checked}
+        on:click={handleClick}>
+            <span>PM2.5</span>
+            <span>NO2</span>
+			</button>
+	</div>
+<p>
+</p>	
+	 
 </main>
->>>>>>> Stashed changes
 
 
 <style>
+
+:root {
+		--accent-color: CornflowerBlue;
+		--gray: #ccc;
+	}
+    /* Inner Design Option */
+    .s--inner button {
+        padding: 0.5em;
+        background-color: #fff;
+        border: 1px solid var(--gray);
+    }
+    [role='switch'][aria-checked='true'] :first-child,
+    [role='switch'][aria-checked='false'] :last-child {
+        display: none;
+        color: #fff;
+    }
+
+    .s--inner button span {
+        user-select: none;
+        pointer-events:none;
+        padding: 0.25em;
+    }
+
+    .s--inner button:focus {
+        outline: var(--accent-color) solid 1px;
+    }
+
+
 	#map {
 		width: 100%;
 		margin: 0 auto;
@@ -295,9 +323,6 @@ function zoomIn() {
 		max-width: 1200px;
 		color: var(--brandBlack);
 	}
-<<<<<<< Updated upstream
-</style>
-=======
 	.bar {
         height: 1px;
         width: 245px;
@@ -328,9 +353,72 @@ function zoomIn() {
 		cursor: pointer;
 		background-color: var(--brandGray90);
 	}
+
+/* The switch - the box around the slider 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox 
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider 
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders 
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+*/
+
 </style>
 
 
 
 
->>>>>>> Stashed changes
