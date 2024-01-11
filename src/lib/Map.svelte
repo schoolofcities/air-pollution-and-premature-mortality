@@ -129,7 +129,7 @@ async function loadPollution(checked) {
 					'interpolate',
 						['linear'], 
 						['get', 'NO'],
-						5,
+						1,
 						'#1e3765',
 						10,
 						'#6fc7ea',
@@ -262,14 +262,13 @@ function zoomIn() {
   <!-- NO2 Legend -->
   <div id='noLegend' class='noLegend'>
 	<p>Average NO2 (ppb)</p>
-	  <div><span style='background-color: #1e3765'></span>0 - 5</div>
-	  <div><span style='background-color: #6fc7ea'></span>5 - 10</div>
+	  <div><span style='background-color: #1e3765'></span>0 - 1</div>
+	  <div><span style='background-color: #6fc7ea'></span>1 - 10</div>
 	  <div><span style='background-color: #f1c500'></span>10 - 15</div>
 	  <div><span style='background-color: #e7861a'></span>15 - 20</div>
 	  <div><span style='background-color: #DC4633'></span>20 - 30</div>
   </div>	
 
-	<div class = bar>
 		<div id="select-wrapper">
 			<Select
 				id="select"
@@ -290,7 +289,6 @@ function zoomIn() {
 				--item-is-active-color="#0D534D"
 				--item-is-active-bg="#6FC7EA"
 			/>
-		</div>
 	</div>		
 	<div id="map" class="map" style="height: {mapHeight}px">		
 		<div class="map-zoom-wrapper">	
@@ -313,11 +311,12 @@ function zoomIn() {
 		position:absolute;
 	}
 	#content {
-        width: 300px;
+        width: 275px;
+		height: 300px;
         position: absolute;
         top: 5px;
         left: 5px;
-        background-color: white; 
+        background-color: lightgrey; 
         border: solid 1px lightgrey;
         border-radius: 5px;
         z-index: 2; 
@@ -365,7 +364,7 @@ function zoomIn() {
 	}
 	
 	/* Styling of legend icons */
-		.pmLegend div span {
+	.pmLegend div span {
 		display: inline-block;
 		border-radius: 50%; /*curve border to make a circle*/
 		height: 0.6vw; /*size of circle*/
@@ -380,16 +379,22 @@ function zoomIn() {
 		width: 0.6vw;
 		margin-right: 0.5vw; /*position of circle*/
 	}
-	.bar {
+	/* .bar {
         height: 1px;
         width: 245px;
         background-color: var(--brandDarkBlue);
         padding: 0px;
         margin: 0px;
+		margin-top: 200px;
         margin-left: 5px;
         opacity: 1;
-    }
-	
+    } */
+	#select-wrapper {
+		width:275;
+		z-index: 5;
+		margin-top: 1px;
+	}
+
 	#select-wrapper:hover {
         cursor: pointer;
     }
@@ -398,7 +403,7 @@ function zoomIn() {
 		margin-top: 5px;
 		margin-left: 5px;
 		right: 5px;
-		position: absolute;
+		position: relative;
 	}
 
 	.map-zoom {
@@ -410,7 +415,7 @@ function zoomIn() {
 		color: white;
 		border: solid 1px var(--brandGray90);
 		text-align: center;
-		margin: 0 auto;
+		margin: 0;
 	}
 	.map-zoom:hover {
 		cursor: pointer;
