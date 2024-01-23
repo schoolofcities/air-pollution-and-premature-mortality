@@ -50,7 +50,8 @@
 		map.setBearing(0);
 		map.setPitch(0);
 		map.panTo([cmaX, cmaY])
-	}
+	}	
+
 
 	// function for loading new vector data if the cmaname changes
 	let cmaPolygon;
@@ -69,11 +70,29 @@
         loadCMA(cmanameSelected);
     }
 
+
 	// function for changing the source and layer on the map when new data is loaded
 	function layerSet(cmaname) {
 		try {
 			map.removeLayer("cmaPolygon");
 			map.removeSource("cmaPolygon");
+			map.removeLayer("cma2006");
+			map.removeSource("cma2006");
+			map.addSource('cma2006', {
+			'type': 'geojson',
+			'data': cma2006
+			});
+			map.addLayer({
+				'id': 'cma2006',
+				'type': 'line',
+				'source': 'cma2006',
+				'filter':  ['==','CMANAME', cmaname],
+				'paint': {
+					'line-color': '#1E3765',
+					'line-width' : 3,
+					'line-opacity': 1
+			}
+			});
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
 				'data': cmaPolygon
@@ -85,6 +104,21 @@
 			}, 'cma2006');
 			loadPollution(checked)
 		} catch {
+			map.addSource('cma2006', {
+			'type': 'geojson',
+			'data': cma2006
+			});
+			map.addLayer({
+				'id': 'cma2006',
+				'type': 'line',
+				'source': 'cma2006',
+				'filter': ['==','CMANAME', cmaname],
+				'paint': {
+					'line-color': '#1E3765',
+					'line-width' : 3,
+					'line-opacity': 1
+			}
+			});
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
 				'data': cmaPolygon
@@ -93,70 +127,70 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
-			}, 'cma2006')
+			}, 'cma2006');
 			loadPollution(checked)
 		}
 	}
+
 	
-
-// 	// function for changing the type of pollution displayed
-let checkValue = 'PM2.5';
-let checked = false;
-		
-async function loadPollution(checked) {
-	if (checked === false) {
-		map.setPaintProperty( 
-		'cmaPolygon', 'fill-color', [
-			'interpolate',
-					['linear'], 
-					['get', 'PM'],
-					1.9,
-					'#1e3765',
-					3.5,
-					'#6fc7ea',
-					6,
-					'#f1c500',
-					8.5,
-					'#e7861a',
-					10.9,
-					'#DC4633'
-				]);
-			pmLegend.style.display = 'block';
-			noLegend.style.display = 'none';
-			} else {
-				map.setPaintProperty(
-				'cmaPolygon', 'fill-color', [
-					'interpolate',
+	 	// function for changing the type of pollution displayed
+		let checkValue = 'PM2.5';
+		let checked = false;
+			
+	async function loadPollution(checked) {
+		if (checked === false) {
+			map.setPaintProperty( 
+			'cmaPolygon', 'fill-color', [
+				'interpolate',
 						['linear'], 
-						['get', 'NO'],
-						1,
+						['get', 'PM'],
+						1.9,
 						'#1e3765',
-						10,
+						3.5,
 						'#6fc7ea',
-						15,
+						6,
 						'#f1c500',
-						20,
+						8.5,
 						'#e7861a',
-						30,
+						10.9,
 						'#DC4633'
-			]);
-			noLegend.style.display = 'block';
-			pmLegend.style.display = 'none';
-	 }
-}
-	 function handleClick(event){
-        let target = event.target
+					]);
+				pmLegend.style.display = 'block';
+				noLegend.style.display = 'none';
+				} else {
+					map.setPaintProperty(
+					'cmaPolygon', 'fill-color', [
+						'interpolate',
+							['linear'], 
+							['get', 'NO'],
+							1,
+							'#1e3765',
+							10,
+							'#6fc7ea',
+							15,
+							'#f1c500',
+							20,
+							'#e7861a',
+							30,
+							'#DC4633'
+				]);
+				noLegend.style.display = 'block';
+				pmLegend.style.display = 'none';
+		}
+	}
+		function handleClick(event){
+			let target = event.target
 
-        let state = target.getAttribute('aria-checked')
+			let state = target.getAttribute('aria-checked')
 
-        checked = state === 'true' ? false : true
+			checked = state === 'true' ? false : true
 
-        checkValue = checked === false ? 'PM2.5' : 'NO2'
-	 }
+			checkValue = checked === false ? 'PM2.5' : 'NO2'
+		}
 
-	 $: {
-        loadPollution(checked);
-    }
+		$: {
+			loadPollution(checked);
+		}
 
 
 	onMount(() => {
@@ -197,32 +231,16 @@ async function loadPollution(checked) {
 				'raster-opacity': 0.42
 			}
 		})	
-		
-		map.addSource('cma2006', {
-			'type': 'geojson',
-			'data': cma2006
-		});
-		map.addLayer({
-			'id': 'cma2006',
-			'type': 'line',
-			'source': 'cma2006',
-			'paint': {
-				'line-color': '#1E3765',
-				'line-width' : 3,
-				'line-opacity': 1
-		}
-	});
+	});	
 
-});	
-
-//zoom button functionality
+	//zoom button functionality
 	
-function zoomIn() {
-		map.zoomIn();
-	}
-	function zoomOut() {
-		map.zoomOut();
-	}
+	function zoomIn() {
+			map.zoomIn();
+		}
+		function zoomOut() {
+			map.zoomOut();
+		}
 
 </script>
 
@@ -230,46 +248,19 @@ function zoomIn() {
 
 <svelte:window bind:innerHeight={pageHeight} bind:innerWidth={pageWidth}/>
 
-<div id="map" style="height: {mapHeight}px"></div>
-
-<p>Data Sources: OpenStreetMap</p>
-
-
 <main>
-<div id="content">
-	<div class="toggle">
-		<p>Select pollution type:
-		</p>	
-	<button
-        role="switch"
-        aria-checked={checked}
-        on:click={handleClick}>
-            <span>PM2.5</span>
-            <span>NO2</span>
-			</button>
-	</div>
-
-  <!-- PM2.5 Legend -->
-    <div id='pmLegend' class='pmLegend'>
-      <p>Average PM2.5 (ug/m3)</p>
-        <div><span style='background-color: #1e3765'></span>0 - 1.9</div>
-        <div><span style='background-color: #6fc7ea'></span>1.9 - 3.5</div>
-        <div><span style='background-color: #f1c500'></span>3.5 - 6</div>
-        <div><span style='background-color: #e7861a'></span>6 - 8.5</div>
-        <div><span style='background-color: #DC4633'></span>8.5 - 10.9</div>
-    </div>
-
-  <!-- NO2 Legend -->
-  <div id='noLegend' class='noLegend'>
-	<p>Average NO2 (ppb)</p>
-	  <div><span style='background-color: #1e3765'></span>0 - 1</div>
-	  <div><span style='background-color: #6fc7ea'></span>1 - 10</div>
-	  <div><span style='background-color: #f1c500'></span>10 - 15</div>
-	  <div><span style='background-color: #e7861a'></span>15 - 20</div>
-	  <div><span style='background-color: #DC4633'></span>20 - 30</div>
-  </div>	
+	<div class = controls>
+		<!-- air pollution toggle button-->
+		<div class="toggle">
+			<p>Select pollution type:</p>	
+			<button role="switch" aria-checked={checked} on:click={handleClick}>
+					<span>PM2.5</span>
+					<span>NO2</span>
+				</button>	
+			</div>
 
 		<div id="select-wrapper">
+			<p>Select CMA:</p>	
 			<Select
 				id="select"
 				items={cmaAll}
@@ -278,107 +269,117 @@ function zoomIn() {
 				showChevron={true}
 				on:input={cmaSelectDropDown}
 				--background="white"
-				--selected-item-color="#6D247A"
+				--selected-item-color="black" 
 				--height="22px"
-				--item-color="#6D247A"
+				--item-color="black"
 				--border-radius="0"
-				--border="1px"
+				--border= "solid 1px gray";
 				--list-border-radius="0px"
 				--font-size="14.45px"
 				--max-height="30px"
 				--item-is-active-color="#0D534D"
 				--item-is-active-bg="#6FC7EA"
-			/>
-	</div>		
-	<div id="map" class="map" style="height: {mapHeight}px">		
-		<div class="map-zoom-wrapper">	
-			<span on:click={zoomOut} class="map-zoom">–</span>	
-			<span on:click={zoomIn} class="map-zoom">+</span>		
-		</div>		
-	</div>	 
+				/>
+		</div>	
+		
+		<!-- PM2.5 Legend -->
+		<div id = 'pmLegend' class='pmLegend'>
+			<div><p>Average PM2.5 (ug/m3)</p></div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#1e3765,#6fc7ea)'></span>3.5</div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#6fc7ea, #f1c500)'></span>6</div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#f1c500, #e7861a)'></span>8.5</div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#e7861a,#DC4633)'></span>10.9</div>
+		</div>
+		<!-- NO2 Legend -->
+		<div id = 'noLegend' class = 'noLegend'>
+			<div><p>Average NO2 (ppb)</p></div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#1e3765,#6fc7ea)'></span>10</div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#6fc7ea, #f1c500)'></span>15</div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#f1c500, #e7861a)'></span>20</div>
+			<div><span style = 'background-image: linear-gradient(to bottom,#e7861a,#DC4633)'></span>30</div>
+		</div>
+	</div>
+
+		<div class = 'container'>
+			<div id="map" class="map" style="height: {mapHeight}px">	
+				<!-- zoom buttons-->
+				<div class="map-zoom-wrapper">	
+					<span on:click={zoomIn} class="map-zoom">+</span>
+					<span on:click={zoomOut} class="map-zoom">-</span>	
+				</div>		
+			</div>
+		</div>
+
+		<p>Data Sources: OpenStreetMap</p>
 </main>
 
 
 <style>
 	#map {
 		width: 100%;
+		height: 100%;
 		margin: 0 auto;
 		/* max-width: 1200px; */
 		border-top: 1px solid var(--brandBlack);
 		border-bottom: 1px solid var(--brandBlack);
 		background-color: white;
 		z-index: 1;
-		position:absolute;
+		position:relative;
 	}
-	#content {
-        width: 275px;
-		height: 300px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        background-color: lightgrey; 
-        border: solid 1px lightgrey;
-        border-radius: 5px;
-        z-index: 2; 
-    }
-	main {
-		margin: auto 0px;
-        padding: 0px;
-		width: 100%;
-		height: 100%;
-        
+	
+	.container {
+		position: relative;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
+	
 	p {
 		margin: 0 auto;
-		text-align: right;
-		font-size: 10px;
+		text-align: left;
+		font-size: 14px;
 		max-width: 1200px;
 		color: var(--brandBlack);
 	}
 
-	/*formatting of legend background block*/
+	.controls {
+		width: 350px;
+		font-size: 12px;
+		position: relative;
+		margin-left: 120px;
+	}
+	
+	/*legend background blocks*/
 	.pmLegend {
-		position: absolute;
-		background-color: #fff;
-		border-radius: 0.1vw;
-		bottom: 0;
-		margin-bottom: 2vw;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /*horizontal shadow, vertical shadow, size of shadow, color*/
-		font: 1vw 'Helvetica Neue', Arial, Helvetica, sans-serif;
-		padding: 1vw;
-		right: 1vw;
-		z-index: 3;  /* Specifies stack order of elements */
+		position: relative;
+		width: 200px;
+		height: 200px;
+		font-size: 12px;
+		margin-top: 10px;
 	}
-	
 	.noLegend {
-		position: absolute;
-		background-color: #fff;
-		border-radius: 0.1vw;
-		bottom: 0;
-		margin-bottom: 2vw;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /*horizontal shadow, vertical shadow, size of shadow, color*/
-		font: 1vw 'Helvetica Neue', Arial, Helvetica, sans-serif;
-		padding: 1vw;
-		right: 1vw;
-		z-index: 3;  /* Specifies stack order of elements */
+		position: relative;
+		width: 200px;
+		height: 200px;
+		font-size: 12px;
+		margin-top: 10px;
 	}
 	
-	/* Styling of legend icons */
+	/* Styling of legend colours and labels */
 	.pmLegend div span {
-		display: inline-block;
-		border-radius: 50%; /*curve border to make a circle*/
-		height: 0.6vw; /*size of circle*/
-		width: 0.6vw;
-		margin-right: 0.5vw; /*position of circle*/
+		display: inline-block; 
+		margin: -1.5px;
+		height: 40px;
+		width: 25px;
+		margin-right: 5px;
 	}
 
 	.noLegend div span {
-		display: inline-block;
-		border-radius: 50%; /*curve border to make a circle*/
-		height: 0.6vw; /*size of circle*/
-		width: 0.6vw;
-		margin-right: 0.5vw; /*position of circle*/
-	}
+		display: inline-block; 
+		margin: -1.5px;
+		height: 40px;
+		width: 25px;
+		margin-right: 5px;
+	 } 
 	/* .bar {
         height: 1px;
         width: 245px;
@@ -390,7 +391,6 @@ function zoomIn() {
         opacity: 1;
     } */
 	#select-wrapper {
-		width:275;
 		z-index: 5;
 		margin-top: 1px;
 	}
@@ -399,15 +399,19 @@ function zoomIn() {
         cursor: pointer;
     }
 
+	
+
 	.map-zoom-wrapper {
 		margin-top: 5px;
 		margin-left: 5px;
 		right: 5px;
-		position: relative;
+		position: absolute;
+		z-index: 2;
 	}
 
 	.map-zoom {
-		display: inline-block;
+		display: block;
+		position: relative;
 		font-size: 25px;
 		max-width: 25px;
 		min-width: 25px;
@@ -415,7 +419,8 @@ function zoomIn() {
 		color: white;
 		border: solid 1px var(--brandGray90);
 		text-align: center;
-		margin: 0;
+		margin: 0 auto;
+		z-index: 2;
 	}
 	.map-zoom:hover {
 		cursor: pointer;
@@ -432,12 +437,11 @@ function zoomIn() {
 		background-color:lightgray;
     }
 
-    .toggle button {
+	.toggle button {
         padding: 3px;
         background-color: #fff;
         border: 1px solid var(--gray);
 		border-radius: 50px;
-		margin-left: 100px;
     }
    
     .toggle button span {
