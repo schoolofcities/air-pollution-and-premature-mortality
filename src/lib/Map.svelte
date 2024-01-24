@@ -202,10 +202,6 @@
 			minZoom: 6,
 			maxZoom: 10,
 			bearing: 0,
-			// maxBounds: [ 
-			// 	[-80.28, 43.21], 
-			// 	[-77.88, 44.91] 
-			// ],
 			projection: 'globe',
 			scrollZoom: true,
 			attributionControl: false,
@@ -213,7 +209,7 @@
 
 		map.dragRotate.disable();
 		map.touchZoomRotate.disableRotation();
-		// map.scrollZoom.disable();
+		map.scrollZoom.disable();
 
 		map.addSource('osm-raster-tiles', {
 			'type': 'raster',
