@@ -285,18 +285,24 @@
 		<!-- PM2.5 Legend -->
 		<div id = 'pmLegend' class='pmLegend'>
 			<div><p>Average PM2.5 (ug/m3)</p></div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#1e3765,#6fc7ea)'></span>3.5</div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#6fc7ea, #f1c500)'></span>6</div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#f1c500, #e7861a)'></span>8.5</div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#e7861a,#DC4633)'></span>10.9</div>
+			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>10.9</div>
+			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>8.5</div>
+			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>6</div>
+			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>3.5</div>
+			
+			
+			
 		</div>
 		<!-- NO2 Legend -->
 		<div id = 'noLegend' class = 'noLegend'>
 			<div><p>Average NO2 (ppb)</p></div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#1e3765,#6fc7ea)'></span>10</div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#6fc7ea, #f1c500)'></span>15</div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#f1c500, #e7861a)'></span>20</div>
-			<div><span style = 'background-image: linear-gradient(to bottom,#e7861a,#DC4633)'></span>30</div>
+			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>30</div>
+			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>20</div>
+			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>15</div>
+			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>10</div>
+			
+			
+			
 		</div>
 	</div>
 
