@@ -112,6 +112,9 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
+				'paint': {
+					'fill-opacity': 1
+				}
 			}, 'water');
 			loadPollution(checked)
 		} catch {
@@ -139,17 +142,16 @@
 				'type': 'fill',
 				'source': 'cmaPolygon',
 				'paint': {
-					'fill-opacity': 0.9
+					'fill-opacity': 1
 				}
 			}, 'water');
 			loadPollution(checked)
 		}
 	}
 
-	
-	 	// function for changing the type of pollution displayed
-		let checkValue = 'PM2.5';
-		let checked = false;
+	// function for changing the type of pollution displayed
+	let checkValue = 'PM2.5';
+	let checked = false;
 			
 	async function loadPollution(checked) {
 		if (checked === false) {
@@ -219,134 +221,112 @@
 			projection: 'globe',
 			scrollZoom: true,
 			attributionControl: false,
-			// style: {
-			// 	"version": 8,
-			// 	"name": "Empty",
-			// 	"glyphs": "https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf",
-			// 	"sources": {},
-			// 	"layers": [
-			// 		{
-			// 			"id": "meow",
-			// 			"type": "background",
-			// 			"paint": {
-			// 				"background-color": "white"
-			// 			}
-			// 		}
-            //     ]
-            // }
+			style: {
+				"version": 8,
+				"name": "Empty",
+				"glyphs": "https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf",
+				"sources": {
+					'protomaps': {
+						type: 'vector',
+						url: 'https://api.protomaps.com/tiles/v3.json?key=30ce074e38619138'
+					}
+				},
+				"layers": [
+					{
+						"id": "bg",
+						"type": "background",
+						"paint": {
+							"background-color": "white",
+							"background-opacity": 1
+						}
+					}
+				]
+			}
 		});
 
 		map.dragRotate.disable();
 		map.touchZoomRotate.disableRotation();
 		map.scrollZoom.disable();
 
-
-		
+		// console logging what protomaps layers are available // can remove this later
 		let protoLayers = layers("protomaps","white");
-
-		map.addSource('protomaps', {
-			type: 'vector',
-			url:
-				'https://api.protomaps.com/tiles/v3.json?key=30ce074e38619138',
-			glyphs: "https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf"
-				
-		});
-
-		// protoLayers.forEach(e => {
-		// 	map.addLayer(e);
-		// });
-
-		map.addLayer({
-			"id": "water",
-			"type": "fill",
-			"source": "protomaps",
-			"source-layer": "water",
-			"paint": {
-				"fill-color": "#bdbfbf",
-				"fill-outline-color": "#dedede"
-				// 'fill-outline-color': 'black', // Replace with your desired stroke color
-      			// 'fill-outline-width': 1 // Set the stroke width to 1 pixel
-			}
-		})
-
-		map.addLayer({
-			"id": "roads_major",
-			"type": "line",
-			"source": "protomaps",
-			"source-layer": "roads",
-			"paint": {
-				"line-color": "white",
-				"line-opacity": 0.65,
-				"line-width": [
-					"interpolate",
-					[
-						"exponential",
-						1
-					],
-					[
-						"zoom"
-					],
-					6, 0, 10, 1
-				]
-			}
-		});
-
-		map.addLayer({
-					"id": "roads_highway",
-					"type": "line",
-					"source": "protomaps",
-					"source-layer": "roads",
-					"filter": [
-						"all",
-						[
-							"==",
-							"pmap:kind",
-							"highway"
-						]
-					],
-					"paint": {
-						"line-color": "white",
-						"line-opacity": 0.65,
-						"line-width": [
-					"interpolate",
-					[
-						"exponential",
-						1
-					],
-					[
-						"zoom"
-					],
-					6, 1, 10, 1.5
-				]
-					}
-				
-		})
-
 		console.log(protoLayers);
 
-		map.addSource('osm-raster-tiles', {
-			'type': 'raster',
-			'tiles': ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-			'tileSize': 256,
-			'minzoom': 0,
-			'maxzoom': 19
+
+		// initial layers to load on the map (water, roads)
+	
+		map.on('load', function() {
+
+			map.addLayer({
+				"id": "water",
+				"type": "fill",
+				"source": "protomaps",
+				"source-layer": "water",
+				"paint": {
+					"fill-color": "#bdbfbf",
+					"fill-outline-color": "#dedede"
+				}
+			})
+
+			map.addLayer({
+				"id": "roads_major",
+				"type": "line",
+				"source": "protomaps",
+				"source-layer": "roads",
+				"paint": {
+					"line-color": "white",
+					"line-opacity": 0.65,
+					"line-width": [
+						"interpolate",
+						[
+							"exponential",
+							1
+						],
+						[
+							"zoom"
+						],
+						6, 0, 10, 1
+					]
+				}
+			});
+
+			map.addLayer({
+				"id": "roads_highway",
+				"type": "line",
+				"source": "protomaps",
+				"source-layer": "roads",
+				"filter": [
+					"all",
+					[
+						"==",
+						"pmap:kind",
+						"highway"
+					]
+				],
+				"paint": {
+					"line-color": "white",
+					"line-opacity": 0.65,
+					"line-width": [
+						"interpolate",
+						[
+							"exponential",
+							1
+						],
+						[
+							"zoom"
+						],
+						6, 1, 10, 1.5
+					]
+				}
+			
+			});
+
+			layerSet(cmanameSelected);
+
 		});
-		map.addLayer({
-			'id': 'osm-raster-tiles',
-			'type': 'raster',
-			'source': 'osm-raster-tiles',
-			'paint': {
-				'raster-saturation': -1,
-				'raster-opacity': 0.0
-			}
-		})
-
-
-		
-
-
 	});	
 
+	
 	//zoom button functionality
 	
 	function zoomIn() {
