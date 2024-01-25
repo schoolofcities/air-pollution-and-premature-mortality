@@ -103,7 +103,7 @@
 					'line-width' : 2,
 					'line-opacity': 1
 			}
-			});
+			}, "places_locality");
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
 				'data': cmaPolygon
@@ -132,7 +132,7 @@
 					'line-width' : 2,
 					'line-opacity': 1
 			}
-			});
+			}, "places_locality");
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
 				'data': cmaPolygon
@@ -224,7 +224,9 @@
 			style: {
 				"version": 8,
 				"name": "Empty",
-				"glyphs": "https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf",
+				"glyphs": 
+				//"https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
+				"https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf",
 				"sources": {
 					'protomaps': {
 						type: 'vector',
@@ -236,7 +238,7 @@
 						"id": "bg",
 						"type": "background",
 						"paint": {
-							"background-color": "white",
+							"background-color": "#f5f5f5",
 							"background-opacity": 1
 						}
 					}
@@ -321,12 +323,248 @@
 			
 			});
 
+			map.addLayer({
+				
+				"id": "places_locality",
+				"type": "symbol",
+				"source": "protomaps",
+				"source-layer": "places",
+				"filter": [
+					"==",
+					"pmap:kind",
+					"locality"
+				],
+				"layout": {
+					"text-field": "{name}",
+					"text-font": [
+					"case",
+					[
+						"<=",
+						[
+						"get",
+						"pmap:min_zoom"
+						],
+						5
+					],
+					[
+						"literal",
+						[
+						"TradeGothic LT Regular"
+						]
+					],
+					[
+						"literal",
+						[
+						"TradeGothic LT Regular"
+						]
+					]
+					],
+					"text-padding": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					5,
+					3,
+					8,
+					7,
+					12,
+					11
+					],
+					"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					2,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						8,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						13,
+						0
+					],
+					4,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						10,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						15,
+						0
+					],
+					6,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						12
+						],
+						11,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						12
+						],
+						17,
+						0
+					],
+					8,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						11
+						],
+						11,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						11
+						],
+						18,
+						0
+					],
+					10,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						9
+						],
+						12,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						9
+						],
+						20,
+						0
+					],
+					15,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						8
+						],
+						12,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						8
+						],
+						22,
+						0
+					]
+					],
+					"icon-padding": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					2,
+					8,
+					4,
+					10,
+					8,
+					12,
+					6,
+					22,
+					2
+					],
+					"text-anchor": [
+					"step",
+					[
+						"zoom"
+					],
+					"left",
+					8,
+					"center"
+					],
+					"text-radial-offset": 0.2
+				},
+				"paint": {
+					"text-color": "#1E3765",
+					"text-halo-color": "#ffffff",
+					"text-halo-width": 1
+				}
+
+			});
+
 			layerSet(cmanameSelected);
 
 		});
 	});	
 
-	
+
 	//zoom button functionality
 	
 	function zoomIn() {
