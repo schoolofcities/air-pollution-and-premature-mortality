@@ -285,10 +285,11 @@
 		<!-- PM2.5 Legend -->
 		<div id = 'pmLegend' class='pmLegend'>
 			<div><p>Average PM2.5 (ug/m3)</p></div>
-			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>10.9</div>
-			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>8.5</div>
-			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>6</div>
-			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>3.5</div>
+			<div><span style = 'opacity: 0%; margin-top: -30px'></span>10.9</div>
+			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>8.5</div>
+			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>6</div>
+			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>3.5</div>
+			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>0</div>
 			
 			
 			
@@ -296,10 +297,11 @@
 		<!-- NO2 Legend -->
 		<div id = 'noLegend' class = 'noLegend'>
 			<div><p>Average NO2 (ppb)</p></div>
-			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>30</div>
-			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>20</div>
-			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>15</div>
-			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>10</div>
+			<div><span style = 'opacity: 0%; margin-top: -30px'></span>30</div>
+			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>20</div>
+			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>15</div>
+			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>10</div>
+			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>0</div>
 			
 			
 			
@@ -315,19 +317,22 @@
 				</div>		
 			</div>
 		</div>
-
-		<p>Data Sources: OpenStreetMap</p>
+		<div class = 'sources'>
+			<p>Data Sources: OpenStreetMap, <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>,
+				DMTI Spatial Inc., CanMap Postal Code Suite v2016 (via
+				<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE)</a>, 
+				and <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>
+					Statistics Canada, 2006.</a></p>
+		</div>
 </main>
 
 
 <style>
 	#map {
-		width: 100%;
+		width: 80%;
 		height: 100%;
 		margin: 0 auto;
-		/* max-width: 1200px; */
-		border-top: 1px solid var(--brandBlack);
-		border-bottom: 1px solid var(--brandBlack);
+		border: 1px solid var(--brandBlack);
 		background-color: white;
 		z-index: 1;
 		position:relative;
@@ -335,8 +340,6 @@
 	
 	.container {
 		position: relative;
-		max-width: 1200px;
-		margin: 0 auto;
 	}
 	
 	p {
@@ -351,7 +354,7 @@
 		width: 350px;
 		font-size: 12px;
 		position: relative;
-		margin-left: 120px;
+		margin-left: 10%;
 	}
 	
 	/*legend background blocks*/
@@ -361,6 +364,7 @@
 		height: 200px;
 		font-size: 12px;
 		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 	.noLegend {
 		position: relative;
@@ -368,12 +372,13 @@
 		height: 200px;
 		font-size: 12px;
 		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 	
 	/* Styling of legend colours and labels */
 	.pmLegend div span {
 		display: inline-block; 
-		margin: -1.5px;
+		margin: -2px;
 		height: 40px;
 		width: 25px;
 		margin-right: 5px;
@@ -381,21 +386,12 @@
 
 	.noLegend div span {
 		display: inline-block; 
-		margin: -1.5px;
+		margin: -2px;
 		height: 40px;
 		width: 25px;
 		margin-right: 5px;
 	 } 
-	/* .bar {
-        height: 1px;
-        width: 245px;
-        background-color: var(--brandDarkBlue);
-        padding: 0px;
-        margin: 0px;
-		margin-top: 200px;
-        margin-left: 5px;
-        opacity: 1;
-    } */
+
 	#select-wrapper {
 		z-index: 5;
 		margin-top: 1px;
@@ -472,6 +468,11 @@
         box-shadow: 0 0px 8px var(--accent-color);
         border-radius: 0.1em;
     } */
+
+	.sources {
+		margin-left: 3%;
+		color: var(--gray);
+	}
 
 </style>
 
