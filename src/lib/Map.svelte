@@ -5,6 +5,15 @@
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
 
+	// pmtiles loading
+	import * as pmtiles from 'pmtiles';
+	import layers from 'protomaps-themes-base';
+
+	// let PMTILES_URL = "https://build.protomaps.com/20240123.pmtiles?key=30ce074e38619138";
+	// let protocol = new pmtiles.Protocol();
+	// maplibregl.addProtocol('pmtiles', protocol.tile);
+
+
 	let pageHeight;
 	let pageWidth;
 	let map;
@@ -45,8 +54,9 @@
 		cmanameSelected = filteredData.cmaname;
 		let cmaX = filteredData.x;
 		let cmaY = filteredData.y;
-	
-		map.setZoom(8);
+
+		
+		map.setZoom(9);
 		map.setBearing(0);
 		map.setPitch(0);
 		map.panTo([cmaX, cmaY]);
@@ -59,10 +69,12 @@
 		try {
 			const response = await fetch(`/${cmaname}.geo.json`);
 			cmaPolygon = await response.json();
+			
 			layerSet(cmaname); // function for updating the layer on the map
 		} catch (error) {
 			console.error("Error loading CMA data files:", error);
 		}
+		
 	}
     
 	// so the above function runs automatically if cmanameSelected changes
@@ -79,8 +91,8 @@
 			map.removeLayer("cma2006");
 			map.removeSource("cma2006");
 			map.addSource('cma2006', {
-			'type': 'geojson',
-			'data': cma2006
+				'type': 'geojson',
+				'data': cma2006
 			});
 			map.addLayer({
 				'id': 'cma2006',
@@ -89,10 +101,10 @@
 				'filter':  ['==','CMANAME', cmaname],
 				'paint': {
 					'line-color': '#1E3765',
-					'line-width' : 3,
+					'line-width' : 2,
 					'line-opacity': 1
 			}
-			});
+			}, "places_locality");
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
 				'data': cmaPolygon
@@ -101,12 +113,15 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
-			}, 'cma2006');
+				'paint': {
+					'fill-opacity': 1
+				}
+			}, 'water');
 			loadPollution(checked)
 		} catch {
 			map.addSource('cma2006', {
-			'type': 'geojson',
-			'data': cma2006
+				'type': 'geojson',
+				'data': cma2006
 			});
 			map.addLayer({
 				'id': 'cma2006',
@@ -115,10 +130,10 @@
 				'filter': ['==','CMANAME', cmaname],
 				'paint': {
 					'line-color': '#1E3765',
-					'line-width' : 3,
+					'line-width' : 2,
 					'line-opacity': 1
 			}
-			});
+			}, "places_locality");
 			map.addSource('cmaPolygon', {
 				'type': 'geojson',
 				'data': cmaPolygon
@@ -127,15 +142,17 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
-			}, 'cma2006');
+				'paint': {
+					'fill-opacity': 1
+				}
+			}, 'water');
 			loadPollution(checked)
 		}
 	}
 
-	
-	 	// function for changing the type of pollution displayed
-		let checkValue = 'PM2.5';
-		let checked = false;
+	// function for changing the type of pollution displayed
+	let checkValue = 'PM2.5';
+	let checked = false;
 			
 	async function loadPollution(checked) {
 		if (checked === false) {
@@ -202,46 +219,363 @@
 			minZoom: 6,
 			maxZoom: 10,
 			bearing: 0,
-			// maxBounds: [ 
-			// 	[-80.28, 43.21], 
-			// 	[-77.88, 44.91] 
-			// ],
 			projection: 'globe',
 			scrollZoom: true,
 			attributionControl: false,
+			style: {
+				"version": 8,
+				"name": "Empty",
+				"glyphs": 
+				//"https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
+				"https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf",
+				"sources": {
+					'protomaps': {
+						type: 'vector',
+						url: 'https://api.protomaps.com/tiles/v3.json?key=30ce074e38619138'
+					}
+				},
+				"layers": [
+					{
+						"id": "bg",
+						"type": "background",
+						"paint": {
+							"background-color": "#f5f5f5",
+							"background-opacity": 1
+						}
+					}
+				]
+			}
 		});
 
 		map.dragRotate.disable();
 		map.touchZoomRotate.disableRotation();
-		// map.scrollZoom.disable();
+		map.scrollZoom.disable();
 
-		map.addSource('osm-raster-tiles', {
-			'type': 'raster',
-			'tiles': ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-			'tileSize': 256,
-			'minzoom': 0,
-			'maxzoom': 19
-		});
-		map.addLayer({
-			'id': 'osm-raster-tiles',
-			'type': 'raster',
-			'source': 'osm-raster-tiles',
-			'paint': {
-				'raster-saturation': -1,
-				'raster-opacity': 0.42
-			}
-		})	
+		// console logging what protomaps layers are available // can remove this later
+		let protoLayers = layers("protomaps","white");
+		console.log(protoLayers);
+
+
+		// initial layers to load on the map (water, roads)
+	
+		map.on('load', function() {
+
+			map.addLayer({
+				"id": "water",
+				"type": "fill",
+				"source": "protomaps",
+				"source-layer": "water",
+				"paint": {
+					"fill-color": "#bdbfbf",
+					"fill-outline-color": "#dedede"
+				}
+			})
+
+			map.addLayer({
+				"id": "roads_major",
+				"type": "line",
+				"source": "protomaps",
+				"source-layer": "roads",
+				"paint": {
+					"line-color": "white",
+					"line-opacity": 0.65,
+					"line-width": [
+						"interpolate",
+						[
+							"exponential",
+							1
+						],
+						[
+							"zoom"
+						],
+						6, 0, 10, 1
+					]
+				}
+			});
+
+			map.addLayer({
+				"id": "roads_highway",
+				"type": "line",
+				"source": "protomaps",
+				"source-layer": "roads",
+				"filter": [
+					"all",
+					[
+						"==",
+						"pmap:kind",
+						"highway"
+					]
+				],
+				"paint": {
+					"line-color": "white",
+					"line-opacity": 0.65,
+					"line-width": [
+						"interpolate",
+						[
+							"exponential",
+							1
+						],
+						[
+							"zoom"
+						],
+						6, 1, 10, 1.5
+					]
+				}
+			
+			});
+
+			map.addLayer({
 				
+				"id": "places_locality",
+				"type": "symbol",
+				"source": "protomaps",
+				"source-layer": "places",
+				"filter": [
+					"==",
+					"pmap:kind",
+					"locality"
+				],
+				"layout": {
+					"text-field": "{name}",
+					"text-font": [
+					"case",
+					[
+						"<=",
+						[
+						"get",
+						"pmap:min_zoom"
+						],
+						5
+					],
+					[
+						"literal",
+						[
+						"TradeGothic LT Regular"
+						]
+					],
+					[
+						"literal",
+						[
+						"TradeGothic LT Regular"
+						]
+					]
+					],
+					"text-padding": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					5,
+					3,
+					8,
+					7,
+					12,
+					11
+					],
+					"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					2,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						8,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						13,
+						0
+					],
+					4,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						10,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						13
+						],
+						15,
+						0
+					],
+					6,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						12
+						],
+						11,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						12
+						],
+						17,
+						0
+					],
+					8,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						11
+						],
+						11,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						11
+						],
+						18,
+						0
+					],
+					10,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						9
+						],
+						12,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						9
+						],
+						20,
+						0
+					],
+					15,
+					[
+						"case",
+						[
+						"<",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						8
+						],
+						12,
+						[
+						">=",
+						[
+							"get",
+							"pmap:population_rank"
+						],
+						8
+						],
+						22,
+						0
+					]
+					],
+					"icon-padding": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					2,
+					8,
+					4,
+					10,
+					8,
+					12,
+					6,
+					22,
+					2
+					],
+					"text-anchor": [
+					"step",
+					[
+						"zoom"
+					],
+					"left",
+					8,
+					"center"
+					],
+					"text-radial-offset": 0.2
+				},
+				"paint": {
+					"text-color": "#1E3765",
+					"text-halo-color": "#ffffff",
+					"text-halo-width": 1
+				}
+
+			});
+
+			layerSet(cmanameSelected);
+
+		});
+
 	});	
+
 
 	//zoom button functionality
 	
 	function zoomIn() {
-			map.zoomIn();
-		}
+
+		map.zoomIn();
+	}
 	function zoomOut() {
-			map.zoomOut();
-		}
+		map.zoomOut();
+	}
 
 </script>
 

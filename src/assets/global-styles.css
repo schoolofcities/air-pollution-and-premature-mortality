@@ -28,7 +28,7 @@
     --brandDarkGreen: #0D534D;
     --brandMedGreen: #00A189;
     --brandLightGreen: #8DBF2E;
-    --brandRed: #DC4633; 
+    --brandRed: #DC4633;
     --brandYellow: #F1C500;
     --brandBlack: #000000;
     --brandWhite: #ffffff;
@@ -115,7 +115,7 @@ a {
     font-family: RobotoBold;
 
 }
+
 a:hover {
     color: var(--brandLightBlue);
 }
-
