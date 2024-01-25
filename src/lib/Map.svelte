@@ -587,11 +587,11 @@
 	<div class = controls>
 		<!-- air pollution toggle button-->
 		<div class="toggle">
-			<p>Select pollution type:</p>	
+			<p>Pollution type:</p>
 			<button role="switch" aria-checked={checked} on:click={handleClick}>
 					<span>PM2.5</span>
 					<span>NO2</span>
-				</button>	
+				</button>
 			</div>
 
 		<div id="select-wrapper">
@@ -605,43 +605,53 @@
 				on:input={cmaSelectDropDown}
 				--background="white"
 				--selected-item-color="black" 
-				--height="22px"
+				--height="20px"
+				--width="200px"
 				--item-color="black"
-				--border-radius="0"
-				--border= "solid 1px gray";
+				--border-radius="5px"
+				--border= "solid 1px gray"
 				--list-border-radius="0px"
-				--font-size="14.45px"
-				--max-height="30px"
+				--font-size="14px"
+				--max-height="35px"
 				--item-is-active-color="#0D534D"
 				--item-is-active-bg="#6FC7EA"
 				/>
 		</div>	
+	</div>
 		
 		<!-- PM2.5 Legend -->
-		<div id = 'pmLegend' class='pmLegend'>
-			<div><p>Average PM2.5 (ug/m3)</p></div>
-			<div><span style = 'opacity: 0%; margin-top: -30px'></span>10.9</div>
-			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>8.5</div>
-			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>6</div>
-			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>3.5</div>
-			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>0</div>
-			
-			
-			
+		<div id = 'pmLegend' class='legend'>
+			<div><p style = 'margin-left:0px'>Average PM2.5 (ug/m3)</p></div>
+			<div>
+				<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea)'></span>
+				<span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500)'></span>
+				<span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a)'></span>
+				<span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633)'></span>
+			</div>
+			<div><span>0</span>
+				<span>3.5</span>
+				<span>6</span>
+				<span>8.5</span>
+				<span>10.9</span>
+			</div>
 		</div>
+
 		<!-- NO2 Legend -->
-		<div id = 'noLegend' class = 'noLegend'>
-			<div><p>Average NO2 (ppb)</p></div>
-			<div><span style = 'opacity: 0%; margin-top: -30px'></span>30</div>
-			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>20</div>
-			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>15</div>
-			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>10</div>
-			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>0</div>
-			
-			
-			
+		<div id = 'noLegend' class = 'legend'>
+			<div><p style = 'margin-left:0px'>Average NO2 (ppb)</p></div>
+			<div>
+				<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea)'></span>
+				<span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500)'></span>
+				<span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a)'></span>
+				<span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633)'></span>
+			</div>
+			<div><span>0</span>
+				<span>10</span>
+				<span>15</span>
+				<span>20</span>
+				<span>30</span>
+			</div>
 		</div>
-	</div>
 
 		<div class = 'container'>
 			<div id="map" class="map" style="height: {mapHeight}px">	
@@ -653,9 +663,10 @@
 			</div>
 		</div>
 		<div class = 'sources'>
-			<p>Data Sources: <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>, 
-				<a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>,
-				DMTI Spatial Inc., CanMap Postal Code Suite (2016, via
+			<p style = 'font-size: 10px'>Data Sources: 
+				<a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>, 
+				<a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a>,
+				<a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>, DMTI Spatial Inc., CanMap Postal Code Suite (2016, via
 				<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE)</a>, 
 				and <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>
 					Statistics Canada (2006).</a></p>
@@ -665,8 +676,9 @@
 
 <style>
 	#map {
-		width: 80%;
+		width: 100%;
 		height: 100%;
+		max-width: 1200px;
 		margin: 0 auto;
 		border: 1px solid var(--brandBlack);
 		background-color: white;
@@ -682,7 +694,6 @@
 		margin: 0 auto;
 		text-align: left;
 		font-size: 14px;
-		max-width: 1200px;
 		color: var(--brandBlack);
 	}
 
@@ -690,55 +701,85 @@
 		width: 350px;
 		font-size: 12px;
 		position: relative;
-		margin-left: 10%;
-	}
-	
-	/*legend background blocks*/
-	.pmLegend {
-		position: relative;
-		width: 200px;
-		height: 200px;
-		font-size: 12px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	.noLegend {
-		position: relative;
-		width: 200px;
-		height: 200px;
-		font-size: 12px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	
-	/* Styling of legend colours and labels */
-	.pmLegend div span {
-		display: inline-block; 
-		margin: -2px;
-		height: 40px;
-		width: 25px;
-		margin-right: 5px;
+		margin-left: 8%;
+		display: flex;
+		align-items: flex-end;
 	}
 
-	.noLegend div span {
-		display: inline-block; 
-		margin: -2px;
-		height: 40px;
-		width: 25px;
-		margin-right: 5px;
-	 } 
+ 	/* Toggle switch styling */
+ 	:root {
+		--accent-color: var(--brandDarkBlue);
+		--gray: #ccc;
+	}
 
+	.toggle button:hover {
+        cursor: pointer;
+		background-color:lightgray;
+    }
+
+	.toggle button {
+        padding: 2px;
+		margin-top: 1px;
+		height: 35px;
+        background-color: #fff;
+        border: 1px solid gray;
+		border-radius: 50px;
+    }
+   
+    .toggle button span {
+        pointer-events:none;
+        padding: 8px;
+    }
+
+
+    /* .toggle button:focus {
+		outline: var(--accent-color) solid 1px;
+    } */
+
+	[role='switch'][aria-checked='false'] :first-child,
+    [role='switch'][aria-checked='true'] :last-child {
+        background: var(--accent-color);
+        display: inline-block;
+		color: #fff;
+		border-radius: 50px;
+		height: 12px;
+    }
+
+    /* .toggle button:focus {
+        box-shadow: 0 0px 8px var(--accent-color);
+        border-radius: 0.1em;
+    } */
+
+	/* drop down menu for cities */
 	#select-wrapper {
 		z-index: 5;
-		margin-top: 1px;
+		margin-top: 10px;
+		margin-left: 10px;
 	}
 
 	#select-wrapper:hover {
         cursor: pointer;
     }
 
-	
 
+	/*legend background blocks*/
+	.legend {
+		position: relative;
+		font-size: 12px;
+		margin-top: 10px;
+		margin-left: 8.5%;
+		text-align: left;
+	}
+	
+	/* colour spans (styled for continuous appearance) and labels */
+	.legend div span {
+		display: inline-block; 
+		margin-left: -4px;
+		height: 25px;
+		width: 80px;
+	}
+
+	/* map zoom controls */
 	.map-zoom-wrapper {
 		margin-top: 5px;
 		margin-left: 5px;
@@ -764,49 +805,9 @@
 		cursor: pointer;
 		background-color: var(--brandGray90);
 	}
-    /* Toggle switch styling */
-	:root {
-		--accent-color: var(--brandDarkBlue);
-		--gray: #ccc;
-	}
-
-	.toggle button:hover {
-        cursor: pointer;
-		background-color:lightgray;
-    }
-
-	.toggle button {
-        padding: 3px;
-        background-color: #fff;
-        border: 1px solid var(--gray);
-		border-radius: 50px;
-    }
-   
-    .toggle button span {
-        pointer-events:none;
-        padding: 8px;
-    }
-
-
-    /* .toggle button:focus {
-		outline: var(--accent-color) solid 1px;
-    } */
-
-	[role='switch'][aria-checked='false'] :first-child,
-    [role='switch'][aria-checked='true'] :last-child {
-        background: var(--accent-color);
-        display: inline-block;
-		color: #fff;
-		border-radius: 50px;
-    }
-
-    /* .toggle button:focus {
-        box-shadow: 0 0px 8px var(--accent-color);
-        border-radius: 0.1em;
-    } */
-
+	/* style class for data sources */
 	.sources {
-		margin-left: 3%;
+		margin-left: 8%;
 		color: var(--gray);
 	}
 
