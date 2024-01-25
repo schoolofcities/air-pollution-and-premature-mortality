@@ -274,9 +274,9 @@
 			"type": "line",
 			"source": "protomaps",
 			"source-layer": "roads",
-
 			"paint": {
 				"line-color": "white",
+				"line-opacity": 0.65,
 				"line-width": [
 					"interpolate",
 					[
@@ -286,17 +286,41 @@
 					[
 						"zoom"
 					],
-					6,
-					0,
-					12,
-					1.6,
-					15,
-					3,
-					18,
-					13
+					6, 0, 10, 1
 				]
 			}
 		});
+
+		map.addLayer({
+					"id": "roads_highway",
+					"type": "line",
+					"source": "protomaps",
+					"source-layer": "roads",
+					"filter": [
+						"all",
+						[
+							"==",
+							"pmap:kind",
+							"highway"
+						]
+					],
+					"paint": {
+						"line-color": "white",
+						"line-opacity": 0.65,
+						"line-width": [
+					"interpolate",
+					[
+						"exponential",
+						1
+					],
+					[
+						"zoom"
+					],
+					6, 1, 10, 1.5
+				]
+					}
+				
+		})
 
 		console.log(protoLayers);
 
