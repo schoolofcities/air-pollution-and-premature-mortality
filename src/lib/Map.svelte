@@ -5,6 +5,15 @@
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
 
+	// pmtiles loading
+	import * as pmtiles from 'pmtiles';
+	import layers from 'protomaps-themes-base';
+
+	// let PMTILES_URL = "https://build.protomaps.com/20240123.pmtiles?key=30ce074e38619138";
+	// let protocol = new pmtiles.Protocol();
+	// maplibregl.addProtocol('pmtiles', protocol.tile);
+
+
 	let pageHeight;
 	let pageWidth;
 	let map;
@@ -46,7 +55,7 @@
 		let cmaX = filteredData.x;
 		let cmaY = filteredData.y;
 		
-		map.setZoom(8);
+		map.setZoom(9);
 		map.setBearing(0);
 		map.setPitch(0);
 		map.panTo([cmaX, cmaY])
@@ -59,10 +68,12 @@
 		try {
 			const response = await fetch(`/${cmaname}.geo.json`);
 			cmaPolygon = await response.json();
+			
 			layerSet(cmaname); // function for updating the layer on the map
 		} catch (error) {
 			console.error("Error loading CMA data files:", error);
 		}
+		
 	}
     
 	// so the above function runs automatically if cmanameSelected changes
@@ -79,8 +90,8 @@
 			map.removeLayer("cma2006");
 			map.removeSource("cma2006");
 			map.addSource('cma2006', {
-			'type': 'geojson',
-			'data': cma2006
+				'type': 'geojson',
+				'data': cma2006
 			});
 			map.addLayer({
 				'id': 'cma2006',
@@ -89,7 +100,7 @@
 				'filter':  ['==','CMANAME', cmaname],
 				'paint': {
 					'line-color': '#1E3765',
-					'line-width' : 3,
+					'line-width' : 2,
 					'line-opacity': 1
 			}
 			});
@@ -101,12 +112,12 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
-			}, 'cma2006');
+			}, 'water');
 			loadPollution(checked)
 		} catch {
 			map.addSource('cma2006', {
-			'type': 'geojson',
-			'data': cma2006
+				'type': 'geojson',
+				'data': cma2006
 			});
 			map.addLayer({
 				'id': 'cma2006',
@@ -115,7 +126,7 @@
 				'filter': ['==','CMANAME', cmaname],
 				'paint': {
 					'line-color': '#1E3765',
-					'line-width' : 3,
+					'line-width' : 2,
 					'line-opacity': 1
 			}
 			});
@@ -127,7 +138,10 @@
 				'id': 'cmaPolygon',
 				'type': 'fill',
 				'source': 'cmaPolygon',
-			}, 'cma2006');
+				'paint': {
+					'fill-opacity': 0.9
+				}
+			}, 'water');
 			loadPollution(checked)
 		}
 	}
@@ -205,11 +219,86 @@
 			projection: 'globe',
 			scrollZoom: true,
 			attributionControl: false,
+			// style: {
+			// 	"version": 8,
+			// 	"name": "Empty",
+			// 	"glyphs": "https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf",
+			// 	"sources": {},
+			// 	"layers": [
+			// 		{
+			// 			"id": "meow",
+			// 			"type": "background",
+			// 			"paint": {
+			// 				"background-color": "white"
+			// 			}
+			// 		}
+            //     ]
+            // }
 		});
 
 		map.dragRotate.disable();
 		map.touchZoomRotate.disableRotation();
 		map.scrollZoom.disable();
+
+
+		
+		let protoLayers = layers("protomaps","white");
+
+		map.addSource('protomaps', {
+			type: 'vector',
+			url:
+				'https://api.protomaps.com/tiles/v3.json?key=30ce074e38619138',
+			glyphs: "https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf"
+				
+		});
+
+		// protoLayers.forEach(e => {
+		// 	map.addLayer(e);
+		// });
+
+		map.addLayer({
+			"id": "water",
+			"type": "fill",
+			"source": "protomaps",
+			"source-layer": "water",
+			"paint": {
+				"fill-color": "#bdbfbf",
+				"fill-outline-color": "#dedede"
+				// 'fill-outline-color': 'black', // Replace with your desired stroke color
+      			// 'fill-outline-width': 1 // Set the stroke width to 1 pixel
+			}
+		})
+
+		map.addLayer({
+			"id": "roads_major",
+			"type": "line",
+			"source": "protomaps",
+			"source-layer": "roads",
+
+			"paint": {
+				"line-color": "white",
+				"line-width": [
+					"interpolate",
+					[
+						"exponential",
+						1
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					12,
+					1.6,
+					15,
+					3,
+					18,
+					13
+				]
+			}
+		});
+
+		console.log(protoLayers);
 
 		map.addSource('osm-raster-tiles', {
 			'type': 'raster',
@@ -224,19 +313,24 @@
 			'source': 'osm-raster-tiles',
 			'paint': {
 				'raster-saturation': -1,
-				'raster-opacity': 0.42
+				'raster-opacity': 0.0
 			}
-		})	
+		})
+
+
+		
+
+
 	});	
 
 	//zoom button functionality
 	
 	function zoomIn() {
-			map.zoomIn();
-		}
-		function zoomOut() {
-			map.zoomOut();
-		}
+		map.zoomIn();
+	}
+	function zoomOut() {
+		map.zoomOut();
+	}
 
 </script>
 
