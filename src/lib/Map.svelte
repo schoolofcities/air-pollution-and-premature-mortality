@@ -45,13 +45,13 @@
 		cmanameSelected = filteredData.cmaname;
 		let cmaX = filteredData.x;
 		let cmaY = filteredData.y;
-		
+	
 		map.setZoom(8);
 		map.setBearing(0);
 		map.setPitch(0);
-		map.panTo([cmaX, cmaY])
-	}	
+		map.panTo([cmaX, cmaY]);
 
+	}	
 
 	// function for loading new vector data if the cmaname changes
 	let cmaPolygon;
@@ -231,6 +231,7 @@
 				'raster-opacity': 0.42
 			}
 		})	
+				
 	});	
 
 	//zoom button functionality
@@ -238,7 +239,7 @@
 	function zoomIn() {
 			map.zoomIn();
 		}
-		function zoomOut() {
+	function zoomOut() {
 			map.zoomOut();
 		}
 
@@ -318,11 +319,12 @@
 			</div>
 		</div>
 		<div class = 'sources'>
-			<p>Data Sources: OpenStreetMap, <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>,
-				DMTI Spatial Inc., CanMap Postal Code Suite v2016 (via
+			<p>Data Sources: <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>, 
+				<a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>,
+				DMTI Spatial Inc., CanMap Postal Code Suite (2016, via
 				<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE)</a>, 
 				and <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>
-					Statistics Canada, 2006.</a></p>
+					Statistics Canada (2006).</a></p>
 		</div>
 </main>
 
