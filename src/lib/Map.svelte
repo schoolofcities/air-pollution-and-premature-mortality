@@ -563,7 +563,7 @@
 					"text-radial-offset": 0.2
 				},
 				"paint": {
-					"text-color": "#1E3765",
+					"text-color": "#4d4d4d",
 					"text-halo-color": "#ffffff",
 					"text-halo-width": 1
 				}
@@ -659,9 +659,9 @@
 			<div id="map" class="map" style="height: {mapHeight}px">	
 				<!-- zoom buttons-->
 				<div class="map-zoom-wrapper">	
-					<span on:click={zoomIn} class="map-zoom">+</span>
-					<span on:click={zoomOut} class="map-zoom">-</span>	
-				</div>		
+					<div on:click={zoomIn} class="map-zoom">+</div>
+					<div on:click={zoomOut} class="map-zoom">‒</div>	
+				</div>
 			</div>
 		</div>
 		<div class = 'sources'>
@@ -681,10 +681,16 @@
 		height: 100%;
 		max-width: 1200px;
 		margin: 0 auto;
-		/* border: 1px solid var(--brandBlack); */
+		margin-top: 5px;
+		border-top: 1px solid var(--brandGray);
+		border-bottom: 1px solid var(--brandGray);
 		background-color: white;
 		z-index: 1;
 		position:relative;
+	}
+
+	#map:hover {
+		cursor: move;
 	}
 	
 	.container {
@@ -833,14 +839,20 @@
 	}
 
 	.map-zoom {
-		display: block;
-		position: relative;
-		font-size: 25px;
-		max-width: 25px;
-		min-width: 25px;
-		background-color: var(--brandDarkBlue);
+		/* display: block; */
+		/* position: relative; */
+		padding: 0px;
+		padding-bottom: 3px;
+		padding-left: 1px;
+		margin: 0px;
+		font-size: 23px;
+		width: 25px;
+		height: 25px;
+		overflow: hidden;
+		overflow-y: hidden;
+		background-color: var(--brandGray70);
 		color: white;
-		border: solid 1px var(--brandGray90);
+		border: solid 1px var(--brandWhite);
 		text-align: center;
 		margin: 0 auto;
 		z-index: 2;
