@@ -16,6 +16,7 @@
 
 	let pageHeight;
 	let pageWidth;
+	
 	let map;
 
 	let mapHeight = 600;
@@ -24,6 +25,15 @@
 	} else {
 		mapHeight = 600
 	};
+
+	let mapWidth = 1200;
+	$: if (pageWidth < 1200) {
+		mapWidth = pageWidth
+	} else {
+		mapWidth = 1200
+	}
+
+	$: console.log(mapWidth);
  
 	//alphabetize CMAs so the desired CMA is easy to find in the dropdown
 	let cmaAll = cmaSummary
@@ -163,13 +173,13 @@
 						['get', 'PM'],
 						1.9,
 						'#1e3765',
-						3.5,
+						3.75,
 						'#6fc7ea',
-						6,
+						6.5,
 						'#f1c500',
-						8.5,
+						8.75,
 						'#e7861a',
-						10.9,
+						11,
 						'#DC4633'
 					]);
 				pmLegend.style.display = 'block';
@@ -182,11 +192,11 @@
 							['get', 'NO'],
 							1,
 							'#1e3765',
-							10,
+							7.5,
 							'#6fc7ea',
 							15,
 							'#f1c500',
-							20,
+							22.5,
 							'#e7861a',
 							30,
 							'#DC4633'
@@ -217,7 +227,7 @@
 			center: [-79.580, 43.905],
 			zoom: 8,
 			minZoom: 6,
-			maxZoom: 10,
+			maxZoom: 11,
 			bearing: 0,
 			projection: 'globe',
 			scrollZoom: true,
@@ -577,17 +587,17 @@
 		map.zoomOut();
 	}
 
+
 </script>
 
 
 
 <svelte:window bind:innerHeight={pageHeight} bind:innerWidth={pageWidth}/>
 
-<main>
 	<div class = controls>
 		<!-- air pollution toggle button-->
 		<div class="toggle">
-			<p>Pollution type:</p>
+			<p>Air Pollution Type:</p>
 			<button role="switch" aria-checked={checked} on:click={handleClick}>
 					<span>PM2.5</span>
 					<span>NO2</span>
@@ -595,7 +605,7 @@
 			</div>
 
 		<div id="select-wrapper">
-			<p>Select CMA:</p>	
+			<p>Census Metropolitan Area (CMA):</p>	
 			<Select
 				id="select"
 				items={cmaAll}
@@ -606,10 +616,10 @@
 				--background="white"
 				--selected-item-color="black" 
 				--height="20px"
-				--width="200px"
+				--width="210px"
 				--item-color="black"
 				--border-radius="5px"
-				--border= "solid 1px gray"
+				--border= "solid 1px #cdcdcd"
 				--list-border-radius="0px"
 				--font-size="14px"
 				--max-height="35px"
@@ -618,40 +628,32 @@
 				/>
 		</div>	
 	</div>
-		
-		<!-- PM2.5 Legend -->
-		<div id = 'pmLegend' class='legend'>
-			<div><p style = 'margin-left:0px'>Average PM2.5 (ug/m3)</p></div>
-			<div>
-				<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea)'></span>
-				<span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500)'></span>
-				<span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a)'></span>
-				<span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633)'></span>
-			</div>
-			<div><span>0</span>
-				<span>3.5</span>
-				<span>6</span>
-				<span>8.5</span>
-				<span>10.9</span>
-			</div>
+	
+	<!-- PM2.5 Legend -->
+	<div id = 'pmLegend' class='legend'>
+		<div class="legend-text">
+			<p class="legend-text-left-align">0</p>
+			<p class="legend-text-center-align">Average PM2.5 (ug/m3)</p>
+			<p class="legend-text-right-align">11</p>
 		</div>
+		<div>
+			<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></span>
+		</div>
+	</div>
 
-		<!-- NO2 Legend -->
-		<div id = 'noLegend' class = 'legend'>
-			<div><p style = 'margin-left:0px'>Average NO2 (ppb)</p></div>
-			<div>
-				<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea)'></span>
-				<span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500)'></span>
-				<span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a)'></span>
-				<span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633)'></span>
-			</div>
-			<div><span>0</span>
-				<span>10</span>
-				<span>15</span>
-				<span>20</span>
-				<span>30</span>
-			</div>
+	<!-- NO2 Legend -->
+	<div id = 'noLegend' class = 'legend'>
+		<div class="legend-text">
+			<p class="legend-text-left-align">0</p>
+			<p class="legend-text-center-align">Average NO2 (ppb)</p>
+			<p class="legend-text-right-align">30</p>
 		</div>
+		<div>
+			<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></span>
+		</div>
+	</div>
+
+
 
 		<div class = 'container'>
 			<div id="map" class="map" style="height: {mapHeight}px">	
@@ -671,7 +673,6 @@
 				and <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>
 					Statistics Canada (2006).</a></p>
 		</div>
-</main>
 
 
 <style>
@@ -680,7 +681,7 @@
 		height: 100%;
 		max-width: 1200px;
 		margin: 0 auto;
-		border: 1px solid var(--brandBlack);
+		/* border: 1px solid var(--brandBlack); */
 		background-color: white;
 		z-index: 1;
 		position:relative;
@@ -698,10 +699,11 @@
 	}
 
 	.controls {
+		/* background-color: #ccc; */
+		margin: 0 auto;
 		width: 350px;
 		font-size: 12px;
-		position: relative;
-		margin-left: 8%;
+		/* position: relative; */
 		display: flex;
 		align-items: flex-end;
 	}
@@ -709,7 +711,6 @@
  	/* Toggle switch styling */
  	:root {
 		--accent-color: var(--brandDarkBlue);
-		--gray: #ccc;
 	}
 
 	.toggle button:hover {
@@ -718,17 +719,19 @@
     }
 
 	.toggle button {
-        padding: 2px;
-		margin-top: 1px;
+        padding: 0px;
+		margin-top: 0px;
 		height: 35px;
+		min-width: 110px;
         background-color: #fff;
-        border: 1px solid gray;
-		border-radius: 50px;
+        border: 1px solid #cdcdcd;
+		border-radius: 5px;
     }
    
     .toggle button span {
         pointer-events:none;
-        padding: 8px;
+        padding: 6px;
+		padding-bottom: 10px;
     }
 
 
@@ -736,13 +739,22 @@
 		outline: var(--accent-color) solid 1px;
     } */
 
-	[role='switch'][aria-checked='false'] :first-child,
+	[role='switch'][aria-checked='false'] :first-child {
+        background: var(--accent-color);
+        display: inline-block;
+		color: #fff;
+		border-radius: 5px;
+		height: 12px;
+		min-width: 40px;
+    }
+
     [role='switch'][aria-checked='true'] :last-child {
         background: var(--accent-color);
         display: inline-block;
 		color: #fff;
-		border-radius: 50px;
+		border-radius: 5px;
 		height: 12px;
+		min-width: 40px;
     }
 
     /* .toggle button:focus {
@@ -754,7 +766,7 @@
 	#select-wrapper {
 		z-index: 5;
 		margin-top: 10px;
-		margin-left: 10px;
+		margin-left: 15px;
 	}
 
 	#select-wrapper:hover {
@@ -764,19 +776,51 @@
 
 	/*legend background blocks*/
 	.legend {
-		position: relative;
+		width: 100%;
+		max-width: 1200px;
+		/* background-color: rgb(237, 237, 237);		 */
+		margin: 0 auto;
+		/* position: relative; */
 		font-size: 12px;
-		margin-top: 10px;
-		margin-left: 8.5%;
+		/* margin-top: 10px;
+		margin-left: 8.5%; */
 		text-align: left;
+		padding-left: 1px;
+		padding-top: 10px;
 	}
-	
+
+	.legend-text {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.legend-text p {
+		margin: 0; /* Remove default margin on paragraphs */
+		margin-bottom: -2px;
+		font-family: RobotoRegular;
+	}
+
+	.legend-text-left-align {
+		text-align: left;
+		padding-left: 1px;
+	}
+
+	.legend-text-center-align {
+		text-align: center;
+	}
+
+	.legend-text-right-align {
+		text-align: right;
+		padding-right: 2px;
+	}
+
 	/* colour spans (styled for continuous appearance) and labels */
 	.legend div span {
 		display: inline-block; 
-		margin-left: -4px;
-		height: 25px;
-		width: 80px;
+		margin: 0px;
+		padding: 0px;
+		height: 12px;
+		border-right: solid 1px white;
 	}
 
 	/* map zoom controls */
