@@ -4,41 +4,39 @@ import Select from "svelte-select";
 import predictedDeaths from "../data/predicted-deaths-results.json";
 import * as d3 from "d3";
 
+// options for dropdowns / selections
 const sexAll = ["All", "Female", "Male"];
 const pollutionAll = ["PM2.5 and NO2", "PM2.5", "NO2"];
 const ageAll = ["All Ages", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74"]
-
-//alphabetize CMAs so the desired CMA is easy to find in the dropdown
 let cmaAll = [...new Set(predictedDeaths.map(item => item.CMA))];
 
+// initial variables
 let cmanameSelected = "Toronto";
 let sexSelected = "All";
 let pollutionSelected = "PM2.5 and NO2"
 let ageSelected = "All Ages"
 
+// log what is selected
 console.log(predictedDeaths);
 
-
+// update variables when selected
 function selectCmaValue(e) {
 	cmanameSelected = e.detail.value;
 }
-
 function selectSexValue(e) {
 	sexSelected = e.detail.value;
 }
-
 function selectAgeValue(e) {
 	ageSelected = e.detail.value;
 }
-
 function selectPollutionValue(e) {
 	pollutionSelected = e.detail.value;
 }
 
-let data = []
-function updateStats(cma, sex, pollution, age) {
 
-	// console.log([cma, sex, pollution, age])
+let data = []
+
+function updateStats(cma, sex, pollution, age) {
 
 	data = predictedDeaths;
 
@@ -48,9 +46,7 @@ function updateStats(cma, sex, pollution, age) {
 	// filter by pollution type
 	data = data.filter(d => d.Pollution === pollution);
 
-	console.log(data);
-
-	// both sex and ages are All
+	// filtering and grouping by age and/or sex
 	if (sex === "All" && age === "All Ages" ) {
 		data = d3.rollups(
 			data, 
@@ -58,7 +54,6 @@ function updateStats(cma, sex, pollution, age) {
 			d => d.Intervention, 
 		);
 	}
-
 	else if (sex === "All" && age !== "All Ages") {
 		data = data.filter(d => d.Age === age);
 		data = d3.rollups(
@@ -67,7 +62,6 @@ function updateStats(cma, sex, pollution, age) {
 			d => d.Intervention
 		);
 	}
-
 	else if (sex !== "All" && age === "All Ages") {
 		data = data.filter(d => d.SEX === sex);
 		data = d3.rollups(
@@ -76,7 +70,6 @@ function updateStats(cma, sex, pollution, age) {
 			d => d.Intervention
 		);
 	}
-
 	else {
 		data = data.filter(d => d.SEX === sex);
 		data = data.filter(d => d.Age === age);
@@ -86,19 +79,16 @@ function updateStats(cma, sex, pollution, age) {
 			d => d.Intervention
 		);
 	}
-
-	// console.log(data);
-	
 	data = data.reduce((acc, [key, value]) => {
 		acc[key] = value;
 		return acc;
 	}, {});
-	
 }
 
 $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 
 </script>
+
 
 
 <div class="select-inputs">
@@ -324,8 +314,9 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 </div>
 
 
-<style>
 
+
+<style>
 
 p {
 	font-family: RobotoBold;
@@ -348,7 +339,6 @@ h3 {
 	margin-left: 5px;
 	margin-right: 25px;
 }
-
 .scenario-text-wrapper {
 	display: flex;
     justify-content: space-between;
@@ -356,16 +346,13 @@ h3 {
 	margin-top: 2px;
 	padding-bottom: 8px;
 }
-
 .scenario-text {
 	margin-top: -5px;
 	text-align: left;
 }
-
 .scenario-total {
 	text-align: right;
 }
-
 .scenario-label {
 	font-family: Roboto;
 	font-size: 18px;
@@ -376,7 +363,6 @@ h3 {
 	font-size: 13px;
 	color: var(--brandGray70);
 }
-
 .scenario-baseline {
 	font-size: 30px;
 	color: var(--brandRed);
@@ -393,27 +379,20 @@ h3 {
 #baseline {
 	border-left: solid 5px var(--brandRed);
 }
-
 #target {
 	border-left: solid 5px var(--brandYellow);
 }
-
 #amb10 {
 	border-left: solid 5px var(--brandLightBlue);
 }
-
 #amb25 {
 	border-left: solid 5px var(--brandMedBlue);
 }
-
-
-
 
 .select-inputs {
 	margin: 0 auto;
 	width: 230px;
 }
-
 @media screen and (min-width: 500px) {
 	.select-inputs {
 		margin: 0 auto;
@@ -422,11 +401,9 @@ h3 {
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-
   	.select-wrapper {
 		width: 48%; /* Adjust the width as needed */
   	}
 }
-
 
 </style>
