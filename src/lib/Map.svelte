@@ -5,8 +5,7 @@
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
 
-	// pmtiles loading
-	import * as pmtiles from 'pmtiles';
+	// pmtiles style loading
 	import layers from 'protomaps-themes-base';
 
 	// let PMTILES_URL = "https://build.protomaps.com/20240123.pmtiles?key=30ce074e38619138";
@@ -33,7 +32,6 @@
 		mapWidth = 1200
 	}
 
-	$: console.log(mapWidth);
  
 	//alphabetize CMAs so the desired CMA is easy to find in the dropdown
 	let cmaAll = cmaSummary

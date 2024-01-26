@@ -86,7 +86,7 @@ main {
 
 h1 {
     font-family: TradeGothicBold;
-    font-size: 34px;
+    font-size: 36px;
     color: var(--brandBlack);
     border-bottom: solid 1px var(--brandGray);
     text-decoration: none;
@@ -106,7 +106,7 @@ h2 {
 h3 {
     text-align: left;
     font-family: TradeGothicBold;
-    font-size: 22px;
+    font-size: 24px;
     border-bottom: solid 1px var(--brandGray);
     /* text-decoration: underline; */
     color: var(--brandBlack);
