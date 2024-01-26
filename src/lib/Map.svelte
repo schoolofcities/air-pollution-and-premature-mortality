@@ -698,6 +698,7 @@
 	}
 	
 	p {
+		font-family: RobotoRegular;
 		margin: 0 auto;
 		text-align: left;
 		font-size: 14px;
@@ -710,6 +711,7 @@
 		width: 350px;
 		font-size: 12px;
 		/* position: relative; */
+		margin-top: -0px;
 		display: flex;
 		align-items: flex-end;
 	}
@@ -825,7 +827,7 @@
 		display: inline-block; 
 		margin: 0px;
 		padding: 0px;
-		height: 12px;
+		height: 15px;
 		border-right: solid 1px white;
 	}
 

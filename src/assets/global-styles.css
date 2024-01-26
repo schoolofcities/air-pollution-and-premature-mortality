@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: Bembo;
-    src: url("BemboStd.otf");
+    font-family: SourceSerif;
+    src: url("source-serif-pro/SourceSerifPro-Regular.otf");
 }
 
 :root {
@@ -57,9 +57,9 @@ main {
 
 .title {
     background-color: none;
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 25px;
     margin-bottom: 0px;
     border-bottom: solid 1px var(--brandBlack);
     position: relative;
@@ -67,18 +67,28 @@ main {
 
 .text {
     background-color: none;
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+.top-image {
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.top-image img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     font-family: TradeGothicBold;
     font-size: 34px;
     color: var(--brandBlack);
-    border-bottom: solid 1px var(--brandBlack);
+    border-bottom: solid 1px var(--brandGray);
     text-decoration: none;
     margin-bottom: 20px;
     padding: 0px;
@@ -97,16 +107,17 @@ h3 {
     text-align: left;
     font-family: TradeGothicBold;
     font-size: 22px;
-    text-decoration: underline;
+    border-bottom: solid 1px var(--brandGray);
+    /* text-decoration: underline; */
     color: var(--brandBlack);
 }
 
 p {
-    font-family: RobotoRegular;
+    font-family: SourceSerif;
     color: var(--brandBlack);
     text-align: left;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 a {

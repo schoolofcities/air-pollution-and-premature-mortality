@@ -24,7 +24,7 @@
 		min-width: 200px;
 		padding-left: 0px;
 		padding-right: 0px;
-		z-index: 5;
+		z-index: 15;
 		opacity: 0.92;
 	}
 
@@ -32,7 +32,7 @@
 		margin: auto;
 		max-width: 260px;
 		height: 50px;
-		z-index: 6;
+		z-index: 16;
 		/* background-color: aquamarine; */
 	}
 
