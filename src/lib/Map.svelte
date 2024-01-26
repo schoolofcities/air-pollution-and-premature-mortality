@@ -698,7 +698,7 @@
 	}
 	
 	p {
-		font-family: RobotoRegular;
+		font-family: RobotoBold;
 		margin: 0 auto;
 		text-align: left;
 		font-size: 14px;
@@ -805,7 +805,7 @@
 	.legend-text p {
 		margin: 0; /* Remove default margin on paragraphs */
 		margin-bottom: -2px;
-		font-family: RobotoRegular;
+		font-family: Roboto;
 	}
 
 	.legend-text-left-align {
@@ -867,6 +867,10 @@
 	.sources {
 		margin-left: 8%;
 		color: var(--gray);
+		
+	}
+	.sources p {
+		font-family: RobotoRegular;
 	}
 
 </style>
