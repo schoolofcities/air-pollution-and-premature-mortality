@@ -71,6 +71,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <p>
+            Postal code data were provided by DMTI Spatial Inc, via the Canadian Urban Environmental Health Research Consortium (CANUE) under the current SMART Agreement in place with Canadian Universities.
+        </p>
+        <p>
             Photograph of Calgary by Jeff Allen.
         </p>
 
@@ -97,6 +100,28 @@
         <p>
 			Data and code for this work are on <a href='https://github.com/schoolofcities/air-pollution-and-premature-mortality' target = 'blank'>GitHub</a>.
 		</p>
+
+        <h3>References</h3>
+       
+        <p>
+            CanMap Postal Code Suite v2015.3. [computer file] Markham: DMTI Spatial Inc., 2015.
+        </p>
+        <p>
+            CanMap Postal Code Suite v2016.3. [computer file] Markham: DMTI Spatial Inc., 2016.
+        </p>
+        <p>
+            Hammer, M. S.; van Donkelaar, A.; Li, C.; Lyapustin, A.; Sayer, A. M.; Hsu, N. C.; Levy, R. C.; Garay, M. J.; Kalashnikova, O. V.; Kahn, R. A.; Brauer, M.; Apte, J. S.; Henze, D. K.; Zhang, L.; Zhang, Q.; Ford, B.; Pierce, J. R.; and Martin, R. V., Global Estimates and Long-Term Trends of Fine Particulate Matter Concentrations (1998-2018)., Environ. Sci. Technol, doi: 10.1021/acs.est.0c01764, 2020
+        </p>
+        <p>
+            Hystad P, Setton E, Cervantes A, Poplawski K, Deschenes S, Brauer M, et al. 2011. Creating National Air Pollution Models for Population Exposure Assessment in Canada. Environ. Health Perspect. 119:1123–1129; doi:10.1289/ehp.1002976.
+        </p>
+        <p>
+            van Donkelaar, A., R. V. Martin, et al. (2019). Regional Estimates of Chemical Composition of Fine Particulate Matter using a Combined Geoscience-Statistical Method with Information from Satellites, Models, and Monitors. Environmental Science & Technology, 2019, doi:10.1021/acs.est.8b06392.
+        </p>
+        <p>
+            Weichenthal S, Pinault L, Burnett RT. (2017) Impact of Oxidant Gases on the Relationship Between Outdoor Fine Particulate Air Pollution and Nonaccidental, Cardiovascular, and Respiratory Mortality. Scientific Reports 7, Article number: 16401. Doi:10.1038/s41598-017-16770-y
+        </p>
+     
 
     
 
