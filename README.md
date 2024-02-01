@@ -6,7 +6,7 @@ Aaron van Donkelaar, Melanie S. Hammer, Liam Bindle, Michael Brauer, Jeffery R. 
 
 Acknowledgements:
 
-Nitrogen dioxide data were indexed to DMTI Spatial Inc. postal codes , were provided by CANUE (Canadian Urban Environmental Health Research Consortium).
+Nitrogen dioxide data were indexed to DMTI Spatial Inc. postal codes, which were provided by CANUE (Canadian Urban Environmental Health Research Consortium).
 
 Developing locally
 ```
