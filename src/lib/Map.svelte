@@ -661,15 +661,6 @@
 					<div on:click={zoomOut} class="map-zoom">‒</div>	
 				</div>
 			</div>
-			<div class = 'sources'>
-				<p style = 'font-size: 10px'>Data Sources: 
-					<a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>, 
-					<a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a>,
-					<a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>, DMTI Spatial Inc., CanMap Postal Code Suite (2016, via
-					<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE)</a>, 
-					and <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>
-						Statistics Canada (2006).</a></p>
-			</div>
 		</div>
 		
 
@@ -804,7 +795,7 @@
 	.legend-text p {
 		margin: 0; /* Remove default margin on paragraphs */
 		margin-bottom: -2px;
-		font-family: Roboto;
+		font-family: RobotoRegular;
 	}
 
 	.legend-text-left-align {

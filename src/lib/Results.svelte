@@ -326,7 +326,7 @@ p {
 }
 
 h3 {
-	font-family: Roboto;
+	font-family: RobotoBold;
 	font-size: 20px;
 	font-style: italic;
 	margin-bottom: 15px;
@@ -354,7 +354,7 @@ h3 {
 	text-align: right;
 }
 .scenario-label {
-	font-family: Roboto;
+	font-family: RobotoRegular;
 	font-size: 18px;
 }
 .scenario-description {
