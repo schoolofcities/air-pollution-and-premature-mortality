@@ -20,7 +20,7 @@
 
 	let mapHeight = 600;
 	$: if (pageHeight < 800) {
-		mapHeight = pageHeight - 200;
+		mapHeight = pageHeight * 0.64;
 	} else {
 		mapHeight = 600
 	};
