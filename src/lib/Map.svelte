@@ -20,7 +20,7 @@
 
 	let mapHeight = 600;
 	$: if (pageHeight < 800) {
-		mapHeight = pageHeight - 200;
+		mapHeight = pageHeight * 0.64;
 	} else {
 		mapHeight = 600
 	};
@@ -63,7 +63,6 @@
 		let cmaX = filteredData.x;
 		let cmaY = filteredData.y;
 
-		
 		map.setZoom(9);
 		map.setBearing(0);
 		map.setPitch(0);
@@ -75,7 +74,7 @@
 	let cmaPolygon;
 	async function loadCMA(cmaname) {
 		try {
-			const response = await fetch(`/${cmaname}.geo.json`);
+			const response = await fetch(`/air-pollution-and-premature-mortality/${cmaname}.geo.json`);
 			cmaPolygon = await response.json();
 			
 			layerSet(cmaname); // function for updating the layer on the map
@@ -203,19 +202,19 @@
 				pmLegend.style.display = 'none';
 		}
 	}
-		function handleClick(event){
-			let target = event.target
+	function handleClick(event){
+		let target = event.target
 
-			let state = target.getAttribute('aria-checked')
+		let state = target.getAttribute('aria-checked')
 
-			checked = state === 'true' ? false : true
+		checked = state === 'true' ? false : true
 
-			checkValue = checked === false ? 'PM2.5' : 'NO2'
-		}
+		checkValue = checked === false ? 'PM2.5' : 'NO2'
+	}
 
-		$: {
-			loadPollution(checked);
-		}
+	$: {
+		loadPollution(checked);
+	}
 
 
 	onMount(() => {
@@ -635,7 +634,7 @@
 			<p class="legend-text-right-align">11</p>
 		</div>
 		<div>
-			<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></span>
+			<div class="legend-gradient" style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></div><div class="legend-gradient" style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></div><div class="legend-gradient" style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></div><div class="legend-gradient" style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></div>
 		</div>
 	</div>
 
@@ -647,7 +646,7 @@
 			<p class="legend-text-right-align">30</p>
 		</div>
 		<div>
-			<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></span>
+			<div class="legend-gradient" style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></div><div class="legend-gradient" style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></div><div class="legend-gradient" style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></div><div class="legend-gradient" style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></div>
 		</div>
 	</div>
 
@@ -812,8 +811,7 @@
 		padding-right: 2px;
 	}
 
-	/* colour spans (styled for continuous appearance) and labels */
-	.legend div span {
+	.legend-gradient {
 		display: inline-block; 
 		margin: 0px;
 		padding: 0px;
