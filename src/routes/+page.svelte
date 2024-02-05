@@ -114,19 +114,16 @@
 
 		<h3>Data sources and methods</h3>
 	   
-		<p>Note any important details here about the premature mortality data that are not included above.</p>
-	   
-		<p>PM2.5 data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> V4.NA.03. We averaged the mean annual PM2.5 values from 2016 and 2017.
-		</p>
-
 		<p>
-			Nitrogen dioxide data from 2016 were indexed to DMTI Spatial Inc. postal codes, which were provided by the Canadian Urban Environmental Health Research Consortium (<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE</a>). The point data were interpolated using IDW where k = 2 using the same cell size as the PM2.5 data (0.01° × 0.01°).
-			PM2.5 and NO2 data were converted from raster to vector data and added incorporated into a single geojson file via spatial join.       
+			Note any important details here about the premature mortality data that are not included above.
 		</p>
-	  
 		<p>
-			The census metropolitan areas use the 2006 digital boundaries from <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>Statistics Canada</a>.
-			The base map and reference layers are from <a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a> and <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>.
+			PM2.5 data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> V4.NA.03. The map shows means for 2016 and 2017 combined into one layer.
+			Nitrogen dioxide (NO2) data are from 2016 and were sourced from <a href="https://www.canuedata.ca/" target = 'blank'>CANUE</a>. The data were originally generated via a land use gregression model following methods described in <a href="https://doi.org/10.1289/ehp.1002976">Hystad et al. (2011)</a>. The data were provided as indexed to postal codes (2015 FSALDU level, via data from DMTI Spatial Inc.). To join this data to the same grid as the PM2.5 data, we computed centroids of each FSALDU and then interpolated it using IDW where k = 2 using the same cell size as the PM2.5 data (0.01° × 0.01°).
+		</p>
+		<p>
+			The CMA boundaries on the map are from <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>Statistics Canada</a>.
+			The base map and reference layers (e.g. roads, labels) are from <a href="https://www.openstreetmap.org/" target = 'blank'>OpenStreetMap</a> via <a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a>.
 		</p>
 		<p>
 			This webpage uses the JavaScript framework <a href='https://svelte.dev/' target = 'blank'>Svelte</a>. Maps and charts were created using <a href='https://d3js.org/' target = 'blank'>D3</a> and <a href='https://maplibre.org/' target = 'blank'>MapLibre GL JS</a>.
