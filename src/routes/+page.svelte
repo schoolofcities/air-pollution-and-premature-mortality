@@ -8,6 +8,37 @@
 	
 </script>
 
+
+
+<svelte:head>
+	
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1"
+	/>
+
+	<title>Air Pollution and Premature Mortality | School of Cities</title>
+	<meta name="description" content="Air Pollution and Premature Mortality">
+	<meta name="author" content="Jeff Allen">
+
+	<meta property="og:title" content="Air Pollution and Premature Mortality" />
+	<meta property="og:description" content="Air Pollution and Premature Mortality" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://schoolofcities.github.io/air-pollution-and-premature-mortality/" />
+	<meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/air-pollution-and-premature-mortality/main/static/web-card.png" />
+	<meta property="og:locale" content="en_CA">
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://schoolofcities.github.io/air-pollution-and-premature-mortality/" />
+	<meta name="twitter:creator" content="@JeffAllenMaps" />
+	<meta name="twitter:title" content="Air Pollution and Premature Mortality" />
+	<meta name="twitter:description" content="Air Pollution and Premature Mortality" />
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/air-pollution-and-premature-mortality/main/static/web-card.png" /> 
+
+</svelte:head>
+
+
+
 <TopSofC/>
 
 <main>
@@ -79,13 +110,13 @@
 		<p>
 			Photograph of Calgary by Jeff Allen.
 		</p> -->
-
-	   
+   
 
 		<h3>Data sources and methods</h3>
 	   
+		<p>Note any important details here about the premature mortality data that are not included above.</p>
 	   
-		<p> PM2.5 data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> V4.NA.03. We averaged the mean annual PM2.5 values from 2016 and 2017.
+		<p>PM2.5 data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> V4.NA.03. We averaged the mean annual PM2.5 values from 2016 and 2017.
 		</p>
 
 		<p>
