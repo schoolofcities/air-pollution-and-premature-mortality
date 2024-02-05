@@ -327,7 +327,7 @@ p {
 
 h3 {
 	font-family: RobotoBold;
-	font-size: 20px;
+	font-size: 19px;
 	font-style: italic;
 	margin-bottom: 15px;
 	color: var(--brandBlack);

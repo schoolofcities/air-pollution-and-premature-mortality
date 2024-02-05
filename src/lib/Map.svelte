@@ -239,7 +239,7 @@
 				"sources": {
 					'protomaps': {
 						type: 'vector',
-						url: 'https://api.protomaps.com/tiles/v3.json?key=30ce074e38619138'
+						url: 'https://api.protomaps.com/tiles/v3.json?key=3881c303b9fe6eb9'
 					}
 				},
 				"layers": [
