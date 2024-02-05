@@ -5,8 +5,7 @@
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
 
-	// pmtiles loading
-	import * as pmtiles from 'pmtiles';
+	// pmtiles style loading
 	import layers from 'protomaps-themes-base';
 
 	// let PMTILES_URL = "https://build.protomaps.com/20240123.pmtiles?key=30ce074e38619138";
@@ -16,6 +15,7 @@
 
 	let pageHeight;
 	let pageWidth;
+	
 	let map;
 
 	let mapHeight = 600;
@@ -24,6 +24,14 @@
 	} else {
 		mapHeight = 600
 	};
+
+	let mapWidth = 1200;
+	$: if (pageWidth < 1200) {
+		mapWidth = pageWidth
+	} else {
+		mapWidth = 1200
+	}
+
  
 	//alphabetize CMAs so the desired CMA is easy to find in the dropdown
 	let cmaAll = cmaSummary
@@ -163,13 +171,13 @@
 						['get', 'PM'],
 						1.9,
 						'#1e3765',
-						3.5,
+						3.75,
 						'#6fc7ea',
-						6,
+						6.5,
 						'#f1c500',
-						8.5,
+						8.75,
 						'#e7861a',
-						10.9,
+						11,
 						'#DC4633'
 					]);
 				pmLegend.style.display = 'block';
@@ -182,11 +190,11 @@
 							['get', 'NO'],
 							1,
 							'#1e3765',
-							10,
+							7.5,
 							'#6fc7ea',
 							15,
 							'#f1c500',
-							20,
+							22.5,
 							'#e7861a',
 							30,
 							'#DC4633'
@@ -217,7 +225,7 @@
 			center: [-79.580, 43.905],
 			zoom: 8,
 			minZoom: 6,
-			maxZoom: 10,
+			maxZoom: 11,
 			bearing: 0,
 			projection: 'globe',
 			scrollZoom: true,
@@ -231,7 +239,7 @@
 				"sources": {
 					'protomaps': {
 						type: 'vector',
-						url: 'https://api.protomaps.com/tiles/v3.json?key=30ce074e38619138'
+						url: 'https://api.protomaps.com/tiles/v3.json?key=3881c303b9fe6eb9'
 					}
 				},
 				"layers": [
@@ -553,7 +561,7 @@
 					"text-radial-offset": 0.2
 				},
 				"paint": {
-					"text-color": "#1E3765",
+					"text-color": "#4d4d4d",
 					"text-halo-color": "#ffffff",
 					"text-halo-width": 1
 				}
@@ -577,25 +585,25 @@
 		map.zoomOut();
 	}
 
+
 </script>
 
 
 
 <svelte:window bind:innerHeight={pageHeight} bind:innerWidth={pageWidth}/>
 
-<main>
 	<div class = controls>
 		<!-- air pollution toggle button-->
 		<div class="toggle">
-			<p>Select pollution type:</p>	
+			<p>Air Pollution Type:</p>
 			<button role="switch" aria-checked={checked} on:click={handleClick}>
 					<span>PM2.5</span>
 					<span>NO2</span>
-				</button>	
+				</button>
 			</div>
 
 		<div id="select-wrapper">
-			<p>Select CMA:</p>	
+			<p>Census Metropolitan Area (CMA):</p>	
 			<Select
 				id="select"
 				items={cmaAll}
@@ -605,73 +613,74 @@
 				on:input={cmaSelectDropDown}
 				--background="white"
 				--selected-item-color="black" 
-				--height="22px"
+				--height="20px"
+				--width="210px"
 				--item-color="black"
-				--border-radius="0"
-				--border= "solid 1px gray";
+				--border-radius="5px"
+				--border= "solid 1px #cdcdcd"
 				--list-border-radius="0px"
-				--font-size="14.45px"
-				--max-height="30px"
+				--font-size="14px"
+				--max-height="35px"
 				--item-is-active-color="#0D534D"
 				--item-is-active-bg="#6FC7EA"
 				/>
 		</div>	
-		
-		<!-- PM2.5 Legend -->
-		<div id = 'pmLegend' class='pmLegend'>
-			<div><p>Average PM2.5 (ug/m3)</p></div>
-			<div><span style = 'opacity: 0%; margin-top: -30px'></span>10.9</div>
-			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>8.5</div>
-			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>6</div>
-			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>3.5</div>
-			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>0</div>
-			
-			
-			
+	</div>
+	
+	<!-- PM2.5 Legend -->
+	<div id = 'pmLegend' class='legend'>
+		<div class="legend-text">
+			<p class="legend-text-left-align">0</p>
+			<p class="legend-text-center-align">Average PM2.5 (ug/m3)</p>
+			<p class="legend-text-right-align">11</p>
 		</div>
-		<!-- NO2 Legend -->
-		<div id = 'noLegend' class = 'noLegend'>
-			<div><p>Average NO2 (ppb)</p></div>
-			<div><span style = 'opacity: 0%; margin-top: -30px'></span>30</div>
-			<div><span style = 'background-image: linear-gradient(to top,#e7861a,#DC4633)'></span>20</div>
-			<div><span style = 'background-image: linear-gradient(to top,#f1c500, #e7861a)'></span>15</div>
-			<div><span style = 'background-image: linear-gradient(to top,#6fc7ea, #f1c500)'></span>10</div>
-			<div><span style = 'background-image: linear-gradient(to top,#1e3765,#6fc7ea)'></span>0</div>
-			
-			
-			
+		<div>
+			<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></span>
 		</div>
 	</div>
+
+	<!-- NO2 Legend -->
+	<div id = 'noLegend' class = 'legend'>
+		<div class="legend-text">
+			<p class="legend-text-left-align">0</p>
+			<p class="legend-text-center-align">Average NO2 (ppb)</p>
+			<p class="legend-text-right-align">30</p>
+		</div>
+		<div>
+			<span style = 'background-image: linear-gradient(to right,#1e3765,#6fc7ea); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#6fc7ea, #f1c500); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#f1c500, #e7861a); width: {mapWidth / 4 - 1}px'></span><span style = 'background-image: linear-gradient(to right,#e7861a,#DC4633); width: {mapWidth / 4 - 1}px'></span>
+		</div>
+	</div>
+
+
 
 		<div class = 'container'>
 			<div id="map" class="map" style="height: {mapHeight}px">	
 				<!-- zoom buttons-->
 				<div class="map-zoom-wrapper">	
-					<span on:click={zoomIn} class="map-zoom">+</span>
-					<span on:click={zoomOut} class="map-zoom">-</span>	
-				</div>		
+					<div on:click={zoomIn} class="map-zoom">+</div>
+					<div on:click={zoomOut} class="map-zoom">‒</div>	
+				</div>
 			</div>
 		</div>
-		<div class = 'sources'>
-			<p>Data Sources: <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>, 
-				<a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al.</a>,
-				DMTI Spatial Inc., CanMap Postal Code Suite (2016, via
-				<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE)</a>, 
-				and <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>
-					Statistics Canada (2006).</a></p>
-		</div>
-</main>
+		
 
 
 <style>
 	#map {
-		width: 80%;
+		width: 100%;
 		height: 100%;
+		max-width: 1200px;
 		margin: 0 auto;
-		border: 1px solid var(--brandBlack);
+		margin-top: 5px;
+		border-top: 1px solid var(--brandGray);
+		border-bottom: 1px solid var(--brandGray);
 		background-color: white;
 		z-index: 1;
 		position:relative;
+	}
+
+	#map:hover {
+		cursor: move;
 	}
 	
 	.container {
@@ -679,66 +688,140 @@
 	}
 	
 	p {
+		font-family: RobotoBold;
 		margin: 0 auto;
 		text-align: left;
 		font-size: 14px;
-		max-width: 1200px;
 		color: var(--brandBlack);
 	}
 
 	.controls {
+		/* background-color: #ccc; */
+		margin: 0 auto;
 		width: 350px;
 		font-size: 12px;
-		position: relative;
-		margin-left: 10%;
-	}
-	
-	/*legend background blocks*/
-	.pmLegend {
-		position: relative;
-		width: 200px;
-		height: 200px;
-		font-size: 12px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	.noLegend {
-		position: relative;
-		width: 200px;
-		height: 200px;
-		font-size: 12px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	
-	/* Styling of legend colours and labels */
-	.pmLegend div span {
-		display: inline-block; 
-		margin: -2px;
-		height: 40px;
-		width: 25px;
-		margin-right: 5px;
+		/* position: relative; */
+		margin-top: -0px;
+		display: flex;
+		align-items: flex-end;
 	}
 
-	.noLegend div span {
-		display: inline-block; 
-		margin: -2px;
-		height: 40px;
-		width: 25px;
-		margin-right: 5px;
-	 } 
+ 	/* Toggle switch styling */
+ 	:root {
+		--accent-color: var(--brandDarkBlue);
+	}
 
+	.toggle button:hover {
+        cursor: pointer;
+		background-color:lightgray;
+    }
+
+	.toggle button {
+        padding: 0px;
+		margin-top: 0px;
+		height: 35px;
+		min-width: 110px;
+        background-color: #fff;
+        border: 1px solid #cdcdcd;
+		border-radius: 5px;
+    }
+   
+    .toggle button span {
+        pointer-events:none;
+        padding: 6px;
+		padding-bottom: 10px;
+    }
+
+
+    /* .toggle button:focus {
+		outline: var(--accent-color) solid 1px;
+    } */
+
+	[role='switch'][aria-checked='false'] :first-child {
+        background: var(--accent-color);
+        display: inline-block;
+		color: #fff;
+		border-radius: 5px;
+		height: 12px;
+		min-width: 40px;
+    }
+
+    [role='switch'][aria-checked='true'] :last-child {
+        background: var(--accent-color);
+        display: inline-block;
+		color: #fff;
+		border-radius: 5px;
+		height: 12px;
+		min-width: 40px;
+    }
+
+    /* .toggle button:focus {
+        box-shadow: 0 0px 8px var(--accent-color);
+        border-radius: 0.1em;
+    } */
+
+	/* drop down menu for cities */
 	#select-wrapper {
 		z-index: 5;
-		margin-top: 1px;
+		margin-top: 10px;
+		margin-left: 15px;
 	}
 
 	#select-wrapper:hover {
         cursor: pointer;
     }
 
-	
 
+	/*legend background blocks*/
+	.legend {
+		width: 100%;
+		max-width: 1200px;
+		/* background-color: rgb(237, 237, 237);		 */
+		margin: 0 auto;
+		/* position: relative; */
+		font-size: 12px;
+		/* margin-top: 10px;
+		margin-left: 8.5%; */
+		text-align: left;
+		padding-left: 1px;
+		padding-top: 10px;
+	}
+
+	.legend-text {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.legend-text p {
+		margin: 0; /* Remove default margin on paragraphs */
+		margin-bottom: -2px;
+		font-family: RobotoRegular;
+	}
+
+	.legend-text-left-align {
+		text-align: left;
+		padding-left: 1px;
+	}
+
+	.legend-text-center-align {
+		text-align: center;
+	}
+
+	.legend-text-right-align {
+		text-align: right;
+		padding-right: 2px;
+	}
+
+	/* colour spans (styled for continuous appearance) and labels */
+	.legend div span {
+		display: inline-block; 
+		margin: 0px;
+		padding: 0px;
+		height: 15px;
+		border-right: solid 1px white;
+	}
+
+	/* map zoom controls */
 	.map-zoom-wrapper {
 		margin-top: 5px;
 		margin-left: 5px;
@@ -748,14 +831,20 @@
 	}
 
 	.map-zoom {
-		display: block;
-		position: relative;
-		font-size: 25px;
-		max-width: 25px;
-		min-width: 25px;
-		background-color: var(--brandDarkBlue);
+		/* display: block; */
+		/* position: relative; */
+		padding: 0px;
+		padding-bottom: 3px;
+		padding-left: 1px;
+		margin: 0px;
+		font-size: 23px;
+		width: 25px;
+		height: 25px;
+		overflow: hidden;
+		overflow-y: hidden;
+		background-color: var(--brandGray70);
 		color: white;
-		border: solid 1px var(--brandGray90);
+		border: solid 1px var(--brandWhite);
 		text-align: center;
 		margin: 0 auto;
 		z-index: 2;
@@ -764,50 +853,18 @@
 		cursor: pointer;
 		background-color: var(--brandGray90);
 	}
-    /* Toggle switch styling */
-	:root {
-		--accent-color: var(--brandDarkBlue);
-		--gray: #ccc;
-	}
-
-	.toggle button:hover {
-        cursor: pointer;
-		background-color:lightgray;
-    }
-
-	.toggle button {
-        padding: 3px;
-        background-color: #fff;
-        border: 1px solid var(--gray);
-		border-radius: 50px;
-    }
-   
-    .toggle button span {
-        pointer-events:none;
-        padding: 8px;
-    }
-
-
-    /* .toggle button:focus {
-		outline: var(--accent-color) solid 1px;
-    } */
-
-	[role='switch'][aria-checked='false'] :first-child,
-    [role='switch'][aria-checked='true'] :last-child {
-        background: var(--accent-color);
-        display: inline-block;
-		color: #fff;
-		border-radius: 50px;
-    }
-
-    /* .toggle button:focus {
-        box-shadow: 0 0px 8px var(--accent-color);
-        border-radius: 0.1em;
-    } */
-
+	/* style class for data sources */
 	.sources {
-		margin-left: 3%;
+		max-width: 1200px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding-top: 3px;
 		color: var(--gray);
+		
+	}
+	.sources p {
+		font-family: RobotoRegular;
+		line-height: 16px;
 	}
 
 </style>

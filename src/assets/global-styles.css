@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: Bembo;
-    src: url("BemboStd.otf");
+    font-family: SourceSerif;
+    src: url("source-serif-pro/SourceSerifPro-Regular.otf");
 }
 
 :root {
@@ -48,7 +48,7 @@ main {
     margin: 0 auto;
     padding: 0px;
     width: calc(100%);
-    min-width: 400px;
+    min-width: 360px;
     max-width: 1920px;
     margin-bottom: 100px;
     position: relative;
@@ -57,9 +57,9 @@ main {
 
 .title {
     background-color: none;
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 25px;
     margin-bottom: 0px;
     border-bottom: solid 1px var(--brandBlack);
     position: relative;
@@ -67,18 +67,28 @@ main {
 
 .text {
     background-color: none;
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+.top-image {
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.top-image img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     font-family: TradeGothicBold;
-    font-size: 34px;
+    font-size: 36px;
     color: var(--brandBlack);
-    border-bottom: solid 1px var(--brandBlack);
+    border-bottom: solid 1px var(--brandGray);
     text-decoration: none;
     margin-bottom: 20px;
     padding: 0px;
@@ -96,17 +106,18 @@ h2 {
 h3 {
     text-align: left;
     font-family: TradeGothicBold;
-    font-size: 22px;
-    text-decoration: underline;
+    font-size: 24px;
+    border-bottom: solid 1px var(--brandGray);
+    /* text-decoration: underline; */
     color: var(--brandBlack);
 }
 
 p {
-    font-family: RobotoRegular;
+    font-family: SourceSerif;
     color: var(--brandBlack);
     text-align: left;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 a {
