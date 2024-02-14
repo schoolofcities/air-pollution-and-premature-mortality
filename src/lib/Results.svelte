@@ -193,124 +193,37 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 
 <div class="results">
 
-	<div class="scenario" id="baseline">
-
-		<h3>Baseline</h3>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Total Premature Deaths</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-baseline">{data.Baseline.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="scenario" id="target">
-
-		<h3>Reducing air pollutant levels to air quality standard targets</h3>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Total Premature Deaths</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-number">{data.Target.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Estimated Lives Saved</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-saved">{(data.Baseline - data.Target).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="scenario" id="amb10">
-
-		<h3>10% reduction + capping at the ambient air quality standards</h3>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Total Premature Deaths</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-number">{data.AMB10.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Estimated Lives Saved</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-saved">{(data.Baseline - data.AMB10).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="scenario" id="amb25">
-
-		<h3>25% reduction + capping at the ambient air quality standards</h3>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Total Premature Deaths</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-number">{data.AMB25.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-		<div class="scenario-text-wrapper">
-
-			<div class="scenario-text">
-				<p class="scenario-label">Estimated Lives Saved</p>
-				<p class="scenario-description">(per 100,000 people)</p>
-			</div>
-
-			<div class="scenario-total">
-				<p class="scenario-saved">{(data.Baseline - data.AMB25).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
-			</div>
-
-		</div>
-
-	</div>
-
+	<table>
+		<tr class = column-header style = "text-align: left">
+		  <th>Scenario</th>
+		  <th >Premature<br>deaths</th>
+		  <th>Estimated<br>lives saved</th>
+		</tr>
+		<tr class = deaths>
+			<th></th>
+			<th colspan = "2" class = "column-header" style = "font-size: 12px; font-style: italic">Per 100,000 people</th>
+		</tr>
+		<tr class>
+			<td id = "baseline" class = "scenario-label" style="width: 220px">Baseline</td>
+			<td class = "scenario-baseline">{data.Baseline.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
+		  </tr>
+		<tr>
+		  <td id = "target" class = "scenario-label" style="width: 220px">Reducing air pollutant levels to air quality standard targets</td>
+		  <td class = "scenario-number">{data.Target.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
+		  <td class = "scenario-saved">{(data.Baseline - data.Target).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
+		</tr>
+		<tr>
+		  <td id = "amb10" class = "scenario-label" style="width: 220px">10% reduction + capping at the ambient air quality standards</td> 
+		  <td class = "scenario-number">{data.AMB10.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
+		  <td class = "scenario-saved">{(data.Baseline - data.AMB10).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
+		</tr>
+		<tr>
+			<td id = "amb25" class = "scenario-label" style="width: 220px">25% reduction + capping at the ambient air quality standards</td>
+			<td class = "scenario-number"> {data.AMB25.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
+			<td class = "scenario-saved">{(data.Baseline - data.AMB25).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
+		  </tr>
+	  </table>
 	
-
-
 </div>
 
 
@@ -325,16 +238,21 @@ p {
 	margin-top: 5px;
 }
 
-h3 {
+table {
+  border-collapse:separate;
+  border-spacing: 15px 15px;
+}
+
+/* h3 {
 	font-family: RobotoBold;
 	font-size: 19px;
 	font-style: italic;
 	margin-bottom: 15px;
 	color: var(--brandBlack);
 	border-bottom: solid 1px var(--brandGray);
-}
+} */
 
-.scenario {
+/* .scenario {
 	padding-left: 20px;
 	margin-left: 5px;
 	margin-right: 25px;
@@ -353,41 +271,59 @@ h3 {
 .scenario-total {
 	text-align: right;
 }
-.scenario-label {
-	font-family: RobotoRegular;
-	font-size: 18px;
-}
+
 .scenario-description {
 	margin-top: -5px;
 	font-family: RobotoRegular;
 	font-size: 13px;
 	color: var(--brandGray70);
 }
+
+*/
+.column-header {
+	font-family: RobotoRegular;
+	font-size: 16px;
+	margin-bottom: 15px;
+	color: var(--brandBlack);
+	vertical-align: bottom;
+}
+.scenario-label {
+	font-family: RobotoRegular;
+	font-size: 16px;
+	border-top: solid 1px #f7f7f7;
+}
 .scenario-baseline {
-	font-size: 30px;
+	font-size: 25px;
 	color: var(--brandRed);
+	border-top: solid 1px #f7f7f7;
 }
 .scenario-number {
-	font-size: 30px;
+	font-size: 25px;
 	color: var(--brandGray80);
+	border-top: solid 1px #f7f7f7;
 }
 .scenario-saved {
-	font-size: 30px;
+	font-size: 25px;
 	color: var(--brandMedGreen);
+	border-top: solid 1px #f7f7f7;
 }
 
 #baseline {
 	border-left: solid 5px var(--brandRed);
+	padding-left:10px;
 }
 #target {
 	border-left: solid 5px var(--brandYellow);
+	padding-left:10px;
 }
 #amb10 {
 	border-left: solid 5px var(--brandLightBlue);
+	padding-left:10px;
 }
 #amb25 {
 	border-left: solid 5px var(--brandMedBlue);
-}
+	padding-left:10px;
+} 
 
 .select-inputs {
 	margin: 0 auto;
@@ -404,6 +340,12 @@ h3 {
   	.select-wrapper {
 		width: 48%; /* Adjust the width as needed */
   	}
+	.results {
+		margin: 0 auto;
+		width: 460px;
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 </style>
