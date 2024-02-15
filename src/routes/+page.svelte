@@ -17,24 +17,6 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-	<title>Air Pollution and Premature Mortality | School of Cities</title>
-	<meta name="description" content="Air Pollution and Premature Mortality">
-	<meta name="author" content="Jeff Allen">
-
-	<meta property="og:title" content="Air Pollution and Premature Mortality" />
-	<meta property="og:description" content="Air Pollution and Premature Mortality" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://schoolofcities.github.io/air-pollution-and-premature-mortality/" />
-	<meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/air-pollution-and-premature-mortality/main/static/web-card.png" />
-	<meta property="og:locale" content="en_CA">
-
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="https://schoolofcities.github.io/air-pollution-and-premature-mortality/" />
-	<meta name="twitter:creator" content="@JeffAllenMaps" />
-	<meta name="twitter:title" content="Air Pollution and Premature Mortality" />
-	<meta name="twitter:description" content="Air Pollution and Premature Mortality" />
-	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/air-pollution-and-premature-mortality/main/static/web-card.png" /> 
-
 </svelte:head>
 
 
