@@ -1,6 +1,6 @@
 <script>
 	import {onMount} from 'svelte';
-	import maplibregl from 'maplibre-gl';
+	import maplibregl, { ScaleControl } from 'maplibre-gl';
 	import Select from "svelte-select";
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
@@ -246,7 +246,7 @@
 						"id": "bg",
 						"type": "background",
 						"paint": {
-							"background-color": "#f5f5f5",
+							"background-color": "#ebe8e8",
 							"background-opacity": 1
 						}
 					}
@@ -286,17 +286,7 @@
 				"paint": {
 					"line-color": "white",
 					"line-opacity": 0.65,
-					"line-width": [
-						"interpolate",
-						[
-							"exponential",
-							1
-						],
-						[
-							"zoom"
-						],
-						6, 0, 10, 1
-					]
+					"line-width": 1
 				}
 			});
 
