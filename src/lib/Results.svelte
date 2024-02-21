@@ -118,7 +118,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 	</div>
 
 	<div class="select-wrapper">
-		<p>Pollution Type</p>	
+		<p>Air Pollutants</p>	
 		<Select
 			id="select"
 			items={pollutionAll}
@@ -196,8 +196,8 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 	<table>
 		<tr class = column-header style = "text-align: left">
 			<th>Scenario</th>
-			<th >Premature<br>Deaths</th>
-			<th>Estimated<br>Lives Saved</th>
+			<th class = "column-header-right">Predicted Premature<br>Deaths</th>
+			<th class = "column-header-right">Estimated<br>Lives Saved</th>
 		</tr>
 		<tr class = deaths>
 			<th></th>
@@ -252,6 +252,11 @@ table {
 	color: var(--brandBlack);
 	vertical-align: bottom;
 }
+
+.column-header-right {
+	padding-left: 9px;
+}
+
 .scenario-label {
 	font-family: RobotoRegular;
 	font-size: 15px;

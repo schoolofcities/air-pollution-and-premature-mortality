@@ -5,14 +5,12 @@
 	import cma2006 from '../data/2006cmas33.geo.json';
 	import cmaSummary from "../data/cma-summary.json";
 
-	// pmtiles style loading
-	import layers from 'protomaps-themes-base';
-
-	// let PMTILES_URL = "https://build.protomaps.com/20240123.pmtiles?key=30ce074e38619138";
-	// let protocol = new pmtiles.Protocol();
-	// maplibregl.addProtocol('pmtiles', protocol.tile);
-
-
+	// console logging what protomaps layers are available
+	// import layers from 'protomaps-themes-base';
+	// let protoLayers = layers("protomaps","white");
+	// console.log(protoLayers);
+	
+	
 	let pageHeight;
 	let pageWidth;
 	
@@ -34,6 +32,7 @@
 
  
 	//alphabetize CMAs so the desired CMA is easy to find in the dropdown
+
 	let cmaAll = cmaSummary
 	.sort( function (a, b) { 
 		return a.cmaname < b.cmaname ? -1 : 1;
@@ -67,7 +66,6 @@
 		map.setBearing(0);
 		map.setPitch(0);
 		map.panTo([cmaX, cmaY]);
-
 	}	
 
 	// function for loading new vector data if the cmaname changes
@@ -83,12 +81,11 @@
 		}
 		
 	}
-    
-	// so the above function runs automatically if cmanameSelected changes
+	
+	// make above function runs automatically if cmanameSelected changes
 	$: {
-        loadCMA(cmanameSelected);
-    }
-
+		loadCMA(cmanameSelected);
+	}
 
 	// function for changing the source and layer on the map when new data is loaded
 	function layerSet(cmaname) {
@@ -258,9 +255,7 @@
 		map.touchZoomRotate.disableRotation();
 		map.scrollZoom.disable();
 
-		// console logging what protomaps layers are available // can remove this later
-		let protoLayers = layers("protomaps","white");
-		console.log(protoLayers);
+		
 
 
 		// initial layers to load on the map (water, roads)
@@ -321,241 +316,7 @@
 			
 			});
 
-			map.addLayer({
-				
-				"id": "places_locality",
-				"type": "symbol",
-				"source": "protomaps",
-				"source-layer": "places",
-				"filter": [
-					"==",
-					"pmap:kind",
-					"locality"
-				],
-				"layout": {
-					"text-field": "{name}",
-					"text-font": [
-					"case",
-					[
-						"<=",
-						[
-						"get",
-						"pmap:min_zoom"
-						],
-						5
-					],
-					[
-						"literal",
-						[
-						"TradeGothic LT Regular"
-						]
-					],
-					[
-						"literal",
-						[
-						"TradeGothic LT Regular"
-						]
-					]
-					],
-					"text-padding": [
-					"interpolate",
-					[
-						"linear"
-					],
-					[
-						"zoom"
-					],
-					5,
-					3,
-					8,
-					7,
-					12,
-					11
-					],
-					"text-size": [
-					"interpolate",
-					[
-						"linear"
-					],
-					[
-						"zoom"
-					],
-					2,
-					[
-						"case",
-						[
-						"<",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						13
-						],
-						8,
-						[
-						">=",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						13
-						],
-						13,
-						0
-					],
-					4,
-					[
-						"case",
-						[
-						"<",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						13
-						],
-						10,
-						[
-						">=",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						13
-						],
-						15,
-						0
-					],
-					6,
-					[
-						"case",
-						[
-						"<",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						12
-						],
-						11,
-						[
-						">=",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						12
-						],
-						17,
-						0
-					],
-					8,
-					[
-						"case",
-						[
-						"<",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						11
-						],
-						11,
-						[
-						">=",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						11
-						],
-						18,
-						0
-					],
-					10,
-					[
-						"case",
-						[
-						"<",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						9
-						],
-						12,
-						[
-						">=",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						9
-						],
-						20,
-						0
-					],
-					15,
-					[
-						"case",
-						[
-						"<",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						8
-						],
-						12,
-						[
-						">=",
-						[
-							"get",
-							"pmap:population_rank"
-						],
-						8
-						],
-						22,
-						0
-					]
-					],
-					"icon-padding": [
-					"interpolate",
-					[
-						"linear"
-					],
-					[
-						"zoom"
-					],
-					0,
-					2,
-					8,
-					4,
-					10,
-					8,
-					12,
-					6,
-					22,
-					2
-					],
-					"text-anchor": [
-					"step",
-					[
-						"zoom"
-					],
-					"left",
-					8,
-					"center"
-					],
-					"text-radial-offset": 0.2
-				},
-				"paint": {
-					"text-color": "#4d4d4d",
-					"text-halo-color": "#ffffff",
-					"text-halo-width": 1
-				}
-
-			});
+			map.addLayer({"id":"places_locality","type":"symbol","source":"protomaps","source-layer":"places","filter":["==","pmap:kind","locality"],"layout":{"text-field":"{name}","text-font":["case",["<=",["get","pmap:min_zoom"],5],["literal",["TradeGothic LT Regular"]],["literal",["TradeGothic LT Regular"]]],"text-padding":["interpolate",["linear"],["zoom"],5,3,8,7,12,11],"text-size":["interpolate",["linear"],["zoom"],2,["case",["<",["get","pmap:population_rank"],13],8,[">=",["get","pmap:population_rank"],13],13,0],4,["case",["<",["get","pmap:population_rank"],13],10,[">=",["get","pmap:population_rank"],13],15,0],6,["case",["<",["get","pmap:population_rank"],12],11,[">=",["get","pmap:population_rank"],12],17,0],8,["case",["<",["get","pmap:population_rank"],11],11,[">=",["get","pmap:population_rank"],11],18,0],10,["case",["<",["get","pmap:population_rank"],9],12,[">=",["get","pmap:population_rank"],9],20,0],15,["case",["<",["get","pmap:population_rank"],8],12,[">=",["get","pmap:population_rank"],8],22,0]],"icon-padding":["interpolate",["linear"],["zoom"],0,2,8,4,10,8,12,6,22,2],"text-anchor":["step",["zoom"],"left",8,"center"],"text-radial-offset":0.2},"paint":{"text-color":"#4d4d4d","text-halo-color":"#ffffff","text-halo-width":1}});
 
 			layerSet(cmanameSelected);
 
@@ -584,7 +345,7 @@
 	<div class = controls>
 		<!-- air pollution toggle button-->
 		<div class="toggle">
-			<p>Air Pollution Type:</p>
+			<p>Air Pollutant:</p>
 			<button role="switch" aria-checked={checked} on:click={handleClick}>
 					<span>PM2.5</span>
 					<span>NO2</span>
@@ -640,17 +401,15 @@
 		</div>
 	</div>
 
-
-
-		<div class = 'container'>
-			<div id="map" class="map" style="height: {mapHeight}px">	
-				<!-- zoom buttons-->
-				<div class="map-zoom-wrapper">	
-					<div on:click={zoomIn} class="map-zoom">+</div>
-					<div on:click={zoomOut} class="map-zoom">‒</div>	
-				</div>
+	<div class = 'container'>
+		<div id="map" class="map" style="height: {mapHeight}px">	
+			<!-- zoom buttons-->
+			<div class="map-zoom-wrapper">	
+				<div on:click={zoomIn} class="map-zoom">+</div>
+				<div on:click={zoomOut} class="map-zoom">‒</div>	
 			</div>
 		</div>
+	</div>
 		
 
 
@@ -701,53 +460,53 @@
 	}
 
 	.toggle button:hover {
-        cursor: pointer;
+		cursor: pointer;
 		background-color:lightgray;
-    }
+	}
 
 	.toggle button {
-        padding: 0px;
+		padding: 0px;
 		margin-top: 0px;
 		height: 35px;
 		min-width: 110px;
-        background-color: #fff;
-        border: 1px solid #cdcdcd;
+		background-color: #fff;
+		border: 1px solid #cdcdcd;
 		border-radius: 5px;
-    }
+	}
    
-    .toggle button span {
-        pointer-events:none;
-        padding: 6px;
+	.toggle button span {
+		pointer-events:none;
+		padding: 6px;
 		padding-bottom: 10px;
-    }
+	}
 
 
-    /* .toggle button:focus {
+	/* .toggle button:focus {
 		outline: var(--accent-color) solid 1px;
-    } */
+	} */
 
 	[role='switch'][aria-checked='false'] :first-child {
-        background: var(--accent-color);
-        display: inline-block;
+		background: var(--accent-color);
+		display: inline-block;
 		color: #fff;
 		border-radius: 5px;
 		height: 12px;
 		min-width: 40px;
-    }
+	}
 
-    [role='switch'][aria-checked='true'] :last-child {
-        background: var(--accent-color);
-        display: inline-block;
+	[role='switch'][aria-checked='true'] :last-child {
+		background: var(--accent-color);
+		display: inline-block;
 		color: #fff;
 		border-radius: 5px;
 		height: 12px;
 		min-width: 40px;
-    }
+	}
 
-    /* .toggle button:focus {
-        box-shadow: 0 0px 8px var(--accent-color);
-        border-radius: 0.1em;
-    } */
+	/* .toggle button:focus {
+		box-shadow: 0 0px 8px var(--accent-color);
+		border-radius: 0.1em;
+	} */
 
 	/* drop down menu for cities */
 	#select-wrapper {
@@ -757,8 +516,8 @@
 	}
 
 	#select-wrapper:hover {
-        cursor: pointer;
-    }
+		cursor: pointer;
+	}
 
 
 	/*legend background blocks*/
