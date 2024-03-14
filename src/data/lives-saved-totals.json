@@ -1,0 +1,107 @@
+[
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "Baseline",
+	  "Female": 0,
+	  "Male": 0,
+	  "All": 0
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "Target",
+	  "Female": 566,
+	  "Male": 364,
+	  "All": 930
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "AMB10",
+	  "Female": 1335,
+	  "Male": 810,
+	  "All": 2145
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "AMB25",
+	  "Female": 2475,
+	  "Male": 1478,
+	  "All": 3953
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "AMB50",
+	  "Female": 4094,
+	  "Male": 2451,
+	  "All": 6545
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "Baseline",
+	  "Female": 0,
+	  "Male": 0,
+	  "All": 0
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "Target",
+	  "Female": 13,
+	  "Male": 13,
+	  "All": 26
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "AMB10",
+	  "Female": 562,
+	  "Male": 334,
+	  "All": 896
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "AMB25",
+	  "Female": 1388,
+	  "Male": 823,
+	  "All": 2211
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "AMB50",
+	  "Female": 2751,
+	  "Male": 1639,
+	  "All": 4390
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "Baseline",
+	  "Female": 0,
+	  "Male": 0,
+	  "All": 0
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "Target",
+	  "Female": 555,
+	  "Male": 353,
+	  "All": 908
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "AMB10",
+	  "Female": 866,
+	  "Male": 531,
+	  "All": 1397
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "AMB25",
+	  "Female": 1471,
+	  "Male": 879,
+	  "All": 2350
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "AMB50",
+	  "Female": 2752,
+	  "Male": 1640,
+	  "All": 4392
+	}
+   ]

@@ -16,8 +16,6 @@ let sexSelected = "All";
 let pollutionSelected = "PM2.5 and NO2"
 let ageSelected = "All Ages"
 
-// log what is selected
-console.log(predictedDeaths);
 
 // update variables when selected
 function selectCmaValue(e) {

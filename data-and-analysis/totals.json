@@ -1,0 +1,107 @@
+[
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "Baseline",
+	  "Saved.Female": 0,
+	  "Saved.Male": 0,
+	  "Saved.Total": 0
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "Target",
+	  "Saved.Female": 566,
+	  "Saved.Male": 364,
+	  "Saved.Total": 930
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "AMB10",
+	  "Saved.Female": 1335,
+	  "Saved.Male": 810,
+	  "Saved.Total": 2145
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "AMB25",
+	  "Saved.Female": 2475,
+	  "Saved.Male": 1478,
+	  "Saved.Total": 3953
+	},
+	{
+	  "Pollutant": "PM2.5 and NO2",
+	  "Intervention": "AMB50",
+	  "Saved.Female": 4094,
+	  "Saved.Male": 2451,
+	  "Saved.Total": 6545
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "Baseline",
+	  "Saved.Female": 0,
+	  "Saved.Male": 0,
+	  "Saved.Total": 0
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "Target",
+	  "Saved.Female": 13,
+	  "Saved.Male": 13,
+	  "Saved.Total": 26
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "AMB10",
+	  "Saved.Female": 562,
+	  "Saved.Male": 334,
+	  "Saved.Total": 896
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "AMB25",
+	  "Saved.Female": 1388,
+	  "Saved.Male": 823,
+	  "Saved.Total": 2211
+	},
+	{
+	  "Pollutant": "PM2.5",
+	  "Intervention": "AMB50",
+	  "Saved.Female": 2751,
+	  "Saved.Male": 1639,
+	  "Saved.Total": 4390
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "Baseline",
+	  "Saved.Female": 0,
+	  "Saved.Male": 0,
+	  "Saved.Total": 0
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "Target",
+	  "Saved.Female": 555,
+	  "Saved.Male": 353,
+	  "Saved.Total": 908
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "AMB10",
+	  "Saved.Female": 866,
+	  "Saved.Male": 531,
+	  "Saved.Total": 1397
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "AMB25",
+	  "Saved.Female": 1471,
+	  "Saved.Male": 879,
+	  "Saved.Total": 2350
+	},
+	{
+	  "Pollutant": "NO2",
+	  "Intervention": "AMB50",
+	  "Saved.Female": 2752,
+	  "Saved.Male": 1640,
+	  "Saved.Total": 4392
+	}
+   ]
