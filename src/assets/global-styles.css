@@ -65,6 +65,11 @@ main {
     position: relative;
 }
 
+.title p {
+    line-height: 22px;
+    font-size: 15px;
+}
+
 .text {
     background-color: none;
     max-width: 600px;
@@ -90,7 +95,8 @@ h1 {
     color: var(--brandBlack);
     border-bottom: solid 1px var(--brandGray);
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 0px;
 }
 
@@ -115,16 +121,16 @@ p {
     font-family: SourceSerif;
     color: var(--brandBlack);
     text-align: left;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height: 28px;
 }
 
 a {
-    color: var(--brandPink);
+    color: var(--brandDarkBlue);
     text-decoration: underline;
-    font-family: RobotoBold;
+    font-family: SourceSerif;
 }
 
 a:hover {
-    color: var(--brandLightBlue);
+    color: var(--brandMedBlue);
 }

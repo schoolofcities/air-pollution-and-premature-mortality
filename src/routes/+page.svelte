@@ -34,7 +34,11 @@
 
 		<div class="title">
 			<h1>Air Pollution and Premature Mortality </h1>
-			<p>Author Names, Date, Funding Notes, etc.</p>
+			<p><b><u>Research</u></b>: Sabrina Chiodo; Lief Pagalan; Mackenzie Hurst; Meghan O’Neill; Helen Stylianou; Lori M. Diemert; Hong Chen; Jeffrey R. Brook; Andy Hong; Laura C. Rosella<br>
+			<b><u>Writing</u></b>: Konstantine Diochnos
+			<br>
+			<b><u>Maps & Graphics</u></b>: Jeff Allen, Emily Sakaguchi</p>
+			<p>Funded by a <a href="https://schoolofcities.utoronto.ca/programs-opportunities/urban-challenge-grant/" target = 'blank'>School of Cities Urban Challenge Grant</a>. Read the full paper here.</p>
 		</div>
 
 		<p>
