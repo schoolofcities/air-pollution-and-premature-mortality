@@ -57,7 +57,7 @@ main {
 
 .title {
     background-color: none;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 0px;
@@ -66,13 +66,13 @@ main {
 }
 
 .title p {
-    line-height: 22px;
+    line-height: 25px;
     font-size: 15px;
 }
 
 .text {
     background-color: none;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     position: relative;
     padding-left: 15px;
@@ -91,7 +91,7 @@ main {
 
 h1 {
     font-family: TradeGothicBold;
-    font-size: 36px;
+    font-size: 38px;
     color: var(--brandBlack);
     border-bottom: solid 1px var(--brandGray);
     text-decoration: none;
@@ -103,7 +103,7 @@ h1 {
 h2 {
     text-align: left;
     font-family: TradeGothicBold;
-    font-size: 22px;
+    font-size: 32px;
     border-bottom: solid 1px var(--brandBlack);
     margin-top: 0px;
     color: var(--brandBlack);
@@ -112,7 +112,7 @@ h2 {
 h3 {
     text-align: left;
     font-family: TradeGothicBold;
-    font-size: 24px;
+    font-size: 25px;
     border-bottom: solid 1px var(--brandGray);
     color: var(--brandBlack);
 }
@@ -121,8 +121,8 @@ p {
     font-family: SourceSerif;
     color: var(--brandBlack);
     text-align: left;
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 a {

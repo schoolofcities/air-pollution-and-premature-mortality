@@ -51,10 +51,73 @@ $: xScale = scaleLinear()
 
 
 
+
+
+<div class="chart-wrapper" bind:offsetWidth={width}>
+
+	
+
+	<!-- <svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg">
+		<rect y="10" width="100%" height="1" style="fill:lightgrey"/>
+	</svg> -->
+
+	<!-- <p id="chart-title">
+		Estimated Total Lives Saved by Scenario:
+	</p> -->
+
+	<div style="border-left: solid 5px #F1C500; padding-left: 10px;">
+		<p>
+			Reducing air pollutant levels to air quality standard targets
+		</p>
+		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
+			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=8 width="{xScale(data[1][sexSelected])}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{xScale(data[1][sexSelected]) + 4}" y="26">{data[1][sexSelected]}</text>
+		</svg>
+	</div>
+	
+	<div style="border-left: solid 5px #6FC7EA; padding-left: 10px;">
+		<p>
+			10% reduction + capping at the ambient air quality standards
+		</p>
+		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
+			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=8 width="{xScale(data[2][sexSelected])}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{xScale(data[2][sexSelected]) + 4}" y="26">{data[2][sexSelected].toLocaleString()}</text>
+		</svg>
+	</div>
+
+	<div style="border-left: solid 5px #007FA3; padding-left: 10px;">
+		<p>
+			25% reduction + capping at the ambient air quality standards
+		</p>
+		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
+			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=8 width="{xScale(data[3][sexSelected])}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{xScale(data[3][sexSelected]) + 4}" y="26">{data[3][sexSelected].toLocaleString()}</text>
+		</svg>
+	</div>
+
+	<div style="border-left: solid 5px #1E3765; padding-left: 10px;">
+		<p>
+			50% reduction + capping at the ambient air quality standards
+		</p>
+		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
+			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=8 width="{xScale(data[4][sexSelected])}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{xScale(data[4][sexSelected]) + 4}" y="26">{data[4][sexSelected].toLocaleString()}</text>
+		</svg>
+	</div>
+
+	
+
+</div>
+
+
 <div class="select-inputs">
 
 	<div class="select-wrapper">
-		<p>Air Pollutants</p>
+		<p>Select Air Pollutants</p>
 		<Select
 			id="select"
 			items={pollutionAll}
@@ -78,7 +141,7 @@ $: xScale = scaleLinear()
 	</div>
 
 	<div class="select-wrapper">
-		<p>Sex</p>	
+		<p>Select Sex</p>	
 		<Select
 			id="select"
 			items={sexAll}
@@ -101,126 +164,81 @@ $: xScale = scaleLinear()
 		/>
 	</div>
 
-</div>
-
-<div class="chart-wrapper" bind:offsetWidth={width}>
-
-	
-
-	<svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg">
-		<rect y="10" width="100%" height="1" style="fill:lightgrey"/>
-	</svg>
-
-	<p id="chart-title">
-		Estimated Total Lives Saved by Scenario:
-	</p>
-
-	<div style="border-left: solid 5px #F1C500; padding-left: 10px;">
-		<p>
-			Reducing air pollutant levels to air quality standard targets
-		</p>
-		<svg width="100%" height="20" xmlns="http://www.w3.org/2000/svg">
-			<rect y=5 width="{xScale(data[1][sexSelected])}" height="12" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[1][sexSelected]) + 4}" y="20">{data[1][sexSelected]}</text>
-		</svg>
-	</div>
-	
-	<div style="border-left: solid 5px #6FC7EA; padding-left: 10px;">
-		<p>
-			10% reduction + capping at the ambient air quality standards
-		</p>
-		<svg width="100%" height="20" xmlns="http://www.w3.org/2000/svg">
-			<rect y=5 width="{xScale(data[2][sexSelected])}" height="12" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[2][sexSelected]) + 4}" y="20">{data[2][sexSelected]}</text>
-		</svg>
-	</div>
-
-	<div style="border-left: solid 5px #007FA3; padding-left: 10px;">
-		<p>
-			25% reduction + capping at the ambient air quality standards
-		</p>
-		<svg width="100%" height="20" xmlns="http://www.w3.org/2000/svg">
-			<rect y=5 width="{xScale(data[3][sexSelected])}" height="12" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[3][sexSelected]) + 4}" y="20">{data[3][sexSelected]}</text>
-		</svg>
-	</div>
-
-	<div style="border-left: solid 5px #1E3765; padding-left: 10px;">
-		<p>
-			50% reduction + capping at the ambient air quality standards
-		</p>
-		<svg width="100%" height="20" xmlns="http://www.w3.org/2000/svg">
-			<rect y=5 width="{xScale(data[4][sexSelected])}" height="12" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[4][sexSelected]) + 4}" y="20">{data[4][sexSelected]}</text>
-		</svg>
-	</div>
-
-	<svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg">
-		<rect y="10" width="100%" height="1" style="fill:lightgrey"/>
+	<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
+		<rect y="15" width="100%" height="1" style="fill:lightgrey"/>
 	</svg>
 
 </div>
+
+
 
 
 
 
 <style>
 
+	.select-wrapper {
+		width: 100%;
+		margin-bottom: 0px;
+	}
+
 	.select-wrapper p {
 		font-family: RobotoBold;
-		font-size: 14px;
+		font-size: 16px;
 		margin: 0px;
 		margin-top: 5px;
 	}
 
 	.select-inputs {
-		margin: 0 auto;
-		width: 230px;
+		/* margin: 0 auto; */
+		width: 100%;
 	}
 	@media screen and (min-width: 500px) {
 		.select-inputs {
-			margin: 0 auto;
-			width: 460px;
+			/* margin: 0 auto; */
+			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-between;
+			justify-content: left;
+			float: left;
 		}
 		.select-wrapper {
-			width: 48%; /* Adjust the width as needed */
-		}
-		.results {
-			margin: 0 auto;
-			width: 460px;
-			display: flex;
-			flex-wrap: wrap;
+			width: 220px;
 		}
 	}
 
+	.select-label {
+
+	}
+
+
 	.chart-wrapper {
+		margin-top: -5px;
 		width: 100%;
 	}
 
 	.chart-wrapper p {
 		font-family: RobotoRegular;
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 20px;
 		padding: 0px;
 		margin: 0px;
 		margin-top: 10px;
-		margin-bottom: 2px;
+		margin-bottom: 5px;
 	}
 
 	#chart-title {
 		font-family: RobotoBold;
-		font-size: 16px;
+		font-size: 18px;
 		color: var(--brandBlack);
 		vertical-align: bottom;
+		margin-bottom: 20px;
 	}
 
 
 	.scenario-saved {
 		font-family: RobotoBold;
-		font-size: 25px;
+		font-size: 28px;
 		fill: var(--brandMedGreen);
 	}
 
