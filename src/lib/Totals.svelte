@@ -25,8 +25,6 @@ function selectPollutionValue(e) {
 }
 
 
-console.log(livesSaved);
-
 // updating the data for charting:
 
 let data = livesSaved;

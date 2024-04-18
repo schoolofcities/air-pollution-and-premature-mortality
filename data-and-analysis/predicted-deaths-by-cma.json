@@ -1,0 +1,8162 @@
+[
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3190
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3190
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3180
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3170
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3150
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3190
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3190
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3180
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3180
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3170
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3190
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3190
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3180
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3180
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Male",
+   "Pop": 142610,
+   "Predicted Premature Death": 3170
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2610
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2590
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2610
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2590
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2610
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2610
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2600
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Male",
+   "Pop": 46570,
+   "Predicted Premature Death": 2590
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1770
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1740
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1770
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1770
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1770
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Male",
+   "Pop": 510250,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2010
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Male",
+   "Pop": 187785,
+   "Predicted Premature Death": 2010
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2240
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2240
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Male",
+   "Pop": 262015,
+   "Predicted Premature Death": 2240
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2170
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2160
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2170
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2170
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2160
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2180
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2170
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Male",
+   "Pop": 1463015,
+   "Predicted Premature Death": 2160
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2200
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Male",
+   "Pop": 44495,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2570
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2570
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2560
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2570
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2570
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2580
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2570
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Male",
+   "Pop": 57785,
+   "Predicted Premature Death": 2570
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2270
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Male",
+   "Pop": 133295,
+   "Predicted Premature Death": 2260
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1940
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1930
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1920
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1920
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1900
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1940
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1930
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1930
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1920
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1910
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1940
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1940
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1930
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1920
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Male",
+   "Pop": 2103235,
+   "Predicted Premature Death": 1910
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1810
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1800
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1810
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Male",
+   "Pop": 901785,
+   "Predicted Premature Death": 1810
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2320
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2320
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2310
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2310
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2300
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2320
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2320
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2310
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2310
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2300
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2320
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2320
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2310
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2310
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 2300
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2420
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2400
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2390
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2420
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2400
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2420
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2420
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2410
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Male",
+   "Pop": 132910,
+   "Predicted Premature Death": 2400
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2950
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2950
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2950
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2960
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Male",
+   "Pop": 147810,
+   "Predicted Premature Death": 2950
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3300
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3290
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3280
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3300
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3300
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3290
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3300
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3300
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Male",
+   "Pop": 59240,
+   "Predicted Premature Death": 3290
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2040
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2040
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2040
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Male",
+   "Pop": 291385,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1400
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1390
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1400
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1400
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1410
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Male",
+   "Pop": 84440,
+   "Predicted Premature Death": 1400
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3020
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3000
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 2990
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3020
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3020
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3020
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3010
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Male",
+   "Pop": 42420,
+   "Predicted Premature Death": 3000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 2000
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1970
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 2000
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 2000
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 2000
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1990
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Male",
+   "Pop": 278060,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3330
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3320
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3290
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3270
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3330
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3320
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3320
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3290
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3330
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3330
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3320
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3310
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Male",
+   "Pop": 116620,
+   "Predicted Premature Death": 3290
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1860
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1840
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1860
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1840
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1860
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1860
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1850
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Male",
+   "Pop": 484385,
+   "Predicted Premature Death": 1840
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2700
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2700
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2690
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2690
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2680
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2700
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2700
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2690
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2690
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2680
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2700
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2700
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2690
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2690
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Male",
+   "Pop": 59850,
+   "Predicted Premature Death": 2680
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2070
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2060
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2050
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2070
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2070
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2060
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2070
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2070
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Male",
+   "Pop": 54065,
+   "Predicted Premature Death": 2060
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1830
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Male",
+   "Pop": 63160,
+   "Predicted Premature Death": 1820
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Male",
+   "Pop": 471935,
+   "Predicted Premature Death": 1750
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2010
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2010
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2030
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2020
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Male",
+   "Pop": 105005,
+   "Predicted Premature Death": 2010
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2660
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2650
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2650
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2660
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2650
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2670
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2660
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Male",
+   "Pop": 69545,
+   "Predicted Premature Death": 2650
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2090
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Male",
+   "Pop": 75715,
+   "Predicted Premature Death": 2080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3520
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3510
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3500
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3520
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3520
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3510
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3530
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3520
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Male",
+   "Pop": 44020,
+   "Predicted Premature Death": 3510
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2240
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Male",
+   "Pop": 75375,
+   "Predicted Premature Death": 2250
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2210
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2230
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Male",
+   "Pop": 174685,
+   "Predicted Premature Death": 2220
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2760
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2760
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2770
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2760
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Male",
+   "Pop": 52460,
+   "Predicted Premature Death": 2760
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3360
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3360
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3340
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3320
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3360
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3360
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3340
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3330
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3360
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3360
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3340
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Male",
+   "Pop": 56000,
+   "Predicted Premature Death": 3330
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2550
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2520
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2510
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2490
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2550
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2540
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2530
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2530
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2510
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2550
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2530
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2530
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Male",
+   "Pop": 69355,
+   "Predicted Premature Death": 2510
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1970
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1940
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1910
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1970
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1970
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1950
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1930
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1980
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1970
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1950
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "St. Catharines - Niagara",
+   "SEX": "Female",
+   "Pop": 150880,
+   "Predicted Premature Death": 1930
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1580
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1570
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1550
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1580
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1570
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1570
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1550
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1580
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1570
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Brantford",
+   "SEX": "Female",
+   "Pop": 48805,
+   "Predicted Premature Death": 1550
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Calgary",
+   "SEX": "Female",
+   "Pop": 510820,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1230
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Kitchener",
+   "SEX": "Female",
+   "Pop": 191810,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Hamilton",
+   "SEX": "Female",
+   "Pop": 275200,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1360
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1300
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1360
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1340
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1320
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1360
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Montr�al",
+   "SEX": "Female",
+   "Pop": 1515995,
+   "Predicted Premature Death": 1320
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Saint John",
+   "SEX": "Female",
+   "Pop": 47550,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Kingston",
+   "SEX": "Female",
+   "Pop": 60655,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1340
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1320
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1340
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1350
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1340
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Victoria",
+   "SEX": "Female",
+   "Pop": 141495,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1260
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1250
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1240
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1260
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1250
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1250
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1240
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1260
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1260
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1250
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1240
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Toronto",
+   "SEX": "Female",
+   "Pop": 2246140,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Vancouver",
+   "SEX": "Female",
+   "Pop": 951045,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1010
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1010
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1010
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1020
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1010
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1000
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1040
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Oshawa",
+   "SEX": "Female",
+   "Pop": 139375,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Halifax",
+   "SEX": "Female",
+   "Pop": 157300,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1600
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1580
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1600
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1620
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Greater Sudbury / Grand Sudbury",
+   "SEX": "Female",
+   "Pop": 61050,
+   "Predicted Premature Death": 1600
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Qu�bec",
+   "SEX": "Female",
+   "Pop": 298840,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1070
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Regina",
+   "SEX": "Female",
+   "Pop": 85110,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Peterborough",
+   "SEX": "Female",
+   "Pop": 45445,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Winnipeg",
+   "SEX": "Female",
+   "Pop": 285975,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1600
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1570
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1540
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1600
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1560
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1610
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1600
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1590
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Windsor",
+   "SEX": "Female",
+   "Pop": 120410,
+   "Predicted Premature Death": 1560
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1090
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Edmonton",
+   "SEX": "Female",
+   "Pop": 479815,
+   "Predicted Premature Death": 1080
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1520
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1510
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1500
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1520
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1510
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1530
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1520
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Saguenay",
+   "SEX": "Female",
+   "Pop": 58880,
+   "Predicted Premature Death": 1510
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 880
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 870
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 880
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 880
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 890
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 880
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Guelph",
+   "SEX": "Female",
+   "Pop": 56510,
+   "Predicted Premature Death": 880
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1180
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Abbotsford",
+   "SEX": "Female",
+   "Pop": 64390,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1040
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1030
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1040
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1060
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1050
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Ottawa - Gatineau",
+   "SEX": "Female",
+   "Pop": 495995,
+   "Predicted Premature Death": 1040
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1320
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1310
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1290
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1320
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1310
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1330
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1320
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Saskatoon",
+   "SEX": "Female",
+   "Pop": 106375,
+   "Predicted Premature Death": 1310
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 920
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Barrie",
+   "SEX": "Female",
+   "Pop": 72190,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1190
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1220
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1210
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Sherbrooke",
+   "SEX": "Female",
+   "Pop": 78235,
+   "Predicted Premature Death": 1200
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Thunder Bay",
+   "SEX": "Female",
+   "Pop": 44965,
+   "Predicted Premature Death": 1110
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 910
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "St. John's",
+   "SEX": "Female",
+   "Pop": 80355,
+   "Predicted Premature Death": 900
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "London",
+   "SEX": "Female",
+   "Pop": 184560,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 950
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 940
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 950
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 960
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Moncton",
+   "SEX": "Female",
+   "Pop": 54600,
+   "Predicted Premature Death": 950
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1390
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1380
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1360
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1340
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1390
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1380
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1380
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1360
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1390
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1390
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1380
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1370
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Trois-Rivi�res",
+   "SEX": "Female",
+   "Pop": 58110,
+   "Predicted Premature Death": 1360
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1130
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5 and NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1100
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1160
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "NO2",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1120
+ },
+ {
+   "Intervention": "Baseline",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1170
+ },
+ {
+   "Intervention": "Target",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB10",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1150
+ },
+ {
+   "Intervention": "AMB25",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1140
+ },
+ {
+   "Intervention": "AMB50",
+   "Pollution": "PM2.5",
+   "CMA": "Kelowna",
+   "SEX": "Female",
+   "Pop": 72845,
+   "Predicted Premature Death": 1120
+ }
+]

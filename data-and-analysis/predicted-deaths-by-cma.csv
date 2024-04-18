@@ -1,0 +1,1021 @@
+"Intervention","Pollution","CMA","SEX","Pop","Predicted Premature Death"
+"Baseline","PM2.5 and NO2","St. Catharines - Niagara","Male",142610,3190
+"Target","PM2.5 and NO2","St. Catharines - Niagara","Male",142610,3190
+"AMB10","PM2.5 and NO2","St. Catharines - Niagara","Male",142610,3180
+"AMB25","PM2.5 and NO2","St. Catharines - Niagara","Male",142610,3170
+"AMB50","PM2.5 and NO2","St. Catharines - Niagara","Male",142610,3150
+"Baseline","NO2","St. Catharines - Niagara","Male",142610,3190
+"Target","NO2","St. Catharines - Niagara","Male",142610,3190
+"AMB10","NO2","St. Catharines - Niagara","Male",142610,3180
+"AMB25","NO2","St. Catharines - Niagara","Male",142610,3180
+"AMB50","NO2","St. Catharines - Niagara","Male",142610,3170
+"Baseline","PM2.5","St. Catharines - Niagara","Male",142610,3190
+"Target","PM2.5","St. Catharines - Niagara","Male",142610,3190
+"AMB10","PM2.5","St. Catharines - Niagara","Male",142610,3180
+"AMB25","PM2.5","St. Catharines - Niagara","Male",142610,3180
+"AMB50","PM2.5","St. Catharines - Niagara","Male",142610,3170
+"Baseline","PM2.5 and NO2","Brantford","Male",46570,2610
+"Target","PM2.5 and NO2","Brantford","Male",46570,2600
+"AMB10","PM2.5 and NO2","Brantford","Male",46570,2600
+"AMB25","PM2.5 and NO2","Brantford","Male",46570,2590
+"AMB50","PM2.5 and NO2","Brantford","Male",46570,2580
+"Baseline","NO2","Brantford","Male",46570,2610
+"Target","NO2","Brantford","Male",46570,2600
+"AMB10","NO2","Brantford","Male",46570,2600
+"AMB25","NO2","Brantford","Male",46570,2600
+"AMB50","NO2","Brantford","Male",46570,2590
+"Baseline","PM2.5","Brantford","Male",46570,2610
+"Target","PM2.5","Brantford","Male",46570,2610
+"AMB10","PM2.5","Brantford","Male",46570,2600
+"AMB25","PM2.5","Brantford","Male",46570,2600
+"AMB50","PM2.5","Brantford","Male",46570,2590
+"Baseline","PM2.5 and NO2","Calgary","Male",510250,1770
+"Target","PM2.5 and NO2","Calgary","Male",510250,1760
+"AMB10","PM2.5 and NO2","Calgary","Male",510250,1760
+"AMB25","PM2.5 and NO2","Calgary","Male",510250,1750
+"AMB50","PM2.5 and NO2","Calgary","Male",510250,1740
+"Baseline","NO2","Calgary","Male",510250,1770
+"Target","NO2","Calgary","Male",510250,1760
+"AMB10","NO2","Calgary","Male",510250,1760
+"AMB25","NO2","Calgary","Male",510250,1760
+"AMB50","NO2","Calgary","Male",510250,1750
+"Baseline","PM2.5","Calgary","Male",510250,1770
+"Target","PM2.5","Calgary","Male",510250,1770
+"AMB10","PM2.5","Calgary","Male",510250,1760
+"AMB25","PM2.5","Calgary","Male",510250,1760
+"AMB50","PM2.5","Calgary","Male",510250,1750
+"Baseline","PM2.5 and NO2","Kitchener","Male",187785,2030
+"Target","PM2.5 and NO2","Kitchener","Male",187785,2030
+"AMB10","PM2.5 and NO2","Kitchener","Male",187785,2030
+"AMB25","PM2.5 and NO2","Kitchener","Male",187785,2020
+"AMB50","PM2.5 and NO2","Kitchener","Male",187785,2000
+"Baseline","NO2","Kitchener","Male",187785,2030
+"Target","NO2","Kitchener","Male",187785,2030
+"AMB10","NO2","Kitchener","Male",187785,2030
+"AMB25","NO2","Kitchener","Male",187785,2020
+"AMB50","NO2","Kitchener","Male",187785,2010
+"Baseline","PM2.5","Kitchener","Male",187785,2030
+"Target","PM2.5","Kitchener","Male",187785,2030
+"AMB10","PM2.5","Kitchener","Male",187785,2030
+"AMB25","PM2.5","Kitchener","Male",187785,2020
+"AMB50","PM2.5","Kitchener","Male",187785,2010
+"Baseline","PM2.5 and NO2","Hamilton","Male",262015,2260
+"Target","PM2.5 and NO2","Hamilton","Male",262015,2260
+"AMB10","PM2.5 and NO2","Hamilton","Male",262015,2250
+"AMB25","PM2.5 and NO2","Hamilton","Male",262015,2240
+"AMB50","PM2.5 and NO2","Hamilton","Male",262015,2230
+"Baseline","NO2","Hamilton","Male",262015,2260
+"Target","NO2","Hamilton","Male",262015,2260
+"AMB10","NO2","Hamilton","Male",262015,2260
+"AMB25","NO2","Hamilton","Male",262015,2250
+"AMB50","NO2","Hamilton","Male",262015,2240
+"Baseline","PM2.5","Hamilton","Male",262015,2260
+"Target","PM2.5","Hamilton","Male",262015,2260
+"AMB10","PM2.5","Hamilton","Male",262015,2260
+"AMB25","PM2.5","Hamilton","Male",262015,2250
+"AMB50","PM2.5","Hamilton","Male",262015,2240
+"Baseline","PM2.5 and NO2","Montr�al","Male",1463015,2180
+"Target","PM2.5 and NO2","Montr�al","Male",1463015,2180
+"AMB10","PM2.5 and NO2","Montr�al","Male",1463015,2170
+"AMB25","PM2.5 and NO2","Montr�al","Male",1463015,2160
+"AMB50","PM2.5 and NO2","Montr�al","Male",1463015,2140
+"Baseline","NO2","Montr�al","Male",1463015,2180
+"Target","NO2","Montr�al","Male",1463015,2180
+"AMB10","NO2","Montr�al","Male",1463015,2170
+"AMB25","NO2","Montr�al","Male",1463015,2170
+"AMB50","NO2","Montr�al","Male",1463015,2160
+"Baseline","PM2.5","Montr�al","Male",1463015,2180
+"Target","PM2.5","Montr�al","Male",1463015,2180
+"AMB10","PM2.5","Montr�al","Male",1463015,2180
+"AMB25","PM2.5","Montr�al","Male",1463015,2170
+"AMB50","PM2.5","Montr�al","Male",1463015,2160
+"Baseline","PM2.5 and NO2","Saint John","Male",44495,2220
+"Target","PM2.5 and NO2","Saint John","Male",44495,2220
+"AMB10","PM2.5 and NO2","Saint John","Male",44495,2210
+"AMB25","PM2.5 and NO2","Saint John","Male",44495,2210
+"AMB50","PM2.5 and NO2","Saint John","Male",44495,2200
+"Baseline","NO2","Saint John","Male",44495,2220
+"Target","NO2","Saint John","Male",44495,2220
+"AMB10","NO2","Saint John","Male",44495,2210
+"AMB25","NO2","Saint John","Male",44495,2210
+"AMB50","NO2","Saint John","Male",44495,2210
+"Baseline","PM2.5","Saint John","Male",44495,2220
+"Target","PM2.5","Saint John","Male",44495,2220
+"AMB10","PM2.5","Saint John","Male",44495,2210
+"AMB25","PM2.5","Saint John","Male",44495,2210
+"AMB50","PM2.5","Saint John","Male",44495,2210
+"Baseline","PM2.5 and NO2","Kingston","Male",57785,2580
+"Target","PM2.5 and NO2","Kingston","Male",57785,2580
+"AMB10","PM2.5 and NO2","Kingston","Male",57785,2570
+"AMB25","PM2.5 and NO2","Kingston","Male",57785,2570
+"AMB50","PM2.5 and NO2","Kingston","Male",57785,2560
+"Baseline","NO2","Kingston","Male",57785,2580
+"Target","NO2","Kingston","Male",57785,2580
+"AMB10","NO2","Kingston","Male",57785,2580
+"AMB25","NO2","Kingston","Male",57785,2570
+"AMB50","NO2","Kingston","Male",57785,2570
+"Baseline","PM2.5","Kingston","Male",57785,2580
+"Target","PM2.5","Kingston","Male",57785,2580
+"AMB10","PM2.5","Kingston","Male",57785,2580
+"AMB25","PM2.5","Kingston","Male",57785,2570
+"AMB50","PM2.5","Kingston","Male",57785,2570
+"Baseline","PM2.5 and NO2","Victoria","Male",133295,2270
+"Target","PM2.5 and NO2","Victoria","Male",133295,2270
+"AMB10","PM2.5 and NO2","Victoria","Male",133295,2270
+"AMB25","PM2.5 and NO2","Victoria","Male",133295,2260
+"AMB50","PM2.5 and NO2","Victoria","Male",133295,2250
+"Baseline","NO2","Victoria","Male",133295,2270
+"Target","NO2","Victoria","Male",133295,2270
+"AMB10","NO2","Victoria","Male",133295,2270
+"AMB25","NO2","Victoria","Male",133295,2270
+"AMB50","NO2","Victoria","Male",133295,2260
+"Baseline","PM2.5","Victoria","Male",133295,2270
+"Target","PM2.5","Victoria","Male",133295,2270
+"AMB10","PM2.5","Victoria","Male",133295,2270
+"AMB25","PM2.5","Victoria","Male",133295,2270
+"AMB50","PM2.5","Victoria","Male",133295,2260
+"Baseline","PM2.5 and NO2","Toronto","Male",2103235,1940
+"Target","PM2.5 and NO2","Toronto","Male",2103235,1930
+"AMB10","PM2.5 and NO2","Toronto","Male",2103235,1920
+"AMB25","PM2.5 and NO2","Toronto","Male",2103235,1920
+"AMB50","PM2.5 and NO2","Toronto","Male",2103235,1900
+"Baseline","NO2","Toronto","Male",2103235,1940
+"Target","NO2","Toronto","Male",2103235,1930
+"AMB10","NO2","Toronto","Male",2103235,1930
+"AMB25","NO2","Toronto","Male",2103235,1920
+"AMB50","NO2","Toronto","Male",2103235,1910
+"Baseline","PM2.5","Toronto","Male",2103235,1940
+"Target","PM2.5","Toronto","Male",2103235,1940
+"AMB10","PM2.5","Toronto","Male",2103235,1930
+"AMB25","PM2.5","Toronto","Male",2103235,1920
+"AMB50","PM2.5","Toronto","Male",2103235,1910
+"Baseline","PM2.5 and NO2","Vancouver","Male",901785,1830
+"Target","PM2.5 and NO2","Vancouver","Male",901785,1830
+"AMB10","PM2.5 and NO2","Vancouver","Male",901785,1820
+"AMB25","PM2.5 and NO2","Vancouver","Male",901785,1810
+"AMB50","PM2.5 and NO2","Vancouver","Male",901785,1800
+"Baseline","NO2","Vancouver","Male",901785,1830
+"Target","NO2","Vancouver","Male",901785,1830
+"AMB10","NO2","Vancouver","Male",901785,1820
+"AMB25","NO2","Vancouver","Male",901785,1820
+"AMB50","NO2","Vancouver","Male",901785,1810
+"Baseline","PM2.5","Vancouver","Male",901785,1830
+"Target","PM2.5","Vancouver","Male",901785,1830
+"AMB10","PM2.5","Vancouver","Male",901785,1830
+"AMB25","PM2.5","Vancouver","Male",901785,1820
+"AMB50","PM2.5","Vancouver","Male",901785,1810
+"Baseline","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,2320
+"Target","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,2320
+"AMB10","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,2310
+"AMB25","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,2310
+"AMB50","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,2300
+"Baseline","NO2","Ottawa - Gatineau","Male",471935,2320
+"Target","NO2","Ottawa - Gatineau","Male",471935,2320
+"AMB10","NO2","Ottawa - Gatineau","Male",471935,2310
+"AMB25","NO2","Ottawa - Gatineau","Male",471935,2310
+"AMB50","NO2","Ottawa - Gatineau","Male",471935,2300
+"Baseline","PM2.5","Ottawa - Gatineau","Male",471935,2320
+"Target","PM2.5","Ottawa - Gatineau","Male",471935,2320
+"AMB10","PM2.5","Ottawa - Gatineau","Male",471935,2310
+"AMB25","PM2.5","Ottawa - Gatineau","Male",471935,2310
+"AMB50","PM2.5","Ottawa - Gatineau","Male",471935,2300
+"Baseline","PM2.5 and NO2","Oshawa","Male",132910,2420
+"Target","PM2.5 and NO2","Oshawa","Male",132910,2410
+"AMB10","PM2.5 and NO2","Oshawa","Male",132910,2410
+"AMB25","PM2.5 and NO2","Oshawa","Male",132910,2400
+"AMB50","PM2.5 and NO2","Oshawa","Male",132910,2390
+"Baseline","NO2","Oshawa","Male",132910,2420
+"Target","NO2","Oshawa","Male",132910,2410
+"AMB10","NO2","Oshawa","Male",132910,2410
+"AMB25","NO2","Oshawa","Male",132910,2410
+"AMB50","NO2","Oshawa","Male",132910,2400
+"Baseline","PM2.5","Oshawa","Male",132910,2420
+"Target","PM2.5","Oshawa","Male",132910,2420
+"AMB10","PM2.5","Oshawa","Male",132910,2410
+"AMB25","PM2.5","Oshawa","Male",132910,2410
+"AMB50","PM2.5","Oshawa","Male",132910,2400
+"Baseline","PM2.5 and NO2","Halifax","Male",147810,2960
+"Target","PM2.5 and NO2","Halifax","Male",147810,2960
+"AMB10","PM2.5 and NO2","Halifax","Male",147810,2960
+"AMB25","PM2.5 and NO2","Halifax","Male",147810,2950
+"AMB50","PM2.5 and NO2","Halifax","Male",147810,2950
+"Baseline","NO2","Halifax","Male",147810,2960
+"Target","NO2","Halifax","Male",147810,2960
+"AMB10","NO2","Halifax","Male",147810,2960
+"AMB25","NO2","Halifax","Male",147810,2960
+"AMB50","NO2","Halifax","Male",147810,2950
+"Baseline","PM2.5","Halifax","Male",147810,2960
+"Target","PM2.5","Halifax","Male",147810,2960
+"AMB10","PM2.5","Halifax","Male",147810,2960
+"AMB25","PM2.5","Halifax","Male",147810,2960
+"AMB50","PM2.5","Halifax","Male",147810,2950
+"Baseline","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Male",59240,3310
+"Target","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Male",59240,3310
+"AMB10","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Male",59240,3300
+"AMB25","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Male",59240,3290
+"AMB50","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Male",59240,3280
+"Baseline","NO2","Greater Sudbury / Grand Sudbury","Male",59240,3310
+"Target","NO2","Greater Sudbury / Grand Sudbury","Male",59240,3310
+"AMB10","NO2","Greater Sudbury / Grand Sudbury","Male",59240,3300
+"AMB25","NO2","Greater Sudbury / Grand Sudbury","Male",59240,3300
+"AMB50","NO2","Greater Sudbury / Grand Sudbury","Male",59240,3290
+"Baseline","PM2.5","Greater Sudbury / Grand Sudbury","Male",59240,3310
+"Target","PM2.5","Greater Sudbury / Grand Sudbury","Male",59240,3310
+"AMB10","PM2.5","Greater Sudbury / Grand Sudbury","Male",59240,3300
+"AMB25","PM2.5","Greater Sudbury / Grand Sudbury","Male",59240,3300
+"AMB50","PM2.5","Greater Sudbury / Grand Sudbury","Male",59240,3290
+"Baseline","PM2.5 and NO2","Qu�bec","Male",291385,2050
+"Target","PM2.5 and NO2","Qu�bec","Male",291385,2050
+"AMB10","PM2.5 and NO2","Qu�bec","Male",291385,2040
+"AMB25","PM2.5 and NO2","Qu�bec","Male",291385,2030
+"AMB50","PM2.5 and NO2","Qu�bec","Male",291385,2020
+"Baseline","NO2","Qu�bec","Male",291385,2050
+"Target","NO2","Qu�bec","Male",291385,2050
+"AMB10","NO2","Qu�bec","Male",291385,2050
+"AMB25","NO2","Qu�bec","Male",291385,2040
+"AMB50","NO2","Qu�bec","Male",291385,2030
+"Baseline","PM2.5","Qu�bec","Male",291385,2050
+"Target","PM2.5","Qu�bec","Male",291385,2050
+"AMB10","PM2.5","Qu�bec","Male",291385,2050
+"AMB25","PM2.5","Qu�bec","Male",291385,2040
+"AMB50","PM2.5","Qu�bec","Male",291385,2030
+"Baseline","PM2.5 and NO2","Regina","Male",84440,1410
+"Target","PM2.5 and NO2","Regina","Male",84440,1410
+"AMB10","PM2.5 and NO2","Regina","Male",84440,1410
+"AMB25","PM2.5 and NO2","Regina","Male",84440,1400
+"AMB50","PM2.5 and NO2","Regina","Male",84440,1390
+"Baseline","NO2","Regina","Male",84440,1410
+"Target","NO2","Regina","Male",84440,1410
+"AMB10","NO2","Regina","Male",84440,1410
+"AMB25","NO2","Regina","Male",84440,1400
+"AMB50","NO2","Regina","Male",84440,1400
+"Baseline","PM2.5","Regina","Male",84440,1410
+"Target","PM2.5","Regina","Male",84440,1410
+"AMB10","PM2.5","Regina","Male",84440,1410
+"AMB25","PM2.5","Regina","Male",84440,1410
+"AMB50","PM2.5","Regina","Male",84440,1400
+"Baseline","PM2.5 and NO2","Peterborough","Male",42420,3020
+"Target","PM2.5 and NO2","Peterborough","Male",42420,3010
+"AMB10","PM2.5 and NO2","Peterborough","Male",42420,3010
+"AMB25","PM2.5 and NO2","Peterborough","Male",42420,3000
+"AMB50","PM2.5 and NO2","Peterborough","Male",42420,2990
+"Baseline","NO2","Peterborough","Male",42420,3020
+"Target","NO2","Peterborough","Male",42420,3010
+"AMB10","NO2","Peterborough","Male",42420,3010
+"AMB25","NO2","Peterborough","Male",42420,3010
+"AMB50","NO2","Peterborough","Male",42420,3000
+"Baseline","PM2.5","Peterborough","Male",42420,3020
+"Target","PM2.5","Peterborough","Male",42420,3020
+"AMB10","PM2.5","Peterborough","Male",42420,3010
+"AMB25","PM2.5","Peterborough","Male",42420,3010
+"AMB50","PM2.5","Peterborough","Male",42420,3000
+"Baseline","PM2.5 and NO2","Winnipeg","Male",278060,2000
+"Target","PM2.5 and NO2","Winnipeg","Male",278060,1990
+"AMB10","PM2.5 and NO2","Winnipeg","Male",278060,1990
+"AMB25","PM2.5 and NO2","Winnipeg","Male",278060,1980
+"AMB50","PM2.5 and NO2","Winnipeg","Male",278060,1970
+"Baseline","NO2","Winnipeg","Male",278060,2000
+"Target","NO2","Winnipeg","Male",278060,1990
+"AMB10","NO2","Winnipeg","Male",278060,1990
+"AMB25","NO2","Winnipeg","Male",278060,1990
+"AMB50","NO2","Winnipeg","Male",278060,1980
+"Baseline","PM2.5","Winnipeg","Male",278060,2000
+"Target","PM2.5","Winnipeg","Male",278060,2000
+"AMB10","PM2.5","Winnipeg","Male",278060,1990
+"AMB25","PM2.5","Winnipeg","Male",278060,1990
+"AMB50","PM2.5","Winnipeg","Male",278060,1980
+"Baseline","PM2.5 and NO2","Windsor","Male",116620,3330
+"Target","PM2.5 and NO2","Windsor","Male",116620,3320
+"AMB10","PM2.5 and NO2","Windsor","Male",116620,3310
+"AMB25","PM2.5 and NO2","Windsor","Male",116620,3290
+"AMB50","PM2.5 and NO2","Windsor","Male",116620,3270
+"Baseline","NO2","Windsor","Male",116620,3330
+"Target","NO2","Windsor","Male",116620,3320
+"AMB10","NO2","Windsor","Male",116620,3320
+"AMB25","NO2","Windsor","Male",116620,3310
+"AMB50","NO2","Windsor","Male",116620,3290
+"Baseline","PM2.5","Windsor","Male",116620,3330
+"Target","PM2.5","Windsor","Male",116620,3330
+"AMB10","PM2.5","Windsor","Male",116620,3320
+"AMB25","PM2.5","Windsor","Male",116620,3310
+"AMB50","PM2.5","Windsor","Male",116620,3290
+"Baseline","PM2.5 and NO2","Edmonton","Male",484385,1860
+"Target","PM2.5 and NO2","Edmonton","Male",484385,1850
+"AMB10","PM2.5 and NO2","Edmonton","Male",484385,1850
+"AMB25","PM2.5 and NO2","Edmonton","Male",484385,1840
+"AMB50","PM2.5 and NO2","Edmonton","Male",484385,1830
+"Baseline","NO2","Edmonton","Male",484385,1860
+"Target","NO2","Edmonton","Male",484385,1850
+"AMB10","NO2","Edmonton","Male",484385,1850
+"AMB25","NO2","Edmonton","Male",484385,1850
+"AMB50","NO2","Edmonton","Male",484385,1840
+"Baseline","PM2.5","Edmonton","Male",484385,1860
+"Target","PM2.5","Edmonton","Male",484385,1860
+"AMB10","PM2.5","Edmonton","Male",484385,1850
+"AMB25","PM2.5","Edmonton","Male",484385,1850
+"AMB50","PM2.5","Edmonton","Male",484385,1840
+"Baseline","PM2.5 and NO2","Saguenay","Male",59850,2700
+"Target","PM2.5 and NO2","Saguenay","Male",59850,2700
+"AMB10","PM2.5 and NO2","Saguenay","Male",59850,2690
+"AMB25","PM2.5 and NO2","Saguenay","Male",59850,2690
+"AMB50","PM2.5 and NO2","Saguenay","Male",59850,2680
+"Baseline","NO2","Saguenay","Male",59850,2700
+"Target","NO2","Saguenay","Male",59850,2700
+"AMB10","NO2","Saguenay","Male",59850,2690
+"AMB25","NO2","Saguenay","Male",59850,2690
+"AMB50","NO2","Saguenay","Male",59850,2680
+"Baseline","PM2.5","Saguenay","Male",59850,2700
+"Target","PM2.5","Saguenay","Male",59850,2700
+"AMB10","PM2.5","Saguenay","Male",59850,2690
+"AMB25","PM2.5","Saguenay","Male",59850,2690
+"AMB50","PM2.5","Saguenay","Male",59850,2680
+"Baseline","PM2.5 and NO2","Guelph","Male",54065,2080
+"Target","PM2.5 and NO2","Guelph","Male",54065,2080
+"AMB10","PM2.5 and NO2","Guelph","Male",54065,2070
+"AMB25","PM2.5 and NO2","Guelph","Male",54065,2060
+"AMB50","PM2.5 and NO2","Guelph","Male",54065,2050
+"Baseline","NO2","Guelph","Male",54065,2080
+"Target","NO2","Guelph","Male",54065,2080
+"AMB10","NO2","Guelph","Male",54065,2070
+"AMB25","NO2","Guelph","Male",54065,2070
+"AMB50","NO2","Guelph","Male",54065,2060
+"Baseline","PM2.5","Guelph","Male",54065,2080
+"Target","PM2.5","Guelph","Male",54065,2080
+"AMB10","PM2.5","Guelph","Male",54065,2070
+"AMB25","PM2.5","Guelph","Male",54065,2070
+"AMB50","PM2.5","Guelph","Male",54065,2060
+"Baseline","PM2.5 and NO2","Abbotsford","Male",63160,1830
+"Target","PM2.5 and NO2","Abbotsford","Male",63160,1830
+"AMB10","PM2.5 and NO2","Abbotsford","Male",63160,1830
+"AMB25","PM2.5 and NO2","Abbotsford","Male",63160,1820
+"AMB50","PM2.5 and NO2","Abbotsford","Male",63160,1820
+"Baseline","NO2","Abbotsford","Male",63160,1830
+"Target","NO2","Abbotsford","Male",63160,1830
+"AMB10","NO2","Abbotsford","Male",63160,1830
+"AMB25","NO2","Abbotsford","Male",63160,1830
+"AMB50","NO2","Abbotsford","Male",63160,1820
+"Baseline","PM2.5","Abbotsford","Male",63160,1830
+"Target","PM2.5","Abbotsford","Male",63160,1830
+"AMB10","PM2.5","Abbotsford","Male",63160,1830
+"AMB25","PM2.5","Abbotsford","Male",63160,1830
+"AMB50","PM2.5","Abbotsford","Male",63160,1820
+"Baseline","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,1760
+"Target","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,1760
+"AMB10","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,1760
+"AMB25","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,1750
+"AMB50","PM2.5 and NO2","Ottawa - Gatineau","Male",471935,1750
+"Baseline","NO2","Ottawa - Gatineau","Male",471935,1760
+"Target","NO2","Ottawa - Gatineau","Male",471935,1760
+"AMB10","NO2","Ottawa - Gatineau","Male",471935,1760
+"AMB25","NO2","Ottawa - Gatineau","Male",471935,1760
+"AMB50","NO2","Ottawa - Gatineau","Male",471935,1750
+"Baseline","PM2.5","Ottawa - Gatineau","Male",471935,1760
+"Target","PM2.5","Ottawa - Gatineau","Male",471935,1760
+"AMB10","PM2.5","Ottawa - Gatineau","Male",471935,1760
+"AMB25","PM2.5","Ottawa - Gatineau","Male",471935,1760
+"AMB50","PM2.5","Ottawa - Gatineau","Male",471935,1750
+"Baseline","PM2.5 and NO2","Saskatoon","Male",105005,2030
+"Target","PM2.5 and NO2","Saskatoon","Male",105005,2020
+"AMB10","PM2.5 and NO2","Saskatoon","Male",105005,2020
+"AMB25","PM2.5 and NO2","Saskatoon","Male",105005,2010
+"AMB50","PM2.5 and NO2","Saskatoon","Male",105005,2000
+"Baseline","NO2","Saskatoon","Male",105005,2030
+"Target","NO2","Saskatoon","Male",105005,2020
+"AMB10","NO2","Saskatoon","Male",105005,2020
+"AMB25","NO2","Saskatoon","Male",105005,2020
+"AMB50","NO2","Saskatoon","Male",105005,2010
+"Baseline","PM2.5","Saskatoon","Male",105005,2030
+"Target","PM2.5","Saskatoon","Male",105005,2030
+"AMB10","PM2.5","Saskatoon","Male",105005,2020
+"AMB25","PM2.5","Saskatoon","Male",105005,2020
+"AMB50","PM2.5","Saskatoon","Male",105005,2010
+"Baseline","PM2.5 and NO2","Barrie","Male",69545,2670
+"Target","PM2.5 and NO2","Barrie","Male",69545,2670
+"AMB10","PM2.5 and NO2","Barrie","Male",69545,2660
+"AMB25","PM2.5 and NO2","Barrie","Male",69545,2650
+"AMB50","PM2.5 and NO2","Barrie","Male",69545,2650
+"Baseline","NO2","Barrie","Male",69545,2670
+"Target","NO2","Barrie","Male",69545,2670
+"AMB10","NO2","Barrie","Male",69545,2670
+"AMB25","NO2","Barrie","Male",69545,2660
+"AMB50","NO2","Barrie","Male",69545,2650
+"Baseline","PM2.5","Barrie","Male",69545,2670
+"Target","PM2.5","Barrie","Male",69545,2670
+"AMB10","PM2.5","Barrie","Male",69545,2670
+"AMB25","PM2.5","Barrie","Male",69545,2660
+"AMB50","PM2.5","Barrie","Male",69545,2650
+"Baseline","PM2.5 and NO2","Sherbrooke","Male",75715,2090
+"Target","PM2.5 and NO2","Sherbrooke","Male",75715,2090
+"AMB10","PM2.5 and NO2","Sherbrooke","Male",75715,2090
+"AMB25","PM2.5 and NO2","Sherbrooke","Male",75715,2080
+"AMB50","PM2.5 and NO2","Sherbrooke","Male",75715,2080
+"Baseline","NO2","Sherbrooke","Male",75715,2090
+"Target","NO2","Sherbrooke","Male",75715,2090
+"AMB10","NO2","Sherbrooke","Male",75715,2090
+"AMB25","NO2","Sherbrooke","Male",75715,2090
+"AMB50","NO2","Sherbrooke","Male",75715,2080
+"Baseline","PM2.5","Sherbrooke","Male",75715,2090
+"Target","PM2.5","Sherbrooke","Male",75715,2090
+"AMB10","PM2.5","Sherbrooke","Male",75715,2090
+"AMB25","PM2.5","Sherbrooke","Male",75715,2090
+"AMB50","PM2.5","Sherbrooke","Male",75715,2080
+"Baseline","PM2.5 and NO2","Thunder Bay","Male",44020,3530
+"Target","PM2.5 and NO2","Thunder Bay","Male",44020,3530
+"AMB10","PM2.5 and NO2","Thunder Bay","Male",44020,3520
+"AMB25","PM2.5 and NO2","Thunder Bay","Male",44020,3510
+"AMB50","PM2.5 and NO2","Thunder Bay","Male",44020,3500
+"Baseline","NO2","Thunder Bay","Male",44020,3530
+"Target","NO2","Thunder Bay","Male",44020,3530
+"AMB10","NO2","Thunder Bay","Male",44020,3520
+"AMB25","NO2","Thunder Bay","Male",44020,3520
+"AMB50","NO2","Thunder Bay","Male",44020,3510
+"Baseline","PM2.5","Thunder Bay","Male",44020,3530
+"Target","PM2.5","Thunder Bay","Male",44020,3530
+"AMB10","PM2.5","Thunder Bay","Male",44020,3530
+"AMB25","PM2.5","Thunder Bay","Male",44020,3520
+"AMB50","PM2.5","Thunder Bay","Male",44020,3510
+"Baseline","PM2.5 and NO2","St. John's","Male",75375,2250
+"Target","PM2.5 and NO2","St. John's","Male",75375,2250
+"AMB10","PM2.5 and NO2","St. John's","Male",75375,2250
+"AMB25","PM2.5 and NO2","St. John's","Male",75375,2250
+"AMB50","PM2.5 and NO2","St. John's","Male",75375,2240
+"Baseline","NO2","St. John's","Male",75375,2250
+"Target","NO2","St. John's","Male",75375,2250
+"AMB10","NO2","St. John's","Male",75375,2250
+"AMB25","NO2","St. John's","Male",75375,2250
+"AMB50","NO2","St. John's","Male",75375,2250
+"Baseline","PM2.5","St. John's","Male",75375,2250
+"Target","PM2.5","St. John's","Male",75375,2250
+"AMB10","PM2.5","St. John's","Male",75375,2250
+"AMB25","PM2.5","St. John's","Male",75375,2250
+"AMB50","PM2.5","St. John's","Male",75375,2250
+"Baseline","PM2.5 and NO2","London","Male",174685,2230
+"Target","PM2.5 and NO2","London","Male",174685,2230
+"AMB10","PM2.5 and NO2","London","Male",174685,2220
+"AMB25","PM2.5 and NO2","London","Male",174685,2220
+"AMB50","PM2.5 and NO2","London","Male",174685,2210
+"Baseline","NO2","London","Male",174685,2230
+"Target","NO2","London","Male",174685,2230
+"AMB10","NO2","London","Male",174685,2230
+"AMB25","NO2","London","Male",174685,2220
+"AMB50","NO2","London","Male",174685,2220
+"Baseline","PM2.5","London","Male",174685,2230
+"Target","PM2.5","London","Male",174685,2230
+"AMB10","PM2.5","London","Male",174685,2230
+"AMB25","PM2.5","London","Male",174685,2220
+"AMB50","PM2.5","London","Male",174685,2220
+"Baseline","PM2.5 and NO2","Moncton","Male",52460,2770
+"Target","PM2.5 and NO2","Moncton","Male",52460,2770
+"AMB10","PM2.5 and NO2","Moncton","Male",52460,2770
+"AMB25","PM2.5 and NO2","Moncton","Male",52460,2760
+"AMB50","PM2.5 and NO2","Moncton","Male",52460,2760
+"Baseline","NO2","Moncton","Male",52460,2770
+"Target","NO2","Moncton","Male",52460,2770
+"AMB10","NO2","Moncton","Male",52460,2770
+"AMB25","NO2","Moncton","Male",52460,2760
+"AMB50","NO2","Moncton","Male",52460,2760
+"Baseline","PM2.5","Moncton","Male",52460,2770
+"Target","PM2.5","Moncton","Male",52460,2770
+"AMB10","PM2.5","Moncton","Male",52460,2770
+"AMB25","PM2.5","Moncton","Male",52460,2760
+"AMB50","PM2.5","Moncton","Male",52460,2760
+"Baseline","PM2.5 and NO2","Trois-Rivi�res","Male",56000,3360
+"Target","PM2.5 and NO2","Trois-Rivi�res","Male",56000,3360
+"AMB10","PM2.5 and NO2","Trois-Rivi�res","Male",56000,3350
+"AMB25","PM2.5 and NO2","Trois-Rivi�res","Male",56000,3340
+"AMB50","PM2.5 and NO2","Trois-Rivi�res","Male",56000,3320
+"Baseline","NO2","Trois-Rivi�res","Male",56000,3360
+"Target","NO2","Trois-Rivi�res","Male",56000,3360
+"AMB10","NO2","Trois-Rivi�res","Male",56000,3350
+"AMB25","NO2","Trois-Rivi�res","Male",56000,3340
+"AMB50","NO2","Trois-Rivi�res","Male",56000,3330
+"Baseline","PM2.5","Trois-Rivi�res","Male",56000,3360
+"Target","PM2.5","Trois-Rivi�res","Male",56000,3360
+"AMB10","PM2.5","Trois-Rivi�res","Male",56000,3350
+"AMB25","PM2.5","Trois-Rivi�res","Male",56000,3340
+"AMB50","PM2.5","Trois-Rivi�res","Male",56000,3330
+"Baseline","PM2.5 and NO2","Kelowna","Male",69355,2550
+"Target","PM2.5 and NO2","Kelowna","Male",69355,2530
+"AMB10","PM2.5 and NO2","Kelowna","Male",69355,2520
+"AMB25","PM2.5 and NO2","Kelowna","Male",69355,2510
+"AMB50","PM2.5 and NO2","Kelowna","Male",69355,2490
+"Baseline","NO2","Kelowna","Male",69355,2550
+"Target","NO2","Kelowna","Male",69355,2540
+"AMB10","NO2","Kelowna","Male",69355,2530
+"AMB25","NO2","Kelowna","Male",69355,2530
+"AMB50","NO2","Kelowna","Male",69355,2510
+"Baseline","PM2.5","Kelowna","Male",69355,2550
+"Target","PM2.5","Kelowna","Male",69355,2530
+"AMB10","PM2.5","Kelowna","Male",69355,2530
+"AMB25","PM2.5","Kelowna","Male",69355,2530
+"AMB50","PM2.5","Kelowna","Male",69355,2510
+"Baseline","PM2.5 and NO2","St. Catharines - Niagara","Female",150880,1980
+"Target","PM2.5 and NO2","St. Catharines - Niagara","Female",150880,1970
+"AMB10","PM2.5 and NO2","St. Catharines - Niagara","Female",150880,1960
+"AMB25","PM2.5 and NO2","St. Catharines - Niagara","Female",150880,1940
+"AMB50","PM2.5 and NO2","St. Catharines - Niagara","Female",150880,1910
+"Baseline","NO2","St. Catharines - Niagara","Female",150880,1980
+"Target","NO2","St. Catharines - Niagara","Female",150880,1970
+"AMB10","NO2","St. Catharines - Niagara","Female",150880,1970
+"AMB25","NO2","St. Catharines - Niagara","Female",150880,1950
+"AMB50","NO2","St. Catharines - Niagara","Female",150880,1930
+"Baseline","PM2.5","St. Catharines - Niagara","Female",150880,1980
+"Target","PM2.5","St. Catharines - Niagara","Female",150880,1980
+"AMB10","PM2.5","St. Catharines - Niagara","Female",150880,1970
+"AMB25","PM2.5","St. Catharines - Niagara","Female",150880,1950
+"AMB50","PM2.5","St. Catharines - Niagara","Female",150880,1930
+"Baseline","PM2.5 and NO2","Brantford","Female",48805,1590
+"Target","PM2.5 and NO2","Brantford","Female",48805,1580
+"AMB10","PM2.5 and NO2","Brantford","Female",48805,1570
+"AMB25","PM2.5 and NO2","Brantford","Female",48805,1550
+"AMB50","PM2.5 and NO2","Brantford","Female",48805,1530
+"Baseline","NO2","Brantford","Female",48805,1590
+"Target","NO2","Brantford","Female",48805,1580
+"AMB10","NO2","Brantford","Female",48805,1570
+"AMB25","NO2","Brantford","Female",48805,1570
+"AMB50","NO2","Brantford","Female",48805,1550
+"Baseline","PM2.5","Brantford","Female",48805,1590
+"Target","PM2.5","Brantford","Female",48805,1590
+"AMB10","PM2.5","Brantford","Female",48805,1580
+"AMB25","PM2.5","Brantford","Female",48805,1570
+"AMB50","PM2.5","Brantford","Female",48805,1550
+"Baseline","PM2.5 and NO2","Calgary","Female",510820,1230
+"Target","PM2.5 and NO2","Calgary","Female",510820,1220
+"AMB10","PM2.5 and NO2","Calgary","Female",510820,1210
+"AMB25","PM2.5 and NO2","Calgary","Female",510820,1190
+"AMB50","PM2.5 and NO2","Calgary","Female",510820,1170
+"Baseline","NO2","Calgary","Female",510820,1230
+"Target","NO2","Calgary","Female",510820,1220
+"AMB10","NO2","Calgary","Female",510820,1210
+"AMB25","NO2","Calgary","Female",510820,1210
+"AMB50","NO2","Calgary","Female",510820,1190
+"Baseline","PM2.5","Calgary","Female",510820,1230
+"Target","PM2.5","Calgary","Female",510820,1230
+"AMB10","PM2.5","Calgary","Female",510820,1220
+"AMB25","PM2.5","Calgary","Female",510820,1210
+"AMB50","PM2.5","Calgary","Female",510820,1190
+"Baseline","PM2.5 and NO2","Kitchener","Female",191810,1230
+"Target","PM2.5 and NO2","Kitchener","Female",191810,1220
+"AMB10","PM2.5 and NO2","Kitchener","Female",191810,1210
+"AMB25","PM2.5 and NO2","Kitchener","Female",191810,1200
+"AMB50","PM2.5 and NO2","Kitchener","Female",191810,1180
+"Baseline","NO2","Kitchener","Female",191810,1230
+"Target","NO2","Kitchener","Female",191810,1220
+"AMB10","NO2","Kitchener","Female",191810,1220
+"AMB25","NO2","Kitchener","Female",191810,1210
+"AMB50","NO2","Kitchener","Female",191810,1190
+"Baseline","PM2.5","Kitchener","Female",191810,1230
+"Target","PM2.5","Kitchener","Female",191810,1230
+"AMB10","PM2.5","Kitchener","Female",191810,1220
+"AMB25","PM2.5","Kitchener","Female",191810,1210
+"AMB50","PM2.5","Kitchener","Female",191810,1190
+"Baseline","PM2.5 and NO2","Hamilton","Female",275200,1180
+"Target","PM2.5 and NO2","Hamilton","Female",275200,1170
+"AMB10","PM2.5 and NO2","Hamilton","Female",275200,1160
+"AMB25","PM2.5 and NO2","Hamilton","Female",275200,1150
+"AMB50","PM2.5 and NO2","Hamilton","Female",275200,1130
+"Baseline","NO2","Hamilton","Female",275200,1180
+"Target","NO2","Hamilton","Female",275200,1170
+"AMB10","NO2","Hamilton","Female",275200,1170
+"AMB25","NO2","Hamilton","Female",275200,1160
+"AMB50","NO2","Hamilton","Female",275200,1140
+"Baseline","PM2.5","Hamilton","Female",275200,1180
+"Target","PM2.5","Hamilton","Female",275200,1180
+"AMB10","PM2.5","Hamilton","Female",275200,1170
+"AMB25","PM2.5","Hamilton","Female",275200,1160
+"AMB50","PM2.5","Hamilton","Female",275200,1140
+"Baseline","PM2.5 and NO2","Montr�al","Female",1515995,1370
+"Target","PM2.5 and NO2","Montr�al","Female",1515995,1360
+"AMB10","PM2.5 and NO2","Montr�al","Female",1515995,1350
+"AMB25","PM2.5 and NO2","Montr�al","Female",1515995,1330
+"AMB50","PM2.5 and NO2","Montr�al","Female",1515995,1300
+"Baseline","NO2","Montr�al","Female",1515995,1370
+"Target","NO2","Montr�al","Female",1515995,1360
+"AMB10","NO2","Montr�al","Female",1515995,1350
+"AMB25","NO2","Montr�al","Female",1515995,1340
+"AMB50","NO2","Montr�al","Female",1515995,1320
+"Baseline","PM2.5","Montr�al","Female",1515995,1370
+"Target","PM2.5","Montr�al","Female",1515995,1370
+"AMB10","PM2.5","Montr�al","Female",1515995,1360
+"AMB25","PM2.5","Montr�al","Female",1515995,1350
+"AMB50","PM2.5","Montr�al","Female",1515995,1320
+"Baseline","PM2.5 and NO2","Saint John","Female",47550,1090
+"Target","PM2.5 and NO2","Saint John","Female",47550,1090
+"AMB10","PM2.5 and NO2","Saint John","Female",47550,1080
+"AMB25","PM2.5 and NO2","Saint John","Female",47550,1080
+"AMB50","PM2.5 and NO2","Saint John","Female",47550,1070
+"Baseline","NO2","Saint John","Female",47550,1090
+"Target","NO2","Saint John","Female",47550,1090
+"AMB10","NO2","Saint John","Female",47550,1090
+"AMB25","NO2","Saint John","Female",47550,1080
+"AMB50","NO2","Saint John","Female",47550,1080
+"Baseline","PM2.5","Saint John","Female",47550,1090
+"Target","PM2.5","Saint John","Female",47550,1090
+"AMB10","PM2.5","Saint John","Female",47550,1090
+"AMB25","PM2.5","Saint John","Female",47550,1080
+"AMB50","PM2.5","Saint John","Female",47550,1080
+"Baseline","PM2.5 and NO2","Kingston","Female",60655,1150
+"Target","PM2.5 and NO2","Kingston","Female",60655,1150
+"AMB10","PM2.5 and NO2","Kingston","Female",60655,1150
+"AMB25","PM2.5 and NO2","Kingston","Female",60655,1140
+"AMB50","PM2.5 and NO2","Kingston","Female",60655,1130
+"Baseline","NO2","Kingston","Female",60655,1150
+"Target","NO2","Kingston","Female",60655,1150
+"AMB10","NO2","Kingston","Female",60655,1150
+"AMB25","NO2","Kingston","Female",60655,1150
+"AMB50","NO2","Kingston","Female",60655,1140
+"Baseline","PM2.5","Kingston","Female",60655,1150
+"Target","PM2.5","Kingston","Female",60655,1150
+"AMB10","PM2.5","Kingston","Female",60655,1150
+"AMB25","PM2.5","Kingston","Female",60655,1150
+"AMB50","PM2.5","Kingston","Female",60655,1140
+"Baseline","PM2.5 and NO2","Victoria","Female",141495,1350
+"Target","PM2.5 and NO2","Victoria","Female",141495,1350
+"AMB10","PM2.5 and NO2","Victoria","Female",141495,1340
+"AMB25","PM2.5 and NO2","Victoria","Female",141495,1330
+"AMB50","PM2.5 and NO2","Victoria","Female",141495,1320
+"Baseline","NO2","Victoria","Female",141495,1350
+"Target","NO2","Victoria","Female",141495,1350
+"AMB10","NO2","Victoria","Female",141495,1350
+"AMB25","NO2","Victoria","Female",141495,1340
+"AMB50","NO2","Victoria","Female",141495,1330
+"Baseline","PM2.5","Victoria","Female",141495,1350
+"Target","PM2.5","Victoria","Female",141495,1350
+"AMB10","PM2.5","Victoria","Female",141495,1350
+"AMB25","PM2.5","Victoria","Female",141495,1340
+"AMB50","PM2.5","Victoria","Female",141495,1330
+"Baseline","PM2.5 and NO2","Toronto","Female",2246140,1260
+"Target","PM2.5 and NO2","Toronto","Female",2246140,1250
+"AMB10","PM2.5 and NO2","Toronto","Female",2246140,1240
+"AMB25","PM2.5 and NO2","Toronto","Female",2246140,1220
+"AMB50","PM2.5 and NO2","Toronto","Female",2246140,1200
+"Baseline","NO2","Toronto","Female",2246140,1260
+"Target","NO2","Toronto","Female",2246140,1250
+"AMB10","NO2","Toronto","Female",2246140,1250
+"AMB25","NO2","Toronto","Female",2246140,1240
+"AMB50","NO2","Toronto","Female",2246140,1220
+"Baseline","PM2.5","Toronto","Female",2246140,1260
+"Target","PM2.5","Toronto","Female",2246140,1260
+"AMB10","PM2.5","Toronto","Female",2246140,1250
+"AMB25","PM2.5","Toronto","Female",2246140,1240
+"AMB50","PM2.5","Toronto","Female",2246140,1220
+"Baseline","PM2.5 and NO2","Vancouver","Female",951045,1120
+"Target","PM2.5 and NO2","Vancouver","Female",951045,1110
+"AMB10","PM2.5 and NO2","Vancouver","Female",951045,1100
+"AMB25","PM2.5 and NO2","Vancouver","Female",951045,1090
+"AMB50","PM2.5 and NO2","Vancouver","Female",951045,1080
+"Baseline","NO2","Vancouver","Female",951045,1120
+"Target","NO2","Vancouver","Female",951045,1110
+"AMB10","NO2","Vancouver","Female",951045,1110
+"AMB25","NO2","Vancouver","Female",951045,1100
+"AMB50","NO2","Vancouver","Female",951045,1090
+"Baseline","PM2.5","Vancouver","Female",951045,1120
+"Target","PM2.5","Vancouver","Female",951045,1120
+"AMB10","PM2.5","Vancouver","Female",951045,1110
+"AMB25","PM2.5","Vancouver","Female",951045,1100
+"AMB50","PM2.5","Vancouver","Female",951045,1090
+"Baseline","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1020
+"Target","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1020
+"AMB10","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1010
+"AMB25","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1010
+"AMB50","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1000
+"Baseline","NO2","Ottawa - Gatineau","Female",495995,1020
+"Target","NO2","Ottawa - Gatineau","Female",495995,1020
+"AMB10","NO2","Ottawa - Gatineau","Female",495995,1020
+"AMB25","NO2","Ottawa - Gatineau","Female",495995,1010
+"AMB50","NO2","Ottawa - Gatineau","Female",495995,1000
+"Baseline","PM2.5","Ottawa - Gatineau","Female",495995,1020
+"Target","PM2.5","Ottawa - Gatineau","Female",495995,1020
+"AMB10","PM2.5","Ottawa - Gatineau","Female",495995,1020
+"AMB25","PM2.5","Ottawa - Gatineau","Female",495995,1010
+"AMB50","PM2.5","Ottawa - Gatineau","Female",495995,1000
+"Baseline","PM2.5 and NO2","Oshawa","Female",139375,1070
+"Target","PM2.5 and NO2","Oshawa","Female",139375,1070
+"AMB10","PM2.5 and NO2","Oshawa","Female",139375,1060
+"AMB25","PM2.5 and NO2","Oshawa","Female",139375,1050
+"AMB50","PM2.5 and NO2","Oshawa","Female",139375,1040
+"Baseline","NO2","Oshawa","Female",139375,1070
+"Target","NO2","Oshawa","Female",139375,1070
+"AMB10","NO2","Oshawa","Female",139375,1070
+"AMB25","NO2","Oshawa","Female",139375,1060
+"AMB50","NO2","Oshawa","Female",139375,1050
+"Baseline","PM2.5","Oshawa","Female",139375,1070
+"Target","PM2.5","Oshawa","Female",139375,1070
+"AMB10","PM2.5","Oshawa","Female",139375,1070
+"AMB25","PM2.5","Oshawa","Female",139375,1060
+"AMB50","PM2.5","Oshawa","Female",139375,1050
+"Baseline","PM2.5 and NO2","Halifax","Female",157300,1200
+"Target","PM2.5 and NO2","Halifax","Female",157300,1190
+"AMB10","PM2.5 and NO2","Halifax","Female",157300,1190
+"AMB25","PM2.5 and NO2","Halifax","Female",157300,1190
+"AMB50","PM2.5 and NO2","Halifax","Female",157300,1180
+"Baseline","NO2","Halifax","Female",157300,1200
+"Target","NO2","Halifax","Female",157300,1190
+"AMB10","NO2","Halifax","Female",157300,1190
+"AMB25","NO2","Halifax","Female",157300,1190
+"AMB50","NO2","Halifax","Female",157300,1190
+"Baseline","PM2.5","Halifax","Female",157300,1200
+"Target","PM2.5","Halifax","Female",157300,1200
+"AMB10","PM2.5","Halifax","Female",157300,1190
+"AMB25","PM2.5","Halifax","Female",157300,1190
+"AMB50","PM2.5","Halifax","Female",157300,1190
+"Baseline","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"Target","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"AMB10","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Female",61050,1610
+"AMB25","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Female",61050,1600
+"AMB50","PM2.5 and NO2","Greater Sudbury / Grand Sudbury","Female",61050,1580
+"Baseline","NO2","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"Target","NO2","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"AMB10","NO2","Greater Sudbury / Grand Sudbury","Female",61050,1610
+"AMB25","NO2","Greater Sudbury / Grand Sudbury","Female",61050,1610
+"AMB50","NO2","Greater Sudbury / Grand Sudbury","Female",61050,1600
+"Baseline","PM2.5","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"Target","PM2.5","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"AMB10","PM2.5","Greater Sudbury / Grand Sudbury","Female",61050,1620
+"AMB25","PM2.5","Greater Sudbury / Grand Sudbury","Female",61050,1610
+"AMB50","PM2.5","Greater Sudbury / Grand Sudbury","Female",61050,1600
+"Baseline","PM2.5 and NO2","Qu�bec","Female",298840,1200
+"Target","PM2.5 and NO2","Qu�bec","Female",298840,1200
+"AMB10","PM2.5 and NO2","Qu�bec","Female",298840,1190
+"AMB25","PM2.5 and NO2","Qu�bec","Female",298840,1170
+"AMB50","PM2.5 and NO2","Qu�bec","Female",298840,1150
+"Baseline","NO2","Qu�bec","Female",298840,1200
+"Target","NO2","Qu�bec","Female",298840,1200
+"AMB10","NO2","Qu�bec","Female",298840,1200
+"AMB25","NO2","Qu�bec","Female",298840,1190
+"AMB50","NO2","Qu�bec","Female",298840,1170
+"Baseline","PM2.5","Qu�bec","Female",298840,1200
+"Target","PM2.5","Qu�bec","Female",298840,1200
+"AMB10","PM2.5","Qu�bec","Female",298840,1200
+"AMB25","PM2.5","Qu�bec","Female",298840,1190
+"AMB50","PM2.5","Qu�bec","Female",298840,1170
+"Baseline","PM2.5 and NO2","Regina","Female",85110,1090
+"Target","PM2.5 and NO2","Regina","Female",85110,1090
+"AMB10","PM2.5 and NO2","Regina","Female",85110,1080
+"AMB25","PM2.5 and NO2","Regina","Female",85110,1060
+"AMB50","PM2.5 and NO2","Regina","Female",85110,1050
+"Baseline","NO2","Regina","Female",85110,1090
+"Target","NO2","Regina","Female",85110,1090
+"AMB10","NO2","Regina","Female",85110,1080
+"AMB25","NO2","Regina","Female",85110,1070
+"AMB50","NO2","Regina","Female",85110,1060
+"Baseline","PM2.5","Regina","Female",85110,1090
+"Target","PM2.5","Regina","Female",85110,1090
+"AMB10","PM2.5","Regina","Female",85110,1080
+"AMB25","PM2.5","Regina","Female",85110,1070
+"AMB50","PM2.5","Regina","Female",85110,1060
+"Baseline","PM2.5 and NO2","Peterborough","Female",45445,1140
+"Target","PM2.5 and NO2","Peterborough","Female",45445,1140
+"AMB10","PM2.5 and NO2","Peterborough","Female",45445,1140
+"AMB25","PM2.5 and NO2","Peterborough","Female",45445,1130
+"AMB50","PM2.5 and NO2","Peterborough","Female",45445,1120
+"Baseline","NO2","Peterborough","Female",45445,1140
+"Target","NO2","Peterborough","Female",45445,1140
+"AMB10","NO2","Peterborough","Female",45445,1140
+"AMB25","NO2","Peterborough","Female",45445,1130
+"AMB50","NO2","Peterborough","Female",45445,1130
+"Baseline","PM2.5","Peterborough","Female",45445,1140
+"Target","PM2.5","Peterborough","Female",45445,1140
+"AMB10","PM2.5","Peterborough","Female",45445,1140
+"AMB25","PM2.5","Peterborough","Female",45445,1130
+"AMB50","PM2.5","Peterborough","Female",45445,1130
+"Baseline","PM2.5 and NO2","Winnipeg","Female",285975,1170
+"Target","PM2.5 and NO2","Winnipeg","Female",285975,1170
+"AMB10","PM2.5 and NO2","Winnipeg","Female",285975,1160
+"AMB25","PM2.5 and NO2","Winnipeg","Female",285975,1140
+"AMB50","PM2.5 and NO2","Winnipeg","Female",285975,1130
+"Baseline","NO2","Winnipeg","Female",285975,1170
+"Target","NO2","Winnipeg","Female",285975,1170
+"AMB10","NO2","Winnipeg","Female",285975,1160
+"AMB25","NO2","Winnipeg","Female",285975,1150
+"AMB50","NO2","Winnipeg","Female",285975,1140
+"Baseline","PM2.5","Winnipeg","Female",285975,1170
+"Target","PM2.5","Winnipeg","Female",285975,1170
+"AMB10","PM2.5","Winnipeg","Female",285975,1160
+"AMB25","PM2.5","Winnipeg","Female",285975,1150
+"AMB50","PM2.5","Winnipeg","Female",285975,1140
+"Baseline","PM2.5 and NO2","Windsor","Female",120410,1610
+"Target","PM2.5 and NO2","Windsor","Female",120410,1600
+"AMB10","PM2.5 and NO2","Windsor","Female",120410,1590
+"AMB25","PM2.5 and NO2","Windsor","Female",120410,1570
+"AMB50","PM2.5 and NO2","Windsor","Female",120410,1540
+"Baseline","NO2","Windsor","Female",120410,1610
+"Target","NO2","Windsor","Female",120410,1610
+"AMB10","NO2","Windsor","Female",120410,1600
+"AMB25","NO2","Windsor","Female",120410,1590
+"AMB50","NO2","Windsor","Female",120410,1560
+"Baseline","PM2.5","Windsor","Female",120410,1610
+"Target","PM2.5","Windsor","Female",120410,1610
+"AMB10","PM2.5","Windsor","Female",120410,1600
+"AMB25","PM2.5","Windsor","Female",120410,1590
+"AMB50","PM2.5","Windsor","Female",120410,1560
+"Baseline","PM2.5 and NO2","Edmonton","Female",479815,1110
+"Target","PM2.5 and NO2","Edmonton","Female",479815,1110
+"AMB10","PM2.5 and NO2","Edmonton","Female",479815,1100
+"AMB25","PM2.5 and NO2","Edmonton","Female",479815,1080
+"AMB50","PM2.5 and NO2","Edmonton","Female",479815,1060
+"Baseline","NO2","Edmonton","Female",479815,1110
+"Target","NO2","Edmonton","Female",479815,1110
+"AMB10","NO2","Edmonton","Female",479815,1100
+"AMB25","NO2","Edmonton","Female",479815,1090
+"AMB50","NO2","Edmonton","Female",479815,1080
+"Baseline","PM2.5","Edmonton","Female",479815,1110
+"Target","PM2.5","Edmonton","Female",479815,1110
+"AMB10","PM2.5","Edmonton","Female",479815,1110
+"AMB25","PM2.5","Edmonton","Female",479815,1100
+"AMB50","PM2.5","Edmonton","Female",479815,1080
+"Baseline","PM2.5 and NO2","Saguenay","Female",58880,1530
+"Target","PM2.5 and NO2","Saguenay","Female",58880,1530
+"AMB10","PM2.5 and NO2","Saguenay","Female",58880,1520
+"AMB25","PM2.5 and NO2","Saguenay","Female",58880,1510
+"AMB50","PM2.5 and NO2","Saguenay","Female",58880,1500
+"Baseline","NO2","Saguenay","Female",58880,1530
+"Target","NO2","Saguenay","Female",58880,1530
+"AMB10","NO2","Saguenay","Female",58880,1530
+"AMB25","NO2","Saguenay","Female",58880,1520
+"AMB50","NO2","Saguenay","Female",58880,1510
+"Baseline","PM2.5","Saguenay","Female",58880,1530
+"Target","PM2.5","Saguenay","Female",58880,1530
+"AMB10","PM2.5","Saguenay","Female",58880,1530
+"AMB25","PM2.5","Saguenay","Female",58880,1520
+"AMB50","PM2.5","Saguenay","Female",58880,1510
+"Baseline","PM2.5 and NO2","Guelph","Female",56510,890
+"Target","PM2.5 and NO2","Guelph","Female",56510,890
+"AMB10","PM2.5 and NO2","Guelph","Female",56510,890
+"AMB25","PM2.5 and NO2","Guelph","Female",56510,880
+"AMB50","PM2.5 and NO2","Guelph","Female",56510,870
+"Baseline","NO2","Guelph","Female",56510,890
+"Target","NO2","Guelph","Female",56510,890
+"AMB10","NO2","Guelph","Female",56510,890
+"AMB25","NO2","Guelph","Female",56510,880
+"AMB50","NO2","Guelph","Female",56510,880
+"Baseline","PM2.5","Guelph","Female",56510,890
+"Target","PM2.5","Guelph","Female",56510,890
+"AMB10","PM2.5","Guelph","Female",56510,890
+"AMB25","PM2.5","Guelph","Female",56510,880
+"AMB50","PM2.5","Guelph","Female",56510,880
+"Baseline","PM2.5 and NO2","Abbotsford","Female",64390,1190
+"Target","PM2.5 and NO2","Abbotsford","Female",64390,1180
+"AMB10","PM2.5 and NO2","Abbotsford","Female",64390,1170
+"AMB25","PM2.5 and NO2","Abbotsford","Female",64390,1160
+"AMB50","PM2.5 and NO2","Abbotsford","Female",64390,1140
+"Baseline","NO2","Abbotsford","Female",64390,1190
+"Target","NO2","Abbotsford","Female",64390,1180
+"AMB10","NO2","Abbotsford","Female",64390,1180
+"AMB25","NO2","Abbotsford","Female",64390,1170
+"AMB50","NO2","Abbotsford","Female",64390,1160
+"Baseline","PM2.5","Abbotsford","Female",64390,1190
+"Target","PM2.5","Abbotsford","Female",64390,1190
+"AMB10","PM2.5","Abbotsford","Female",64390,1180
+"AMB25","PM2.5","Abbotsford","Female",64390,1170
+"AMB50","PM2.5","Abbotsford","Female",64390,1160
+"Baseline","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1060
+"Target","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1060
+"AMB10","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1050
+"AMB25","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1040
+"AMB50","PM2.5 and NO2","Ottawa - Gatineau","Female",495995,1030
+"Baseline","NO2","Ottawa - Gatineau","Female",495995,1060
+"Target","NO2","Ottawa - Gatineau","Female",495995,1060
+"AMB10","NO2","Ottawa - Gatineau","Female",495995,1050
+"AMB25","NO2","Ottawa - Gatineau","Female",495995,1050
+"AMB50","NO2","Ottawa - Gatineau","Female",495995,1040
+"Baseline","PM2.5","Ottawa - Gatineau","Female",495995,1060
+"Target","PM2.5","Ottawa - Gatineau","Female",495995,1060
+"AMB10","PM2.5","Ottawa - Gatineau","Female",495995,1050
+"AMB25","PM2.5","Ottawa - Gatineau","Female",495995,1050
+"AMB50","PM2.5","Ottawa - Gatineau","Female",495995,1040
+"Baseline","PM2.5 and NO2","Saskatoon","Female",106375,1330
+"Target","PM2.5 and NO2","Saskatoon","Female",106375,1330
+"AMB10","PM2.5 and NO2","Saskatoon","Female",106375,1320
+"AMB25","PM2.5 and NO2","Saskatoon","Female",106375,1310
+"AMB50","PM2.5 and NO2","Saskatoon","Female",106375,1290
+"Baseline","NO2","Saskatoon","Female",106375,1330
+"Target","NO2","Saskatoon","Female",106375,1330
+"AMB10","NO2","Saskatoon","Female",106375,1330
+"AMB25","NO2","Saskatoon","Female",106375,1320
+"AMB50","NO2","Saskatoon","Female",106375,1310
+"Baseline","PM2.5","Saskatoon","Female",106375,1330
+"Target","PM2.5","Saskatoon","Female",106375,1330
+"AMB10","PM2.5","Saskatoon","Female",106375,1330
+"AMB25","PM2.5","Saskatoon","Female",106375,1320
+"AMB50","PM2.5","Saskatoon","Female",106375,1310
+"Baseline","PM2.5 and NO2","Barrie","Female",72190,920
+"Target","PM2.5 and NO2","Barrie","Female",72190,920
+"AMB10","PM2.5 and NO2","Barrie","Female",72190,920
+"AMB25","PM2.5 and NO2","Barrie","Female",72190,910
+"AMB50","PM2.5 and NO2","Barrie","Female",72190,900
+"Baseline","NO2","Barrie","Female",72190,920
+"Target","NO2","Barrie","Female",72190,920
+"AMB10","NO2","Barrie","Female",72190,920
+"AMB25","NO2","Barrie","Female",72190,910
+"AMB50","NO2","Barrie","Female",72190,910
+"Baseline","PM2.5","Barrie","Female",72190,920
+"Target","PM2.5","Barrie","Female",72190,920
+"AMB10","PM2.5","Barrie","Female",72190,920
+"AMB25","PM2.5","Barrie","Female",72190,910
+"AMB50","PM2.5","Barrie","Female",72190,910
+"Baseline","PM2.5 and NO2","Sherbrooke","Female",78235,1220
+"Target","PM2.5 and NO2","Sherbrooke","Female",78235,1220
+"AMB10","PM2.5 and NO2","Sherbrooke","Female",78235,1210
+"AMB25","PM2.5 and NO2","Sherbrooke","Female",78235,1200
+"AMB50","PM2.5 and NO2","Sherbrooke","Female",78235,1190
+"Baseline","NO2","Sherbrooke","Female",78235,1220
+"Target","NO2","Sherbrooke","Female",78235,1220
+"AMB10","NO2","Sherbrooke","Female",78235,1210
+"AMB25","NO2","Sherbrooke","Female",78235,1210
+"AMB50","NO2","Sherbrooke","Female",78235,1200
+"Baseline","PM2.5","Sherbrooke","Female",78235,1220
+"Target","PM2.5","Sherbrooke","Female",78235,1220
+"AMB10","PM2.5","Sherbrooke","Female",78235,1210
+"AMB25","PM2.5","Sherbrooke","Female",78235,1210
+"AMB50","PM2.5","Sherbrooke","Female",78235,1200
+"Baseline","PM2.5 and NO2","Thunder Bay","Female",44965,1130
+"Target","PM2.5 and NO2","Thunder Bay","Female",44965,1130
+"AMB10","PM2.5 and NO2","Thunder Bay","Female",44965,1120
+"AMB25","PM2.5 and NO2","Thunder Bay","Female",44965,1110
+"AMB50","PM2.5 and NO2","Thunder Bay","Female",44965,1100
+"Baseline","NO2","Thunder Bay","Female",44965,1130
+"Target","NO2","Thunder Bay","Female",44965,1130
+"AMB10","NO2","Thunder Bay","Female",44965,1130
+"AMB25","NO2","Thunder Bay","Female",44965,1120
+"AMB50","NO2","Thunder Bay","Female",44965,1110
+"Baseline","PM2.5","Thunder Bay","Female",44965,1130
+"Target","PM2.5","Thunder Bay","Female",44965,1130
+"AMB10","PM2.5","Thunder Bay","Female",44965,1130
+"AMB25","PM2.5","Thunder Bay","Female",44965,1120
+"AMB50","PM2.5","Thunder Bay","Female",44965,1110
+"Baseline","PM2.5 and NO2","St. John's","Female",80355,910
+"Target","PM2.5 and NO2","St. John's","Female",80355,910
+"AMB10","PM2.5 and NO2","St. John's","Female",80355,900
+"AMB25","PM2.5 and NO2","St. John's","Female",80355,900
+"AMB50","PM2.5 and NO2","St. John's","Female",80355,900
+"Baseline","NO2","St. John's","Female",80355,910
+"Target","NO2","St. John's","Female",80355,910
+"AMB10","NO2","St. John's","Female",80355,910
+"AMB25","NO2","St. John's","Female",80355,900
+"AMB50","NO2","St. John's","Female",80355,900
+"Baseline","PM2.5","St. John's","Female",80355,910
+"Target","PM2.5","St. John's","Female",80355,910
+"AMB10","PM2.5","St. John's","Female",80355,910
+"AMB25","PM2.5","St. John's","Female",80355,900
+"AMB50","PM2.5","St. John's","Female",80355,900
+"Baseline","PM2.5 and NO2","London","Female",184560,1160
+"Target","PM2.5 and NO2","London","Female",184560,1160
+"AMB10","PM2.5 and NO2","London","Female",184560,1150
+"AMB25","PM2.5 and NO2","London","Female",184560,1140
+"AMB50","PM2.5 and NO2","London","Female",184560,1120
+"Baseline","NO2","London","Female",184560,1160
+"Target","NO2","London","Female",184560,1160
+"AMB10","NO2","London","Female",184560,1150
+"AMB25","NO2","London","Female",184560,1140
+"AMB50","NO2","London","Female",184560,1130
+"Baseline","PM2.5","London","Female",184560,1160
+"Target","PM2.5","London","Female",184560,1160
+"AMB10","PM2.5","London","Female",184560,1150
+"AMB25","PM2.5","London","Female",184560,1150
+"AMB50","PM2.5","London","Female",184560,1130
+"Baseline","PM2.5 and NO2","Moncton","Female",54600,960
+"Target","PM2.5 and NO2","Moncton","Female",54600,960
+"AMB10","PM2.5 and NO2","Moncton","Female",54600,960
+"AMB25","PM2.5 and NO2","Moncton","Female",54600,950
+"AMB50","PM2.5 and NO2","Moncton","Female",54600,940
+"Baseline","NO2","Moncton","Female",54600,960
+"Target","NO2","Moncton","Female",54600,960
+"AMB10","NO2","Moncton","Female",54600,960
+"AMB25","NO2","Moncton","Female",54600,960
+"AMB50","NO2","Moncton","Female",54600,950
+"Baseline","PM2.5","Moncton","Female",54600,960
+"Target","PM2.5","Moncton","Female",54600,960
+"AMB10","PM2.5","Moncton","Female",54600,960
+"AMB25","PM2.5","Moncton","Female",54600,960
+"AMB50","PM2.5","Moncton","Female",54600,950
+"Baseline","PM2.5 and NO2","Trois-Rivi�res","Female",58110,1390
+"Target","PM2.5 and NO2","Trois-Rivi�res","Female",58110,1380
+"AMB10","PM2.5 and NO2","Trois-Rivi�res","Female",58110,1370
+"AMB25","PM2.5 and NO2","Trois-Rivi�res","Female",58110,1360
+"AMB50","PM2.5 and NO2","Trois-Rivi�res","Female",58110,1340
+"Baseline","NO2","Trois-Rivi�res","Female",58110,1390
+"Target","NO2","Trois-Rivi�res","Female",58110,1380
+"AMB10","NO2","Trois-Rivi�res","Female",58110,1380
+"AMB25","NO2","Trois-Rivi�res","Female",58110,1370
+"AMB50","NO2","Trois-Rivi�res","Female",58110,1360
+"Baseline","PM2.5","Trois-Rivi�res","Female",58110,1390
+"Target","PM2.5","Trois-Rivi�res","Female",58110,1390
+"AMB10","PM2.5","Trois-Rivi�res","Female",58110,1380
+"AMB25","PM2.5","Trois-Rivi�res","Female",58110,1370
+"AMB50","PM2.5","Trois-Rivi�res","Female",58110,1360
+"Baseline","PM2.5 and NO2","Kelowna","Female",72845,1170
+"Target","PM2.5 and NO2","Kelowna","Female",72845,1150
+"AMB10","PM2.5 and NO2","Kelowna","Female",72845,1140
+"AMB25","PM2.5 and NO2","Kelowna","Female",72845,1130
+"AMB50","PM2.5 and NO2","Kelowna","Female",72845,1100
+"Baseline","NO2","Kelowna","Female",72845,1170
+"Target","NO2","Kelowna","Female",72845,1160
+"AMB10","NO2","Kelowna","Female",72845,1150
+"AMB25","NO2","Kelowna","Female",72845,1140
+"AMB50","NO2","Kelowna","Female",72845,1120
+"Baseline","PM2.5","Kelowna","Female",72845,1170
+"Target","PM2.5","Kelowna","Female",72845,1150
+"AMB10","PM2.5","Kelowna","Female",72845,1150
+"AMB25","PM2.5","Kelowna","Female",72845,1140
+"AMB50","PM2.5","Kelowna","Female",72845,1120

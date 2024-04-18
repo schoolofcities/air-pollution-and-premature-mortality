@@ -1,7 +1,7 @@
 <script>
 
 import Select from "svelte-select";
-import predictedDeaths from "../data/predicted-deaths-results.json";
+import predictedDeaths from "../data/predicted-deaths-by-cma.json";
 import * as d3 from "d3";
 
 // options for dropdowns / selections
@@ -14,7 +14,7 @@ let cmaAll = [...new Set(predictedDeaths.map(item => item.CMA))];
 let cmanameSelected = "Toronto";
 let sexSelected = "All";
 let pollutionSelected = "PM2.5 and NO2"
-let ageSelected = "All Ages"
+// let ageSelected = "All Ages"
 
 
 // update variables when selected
@@ -24,9 +24,9 @@ function selectCmaValue(e) {
 function selectSexValue(e) {
 	sexSelected = e.detail.value;
 }
-function selectAgeValue(e) {
-	ageSelected = e.detail.value;
-}
+// function selectAgeValue(e) {
+// 	ageSelected = e.detail.value;
+// }
 function selectPollutionValue(e) {
 	pollutionSelected = e.detail.value;
 }
@@ -45,32 +45,15 @@ function updateStats(cma, sex, pollution, age) {
 	data = data.filter(d => d.Pollution === pollution);
 
 	// filtering and grouping by age and/or sex
-	if (sex === "All" && age === "All Ages" ) {
+	if (sex === "All") {
 		data = d3.rollups(
 			data, 
 			v => d3.sum(v, d => d["Predicted Premature Death"]), 
 			d => d.Intervention, 
 		);
 	}
-	else if (sex === "All" && age !== "All Ages") {
-		data = data.filter(d => d.Age === age);
-		data = d3.rollups(
-			data, 
-			v => d3.sum(v, d => d["Predicted Premature Death"]), 
-			d => d.Intervention
-		);
-	}
-	else if (sex !== "All" && age === "All Ages") {
-		data = data.filter(d => d.SEX === sex);
-		data = d3.rollups(
-			data, 
-			v => d3.sum(v, d => d["Predicted Premature Death"]), 
-			d => d.Intervention
-		);
-	}
 	else {
 		data = data.filter(d => d.SEX === sex);
-		data = data.filter(d => d.Age === age);
 		data = d3.rollups(
 			data, 
 			v => d3.sum(v, d => d["Predicted Premature Death"]), 
@@ -83,7 +66,7 @@ function updateStats(cma, sex, pollution, age) {
 	}, {});
 }
 
-$: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
+$: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 
 </script>
 
@@ -139,7 +122,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 		/>
 	</div>
 
-	<div class="select-wrapper">
+	<!-- <div class="select-wrapper">
 		<p>Age</p>	
 		<Select
 			id="select"
@@ -161,7 +144,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 			--item-is-active-color="#0D534D"
 			--item-is-active-bg="#6FC7EA"
 		/>
-	</div>
+	</div> -->
 
 	<div class="select-wrapper">
 		<p>Sex</p>	
@@ -219,6 +202,11 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected, ageSelected);
 			<td id = "amb25" class = "scenario-label" style="width: 220px">25% reduction + capping at the ambient air quality standards</td>
 			<td class = "scenario-number"> {Math.floor(data.AMB25).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
 			<td class = "scenario-saved">{(Math.floor(data.Baseline) - Math.floor(data.AMB25)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
+		</tr>
+		<tr>
+			<td id = "amb50" class = "scenario-label" style="width: 220px">50% reduction + capping at the ambient air quality standards</td>
+			<td class = "scenario-number"> {Math.floor(data.AMB50).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
+			<td class = "scenario-saved">{(Math.floor(data.Baseline) - Math.floor(data.AMB50)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
 		</tr>
 	</table>
 	
@@ -297,6 +285,10 @@ table {
 }
 #amb25 {
 	border-left: solid 5px var(--brandMedBlue);
+	padding-left:10px;
+} 
+#amb50 {
+	border-left: solid 5px var(--brandDarkBlue);
 	padding-left:10px;
 } 
 
