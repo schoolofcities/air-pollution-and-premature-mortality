@@ -126,11 +126,11 @@ p {
 }
 
 a {
-    color: var(--brandDarkBlue);
+    color: var(--brandMedBlue);
     text-decoration: underline;
     font-family: SourceSerif;
 }
 
 a:hover {
-    color: var(--brandMedBlue);
+    color: var(--brandDarkBlue);
 }
