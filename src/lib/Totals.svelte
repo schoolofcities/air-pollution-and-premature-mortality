@@ -61,9 +61,9 @@ $: xScale = scaleLinear()
 		<rect y="10" width="100%" height="1" style="fill:lightgrey"/>
 	</svg> -->
 
-	<!-- <p id="chart-title">
-		Estimated Total Lives Saved by Scenario:
-	</p> -->
+	<p id="chart-title">
+		In 31 Census Metropolitan Areas (CMAs)
+	</p>
 
 	<div style="border-left: solid 5px #F1C500; padding-left: 10px;">
 		<p>
@@ -228,10 +228,11 @@ $: xScale = scaleLinear()
 	}
 
 	#chart-title {
-		font-family: RobotoBold;
-		font-size: 18px;
+		font-family: RobotoRegular;
+		font-size: 14px;
 		color: var(--brandBlack);
 		vertical-align: bottom;
+		margin-top: -18px;
 		margin-bottom: 20px;
 	}
 

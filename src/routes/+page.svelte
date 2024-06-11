@@ -42,10 +42,10 @@
 		</div>
 
 		<p>
-			Climate change has been identified as the largest global health threat of the 21st century, and one of the most important measures that can be taken to lessen its toll on human health is to reduce air pollution. Cities are home to most of the world’s population and account for <a href="https://www.nature.com/articles/525179a">more than 70%</a> of global greenhouse gas (GHG) emissions. 
+			Climate change is the largest global health threat of the 21st century, and one of the most important measures that can be taken to lessen its toll on human health is to reduce air pollution. 
 		</p>
 		<p>
-			With increasing urbanization, traffic, economic activity, and extreme weather effects like smoke from wildfires, cities become areas of elevated air pollution. In Canada, <a href="https://canue.ca/pm-2-5-what-it-is-and-why-it-matters-february-24th-2022/" target="_blank">86% of the population</a> lives in areas where outdoor air pollutants exceed standard limits set by the World Health Organization. Health Canada has estimated that 15,300 premature deaths (i.e. deaths that occur before age 75) occur annually as a direct result of air pollution from human activity (Health Canada, 2022). 
+			Cities are home to most of the world’s population and account for <a href="https://www.nature.com/articles/525179a">more than 70%</a> of global greenhouse gas (GHG) emissions. With increasing urbanization, traffic, economic activity, and extreme weather effects like smoke from wildfires, cities become areas of elevated air pollution. In Canada, <a href="https://canue.ca/pm-2-5-what-it-is-and-why-it-matters-february-24th-2022/" target="_blank">86% of the population</a> lives in areas where outdoor air pollutants exceed standard limits set by the World Health Organization. <a href="https://www.foss4gna.org/" target="_blank">Health Canada</a> has estimated that 15,300 premature deaths (i.e. deaths that occur before age 75) occur annually as a direct result of air pollution from human activity. 
 		</p>
 		<p>
 			To understand the impact of reducing air pollution on premature deaths, we used a tool called the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7640636/" target="_blank">Mortality Population Risk Tool (PreMPoRT)</a> to simulate how reductions in nitrogen dioxide (NO2) and fine particulate matter less than 2.5 μm in diameter (PM2.5) would impact premature mortality in 31 Canadian Census Metropolitan Areas (CMAs). PM2.5 is a main component of harmful air pollution, while NO2 is another pollutant that can exacerbate the effects of air pollution on human health.
@@ -54,7 +54,7 @@
 			Our results show that interventions aimed at reducing PM2.5 and NO2 could decrease the number of premature deaths for Canadian cities. The greater the air pollution intervention, the greater the reduction in predicted premature deaths.
 		</p>
 
-		<h3>Total Lives Saved By Reducing Air Pollution in 31 Canadian Metropolitan Regions</h3>
+		<h3>Total lives saved by reducing air pollution</h3>
 
 		<Totals/>
 
@@ -92,13 +92,13 @@
 		</p>
 
 
-		<h3>Air Pollution in Canadian Urban Regions</h3>
+		<h3>Air pollution within Canadian urban regions</h3>
 		
 		<!-- <p>	
 			From the Canadian Ambient Air Quality Standards, maximum annual average exposures to 8.8 μg/m3 of PM2.5 and 12.0 ppb of NO2 are targets that help continuously improve air quality. 
 		</p> -->
 		<p>
-			Across all CMAs, the observed average annual exposure of PM2.5 was 6.7 μg/m3 for males and females, and the observed average annual exposure of NO2 was 8.3ppb for females and 8.4ppb for males. However, exposure varies across regions. 206,000 females and 202,000 males live in areas which exceed the PM2.5 standard, while 437,000 females and 488,000 males live in areas which exceed the NO2 standard. 
+			Across all CMAs, the observed average annual exposure of PM2.5 was 6.7 μg/m3 for males and females, and the observed average annual exposure of NO2 was 8.3ppb for females and 8.4ppb for males. However, 206,000 females and 202,000 males live in areas which exceed the PM2.5 standard, while 437,000 females and 488,000 males live in areas which exceed the NO2 standard. 
 		</p>
 		<p>
 			The maps below show variations in exposure to PM2.5 and NO2 in 31 Canadian CMAs. Select from the dropdown to zoom to and show maps for different regions. 
@@ -143,16 +143,10 @@
 		</p> -->
    
 
-		<h3>Data sources and methods</h3>
+		<!-- <h3>Data sources and methods</h3>
 	   
-		<p>Note any important details here about the premature mortality data that are not included above.</p>
-	   
-		<p>PM2.5 data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> V4.NA.03. We averaged the mean annual PM2.5 values from 2016 and 2017.
-		</p>
-
 		<p>
-			Nitrogen dioxide data from 2016 were indexed to DMTI Spatial Inc. postal codes, which were provided by the Canadian Urban Environmental Health Research Consortium (<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE</a>). The point data were interpolated using IDW where k = 2 using the same cell size as the PM2.5 data (0.01° × 0.01°).
-			PM2.5 and NO2 data were converted from raster to vector data and added incorporated into a single geojson file via spatial join.       
+			For the maps, PM2.5 data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> V4.NA.03. We averaged the mean annual PM2.5 values from 2016 and 2017. Nitrogen dioxide data from 2016 were indexed to DMTI Spatial Inc. postal codes, which were provided by the Canadian Urban Environmental Health Research Consortium (<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE</a>). The point data were interpolated using IDW where k = 2 using the same cell size as the PM2.5 data (0.01° × 0.01°). PM2.5 and NO2 data were converted from raster to vector data and added incorporated into a single geojson file via spatial join.       
 		</p>
 	  
 		<p>
@@ -165,6 +159,9 @@
 		<p>
 			Data and code for this work are on <a href='https://github.com/schoolofcities/air-pollution-and-premature-mortality' target = 'blank'>GitHub</a>.
 		</p>
+		<p>
+			The top photograph of Calgary was taken by Jeff Allen in 06/2023.
+		</p> -->
 
 		<!-- <h3>References</h3>
 	   
