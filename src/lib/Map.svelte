@@ -135,7 +135,7 @@
 				'paint': {
 					'line-color': '#1E3765',
 					'line-width' : 2,
-					'line-opacity': 1
+					'line-opacity': 0.5
 			}
 			}, "places_locality");
 			map.addSource('cmaPolygon', {
@@ -218,8 +218,8 @@
 
 		map = new maplibregl.Map({
 			container: 'map',
-			center: [-79.580, 43.905],
-			zoom: 8,
+			center: [-79.5, 43.7],
+			zoom: 9,
 			minZoom: 6,
 			maxZoom: 11,
 			bearing: 0,
@@ -243,7 +243,7 @@
 						"id": "bg",
 						"type": "background",
 						"paint": {
-							"background-color": "#ebe8e8",
+							"background-color": "#f3f1f1",
 							"background-opacity": 1
 						}
 					}
@@ -328,7 +328,6 @@
 	//zoom button functionality
 	
 	function zoomIn() {
-
 		map.zoomIn();
 	}
 	function zoomOut() {

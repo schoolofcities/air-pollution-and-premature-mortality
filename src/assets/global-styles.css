@@ -89,6 +89,18 @@ main {
     height: auto;
 }
 
+.bottom-image {
+    border-top: solid 1px var(--brandGray);
+    padding-top: 50px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.bottom-image img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     font-family: TradeGothicBold;
     font-size: 38px;
@@ -121,16 +133,23 @@ p {
     font-family: SourceSerif;
     color: var(--brandBlack);
     text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-size: 18px;
     line-height: 30px;
 }
 
+.notes {
+    font-size: 16px;
+    line-height: 26px;
+}
+
 a {
-    color: var(--brandMedBlue);
+    color: var(--brandDarkBlue);
     text-decoration: underline;
     font-family: SourceSerif;
 }
 
 a:hover {
-    color: var(--brandDarkBlue);
+    color: var(--brandMedBlue);
 }

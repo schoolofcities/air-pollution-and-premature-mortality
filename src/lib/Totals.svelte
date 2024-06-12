@@ -62,7 +62,7 @@ $: xScale = scaleLinear()
 	</svg> -->
 
 	<p id="chart-title">
-		In 31 Census Metropolitan Areas (CMAs)
+		Summed for 31 Census Metropolitan Areas (CMAs) in Canada
 	</p>
 
 	<div style="border-left: solid 5px #F1C500; padding-left: 10px;">
@@ -206,11 +206,6 @@ $: xScale = scaleLinear()
 			width: 220px;
 		}
 	}
-
-	.select-label {
-
-	}
-
 
 	.chart-wrapper {
 		margin-top: -5px;

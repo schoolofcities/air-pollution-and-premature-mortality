@@ -75,7 +75,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 <div class="select-inputs">
 
 	<div class="select-wrapper">
-		<p>Census Metropolitan Area (CMA):</p>	
+		<p>Census Metropolitan Area</p>	
 		<Select
 			id="select"
 			items={cmaAll}
@@ -86,7 +86,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			--background="white"
 			--selected-item-color="black" 
 			--height="20px"
-			--width="210px"
+			--width="220px"
 			--item-color="black"
 			--border-radius="5px"
 			--border= "solid 1px #cdcdcd"
@@ -99,7 +99,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 	</div>
 
 	<div class="select-wrapper">
-		<p>Air Pollutants</p>	
+		<p>Select Air Pollutants</p>	
 		<Select
 			id="select"
 			items={pollutionAll}
@@ -110,7 +110,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			--background="white"
 			--selected-item-color="black" 
 			--height="20px"
-			--width="210px"
+			--width="220px"
 			--item-color="black"
 			--border-radius="5px"
 			--border= "solid 1px #cdcdcd"
@@ -147,7 +147,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 	</div> -->
 
 	<div class="select-wrapper">
-		<p>Sex</p>	
+		<p>Select Sex</p>	
 		<Select
 			id="select"
 			items={sexAll}
@@ -158,7 +158,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			--background="white"
 			--selected-item-color="black" 
 			--height="20px"
-			--width="210px"
+			--width="220px"
 			--item-color="black"
 			--border-radius="5px"
 			--border= "solid 1px #cdcdcd"
@@ -185,30 +185,31 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			<th colspan = "2" class = "column-header" style = "font-size: 12px; font-style: italic">Per 100,000 People</th>
 		</tr>
 		<tr class>
-			<td id = "baseline" class = "scenario-label" style="width: 220px">Baseline</td>
+			<td id = "baseline" class = "scenario-label" style="width: 430px">Existing Conditions</td>
 			<td class = "scenario-baseline">{Math.floor(data.Baseline).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
 		</tr>
 		<tr>
-			<td id = "target" class = "scenario-label" style="width: 220px">Reducing air pollutant levels to air quality standard targets</td>
+			<td id = "target" class = "scenario-label" style="width: 430px">Reducing air pollutant levels to air quality standard targets</td>
 			<td class = "scenario-number">{Math.floor(data.Target).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
 			<td class = "scenario-saved">{(Math.floor(data.Baseline) - Math.floor(data.Target)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
 		</tr>
 		<tr>
-			<td id = "amb10" class = "scenario-label" style="width: 220px">10% reduction + capping at the ambient air quality standards</td> 
+			<td id = "amb10" class = "scenario-label" style="width: 430px">10% reduction + capping at the ambient air quality standards</td> 
 			<td class = "scenario-number">{Math.floor(data.AMB10).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
 			<td class = "scenario-saved">{(Math.floor(data.Baseline) - Math.floor(data.AMB10)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
 		</tr>
 		<tr>
-			<td id = "amb25" class = "scenario-label" style="width: 220px">25% reduction + capping at the ambient air quality standards</td>
+			<td id = "amb25" class = "scenario-label" style="width: 430px">25% reduction + capping at the ambient air quality standards</td>
 			<td class = "scenario-number"> {Math.floor(data.AMB25).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
 			<td class = "scenario-saved">{(Math.floor(data.Baseline) - Math.floor(data.AMB25)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
 		</tr>
 		<tr>
-			<td id = "amb50" class = "scenario-label" style="width: 220px">50% reduction + capping at the ambient air quality standards</td>
+			<td id = "amb50" class = "scenario-label" style="width: 430px">50% reduction + capping at the ambient air quality standards</td>
 			<td class = "scenario-number"> {Math.floor(data.AMB50).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- premature deaths -->
 			<td class = "scenario-saved">{(Math.floor(data.Baseline) - Math.floor(data.AMB50)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td> <!-- estimated lives saved -->
 		</tr>
 	</table>
+	<br>
 	
 </div>
 
@@ -219,7 +220,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 
 p {
 	font-family: RobotoBold;
-	font-size: 14px;
+	font-size: 16px;
 	margin: 0px;
 	margin-top: 5px;
 }
@@ -245,7 +246,7 @@ table {
 
 .scenario-label {
 	font-family: RobotoRegular;
-	font-size: 15px;
+	font-size: 16px;
 	border-top: solid 1px #f7f7f7;
 }
 .scenario-baseline {
@@ -299,17 +300,17 @@ table {
 @media screen and (min-width: 500px) {
 	.select-inputs {
 		margin: 0 auto;
-		width: 460px;
+		width: 680px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
   	.select-wrapper {
-		width: 48%; /* Adjust the width as needed */
+		width: 33%; /* Adjust the width as needed */
   	}
 	.results {
 		margin: 0 auto;
-		width: 460px;
+		max-width: 680px;
 		display: flex;
 		flex-wrap: wrap;
 	}
