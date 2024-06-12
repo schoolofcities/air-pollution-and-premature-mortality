@@ -61,16 +61,16 @@ $: xScale = scaleLinear()
 		<rect y="10" width="100%" height="1" style="fill:lightgrey"/>
 	</svg> -->
 
-	<!-- <p id="chart-title">
-		Estimated Total Lives Saved by Scenario:
-	</p> -->
+	<p id="chart-title">
+		Summed for 31 Census Metropolitan Areas (CMAs) in Canada
+	</p>
 
 	<div style="border-left: solid 5px #F1C500; padding-left: 10px;">
 		<p>
-			Reducing air pollutant levels to air quality standard targets
+			Lives saved by reducing air pollutant levels to air quality standard targets
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
-			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
 			<rect y=8 width="{xScale(data[1][sexSelected])}" height="15" style="fill:#00A189"/>
 			<text class="scenario-saved" x="{xScale(data[1][sexSelected]) + 4}" y="26">{data[1][sexSelected]}</text>
 		</svg>
@@ -78,10 +78,10 @@ $: xScale = scaleLinear()
 	
 	<div style="border-left: solid 5px #6FC7EA; padding-left: 10px;">
 		<p>
-			10% reduction + capping at the ambient air quality standards
+			Lives saved with a 10% reduction + capping at the ambient air quality standards
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
-			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
 			<rect y=8 width="{xScale(data[2][sexSelected])}" height="15" style="fill:#00A189"/>
 			<text class="scenario-saved" x="{xScale(data[2][sexSelected]) + 4}" y="26">{data[2][sexSelected].toLocaleString()}</text>
 		</svg>
@@ -89,10 +89,10 @@ $: xScale = scaleLinear()
 
 	<div style="border-left: solid 5px #007FA3; padding-left: 10px;">
 		<p>
-			25% reduction + capping at the ambient air quality standards
+			Lives saved with a 25% reduction + capping at the ambient air quality standards
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
-			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
 			<rect y=8 width="{xScale(data[3][sexSelected])}" height="15" style="fill:#00A189"/>
 			<text class="scenario-saved" x="{xScale(data[3][sexSelected]) + 4}" y="26">{data[3][sexSelected].toLocaleString()}</text>
 		</svg>
@@ -100,10 +100,10 @@ $: xScale = scaleLinear()
 
 	<div style="border-left: solid 5px #1E3765; padding-left: 10px;">
 		<p>
-			50% reduction + capping at the ambient air quality standards
+			Lives saved with a 50% reduction + capping at the ambient air quality standards
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
-			<rect y=1 width="{xScale(7500)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
+			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
 			<rect y=8 width="{xScale(data[4][sexSelected])}" height="15" style="fill:#00A189"/>
 			<text class="scenario-saved" x="{xScale(data[4][sexSelected]) + 4}" y="26">{data[4][sexSelected].toLocaleString()}</text>
 		</svg>
@@ -207,11 +207,6 @@ $: xScale = scaleLinear()
 		}
 	}
 
-	.select-label {
-
-	}
-
-
 	.chart-wrapper {
 		margin-top: -5px;
 		width: 100%;
@@ -228,10 +223,11 @@ $: xScale = scaleLinear()
 	}
 
 	#chart-title {
-		font-family: RobotoBold;
-		font-size: 18px;
+		font-family: RobotoRegular;
+		font-size: 14px;
 		color: var(--brandBlack);
 		vertical-align: bottom;
+		margin-top: -18px;
 		margin-bottom: 20px;
 	}
 
