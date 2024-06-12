@@ -182,7 +182,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 		</tr>
 		<tr class = deaths>
 			<th></th>
-			<th colspan = "2" class = "column-header" style = "font-size: 12px; font-style: italic">Per 100,000 People</th>
+			<th colspan = "2" class = "column-header" style = "font-size: 14px; font-style: italic">Per 100,000 People</th>
 		</tr>
 		<tr class>
 			<td id = "baseline" class = "scenario-label" style="width: 430px">Existing Conditions</td>
@@ -235,7 +235,7 @@ table {
 
 .column-header {
 	font-family: RobotoRegular;
-	font-size: 16px;
+	font-size: 17px;
 	color: var(--brandBlack);
 	vertical-align: bottom;
 }
@@ -251,21 +251,21 @@ table {
 }
 .scenario-baseline {
 	font-family: RobotoBold;
-	font-size: 25px;
+	font-size: 27px;
 	color: var(--brandRed);
 	border-top: solid 1px #f7f7f7;
 	text-align: right;
 }
 .scenario-number {
 	font-family: RobotoBold;
-	font-size: 25px;
+	font-size: 27px;
 	color: var(--brandGray70);
 	border-top: solid 1px #f7f7f7;
 	text-align: right;
 }
 .scenario-saved {
 	font-family: RobotoBold;
-	font-size: 25px;
+	font-size: 27px;
 	color: var(--brandMedGreen);
 	border-top: solid 1px #f7f7f7;
 	text-align: right;

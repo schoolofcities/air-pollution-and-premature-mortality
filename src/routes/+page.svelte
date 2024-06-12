@@ -65,7 +65,7 @@
 		<p>	
 			From the Canadian Ambient Air Quality Standards, maximum annual average exposures to 8.8 μg/m3 of PM2.5 and 12.0 ppb of NO2 are targets that help continuously improve air quality. The first scenario in the chart above cap air pollution to these targets. The next three scenarios look at 10%, 25%, and 50% reductions in air pollution across each CMA, and then cap exposure for anyone still above the standard to meet it.
 		</p>
-
+		
 		<!-- <p>
 			Specifically we simulated three different air pollution reduction scenarios: reducing PM2.5, reducing NO2, and reducing PM2.5 and NO2 simultaneously. We also modelled four variations in air pollution intervention scenarios:
 		</p>
@@ -139,6 +139,7 @@
 			Map data from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> and the Canadian Urban Environmental Health Research Consortium (<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE</a>). The census metropolitan areas use the 2006 digital boundaries from <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>Statistics Canada</a>.
 			The base map and reference layers are from <a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a> and <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>. This webpage uses the JavaScript framework <a href='https://svelte.dev/' target = 'blank'>Svelte</a>. Maps and charts were created using <a href='https://d3js.org/' target = 'blank'>D3</a> and <a href='https://maplibre.org/' target = 'blank'>MapLibre GL JS</a>.
 		</p>
+		<br><br>
 		<p class="notes">
 			Research funded by a <a href="https://schoolofcities.utoronto.ca/programs-opportunities/urban-challenge-grant/" target = 'blank'> School of Cities Urban Challenge Grant</a>
 		</p>
