@@ -34,7 +34,7 @@
 	<div class="text">
 
 		<div class="title">
-			<h1>Air Pollution & Premature Mortality </h1>
+			<h1>How reducing air pollution could extend thousands of lives</h1>
 			<p><b><u>Research</u></b>: Sabrina Chiodo; Lief Pagalan; Mackenzie Hurst; Meghan O’Neill; Helen Stylianou; Lori M. Diemert; Hong Chen; Jeffrey R. Brook; Andy Hong; Laura C. Rosella<br>
 			<b><u>Writing</u></b>: Kosta Diochnos
 			<br>
@@ -49,7 +49,7 @@
 			Cities are home to most of the world’s population and account for <a href="https://www.nature.com/articles/525179a">more than 70%</a> of global greenhouse gas (GHG) emissions. With increasing urbanization, traffic, economic activity, and extreme weather effects like smoke from wildfires, cities become areas of elevated air pollution. In Canada, <a href="https://canue.ca/pm-2-5-what-it-is-and-why-it-matters-february-24th-2022/" target="_blank">86% of the population</a> lives in areas, mostly in cities, where outdoor air pollutants exceed standard limits set by the World Health Organization. <a href="https://www.foss4gna.org/" target="_blank">Health Canada</a> has estimated that 15,300 premature deaths (deaths that take place before age 75) occur annually as a direct result of air pollution from human activity.
 		</p>
 		<p>
-			To understand the impact of reducing air pollution on premature deaths, we used the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7640636/" target="_blank">Mortality Population Risk Tool (PreMPoRT)</a> to simulate how reductions in nitrogen dioxide (NO2) and fine particulate matter less than 2.5 μm in diameter (PM2.5) would impact premature mortality in 31 Canadian Census Metropolitan Areas (CMAs). PM2.5 is a main component of harmful air pollution, while NO2 is another pollutant that can exacerbate the effects of air pollution on human health.
+			To understand the impact of reducing air pollution on premature deaths, we used the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7640636/" target="_blank">Premature Mortality Population Risk Tool (PreMPoRT)</a> to simulate how reductions in nitrogen dioxide (NO2) and fine particulate matter less than 2.5 μm in diameter (PM2.5) would impact premature mortality in 31 Canadian Census Metropolitan Areas (CMAs). PM2.5 is a main component of harmful air pollution, while NO2 is another pollutant that can exacerbate the effects of air pollution on human health.
 		</p>
 		<p>
 			Specifically we simulated three different air pollution reduction scenarios: reducing PM2.5, reducing NO2, and reducing PM2.5 and NO2 simultaneously. We also modelled four variations in air pollution intervention scenarios
@@ -95,17 +95,15 @@
 
 		<Results/>
 
-		<p>
-			Through strategic interventions such as transitioning to renewable energy sources, active travel and electrified public transit, and imposing strict emission standards on industrial facilities, Canada could improve its climate change resiliency and make significant improvements to public health. 
-		</p>
-
+		
+		<br><br>
 		<h3>Air pollution within Canadian urban regions</h3>
 		
 		<p>
 			Across all CMAs, the observed average annual exposure of PM2.5 was 6.7 μg/m3 for males and females, and the observed average annual exposure of NO2 was 8.3ppb for females and 8.4ppb for males. However, 206,000 females and 202,000 males live in areas which exceed the PM2.5 standard, while 437,000 females and 488,000 males live in areas which exceed the NO2 standard. 
 		</p>
 		<p>
-			The maps below show variations in exposure to PM2.5 and NO2 in 31 Canadian CMAs. Select from the dropdown to zoom to and show maps for different regions. 
+			The maps below show variations in exposure to PM2.5 and NO2 in 31 Canadian CMAs. 
 		</p>
 		
 		
@@ -124,6 +122,9 @@
 			Pollution reductions would be particularly beneficial for individuals in neighbourhoods with greater socioeconomic deprivation, housing instability, and proportions of racial minorities and recent immigrants. 
 			<!-- Additionally, by simulating reductions of pollution even below the Canadian air quality standards, we can see how even greater health benefits could occur across the population.  -->
 		</p>
+		<p>
+			Through strategic interventions such as transitioning to renewable energy sources, increasing active travel and electrified public transit, and imposing strict emission standards on industrial facilities, Canada could improve its climate change resiliency and make significant improvements to public health. 
+		</p>
 	</div>
 
 	<Map/>    
@@ -136,8 +137,8 @@
 	<div class="text">
 
 		<p class="notes">
-			Map data from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> and the Canadian Urban Environmental Health Research Consortium (<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE</a>). The census metropolitan areas use the 2006 digital boundaries from <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>Statistics Canada</a>.
-			The base map and reference layers are from <a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a> and <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>. This webpage uses the JavaScript framework <a href='https://svelte.dev/' target = 'blank'>Svelte</a>. Maps and charts were created using <a href='https://d3js.org/' target = 'blank'>D3</a> and <a href='https://maplibre.org/' target = 'blank'>MapLibre GL JS</a>.
+			Map data are from <a href = 'https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V5.GL.04' target = 'blank'>van Donkelaar et al. (2019)</a> and the Canadian Urban Environmental Health Research Consortium (<a href = 'https://www.canuedata.ca/metadata.php' target = 'blank'>CANUE</a>). The census metropolitan areas use the 2006 digital boundaries from <a href = 'https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-2006-eng.cfm' target = 'blank'>Statistics Canada</a>.
+			The base map and reference layers are from <a href = 'https://protomaps.com/' target = 'blank'>Protomaps</a> and <a href = 'https://www.openstreetmap.org/#map=3/71.34/-96.82' target = 'blank'>OpenStreetMap</a>. This webpage uses the JavaScript framework <a href='https://svelte.dev/' target = 'blank'>Svelte</a>. Maps and charts were created using <a href='https://d3js.org/' target = 'blank'>D3</a> and <a href='https://maplibre.org/' target = 'blank'>MapLibre GL JS</a>. Further technical details are on <a href="https://github.com/schoolofcities/air-pollution-and-premature-mortality" target = 'blank'>GitHub</a>.
 		</p>
 		<br><br>
 		<p class="notes">
