@@ -178,7 +178,7 @@ $: xScale = scaleLinear()
 <style>
 
 	.select-wrapper {
-		width: 100%;
+		width: 680px;
 		margin-bottom: 0px;
 	}
 
@@ -190,12 +190,12 @@ $: xScale = scaleLinear()
 	}
 
 	.select-inputs {
-		/* margin: 0 auto; */
+		margin: 0 auto;
 		width: 100%;
 	}
 	@media screen and (min-width: 500px) {
 		.select-inputs {
-			/* margin: 0 auto; */
+			margin: 0 auto;
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;

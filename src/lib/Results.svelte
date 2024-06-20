@@ -225,8 +225,56 @@ p {
 	margin-top: 5px;
 }
 
+.select-inputs {
+	margin: 0 auto;
+	width: 230px;
+}
+
+@media screen and (min-width: 480px) {
+	.select-inputs {
+		margin: 0 auto;
+		width: 460px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.select-wrapper {
+		width: 50%; /* Adjust the width as needed */
+  	}
+	.results {
+		margin: 0 auto;
+		max-width: 680px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+@media screen and (min-width: 691px) {
+	.select-inputs {
+		margin: 0 auto;
+		width: 690px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+  	.select-wrapper {
+		width: 33%; /* Adjust the width as needed */
+  	}
+	.results {
+		margin: 0 auto;
+		max-width: 680px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.results {
+	padding: 0px;
+	margin: 0px;
+}
+
 table {
 	margin-top: 20px;
+	margin-left: -5px;
 	border-top: solid 1px var(--brandGray);
 	border-bottom: solid 1px var(--brandGray);
 	border-collapse:separate;
@@ -293,27 +341,6 @@ table {
 	padding-left:10px;
 } 
 
-.select-inputs {
-	margin: 0 auto;
-	width: 230px;
-}
-@media screen and (min-width: 500px) {
-	.select-inputs {
-		margin: 0 auto;
-		width: 680px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-  	.select-wrapper {
-		width: 33%; /* Adjust the width as needed */
-  	}
-	.results {
-		margin: 0 auto;
-		max-width: 680px;
-		display: flex;
-		flex-wrap: wrap;
-	}
-}
+
 
 </style>
