@@ -178,7 +178,7 @@ $: xScale = scaleLinear()
 <style>
 
 	.select-wrapper {
-		width: 680px;
+		max-width: 680px;
 		margin-bottom: 0px;
 	}
 
