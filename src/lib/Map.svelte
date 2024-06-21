@@ -358,6 +358,7 @@
 				items={cmaAll}
 				value={cmanameSelected}
 				clearable={false}
+				searchable={false}
 				showChevron={true}
 				on:input={cmaSelectDropDown}
 				--background="white"

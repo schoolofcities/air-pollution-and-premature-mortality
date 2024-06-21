@@ -81,6 +81,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			items={cmaAll}
 			value={cmanameSelected}
 			clearable={false}
+			searchable={false}
 			showChevron={true}
 			on:input={selectCmaValue}
 			--background="white"
@@ -105,6 +106,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			items={pollutionAll}
 			value={pollutionSelected}
 			clearable={false}
+			searchable={false}
 			showChevron={true}
 			on:input={selectPollutionValue}
 			--background="white"
@@ -153,6 +155,7 @@ $: updateStats(cmanameSelected, sexSelected, pollutionSelected);
 			items={sexAll}
 			value={sexSelected}
 			clearable={false}
+			searchable={false}
 			showChevron={true}
 			on:input={selectSexValue}
 			--background="white"
