@@ -402,7 +402,7 @@
 	</div>
 
 	<div class = 'container'>
-		<div id="map" class="map" style="height: {mapHeight}px">	
+		<div id="map" class="map">	
 			<!-- zoom buttons-->
 			<div class="map-zoom-wrapper">	
 				<div on:click={zoomIn} class="map-zoom">+</div>
@@ -416,7 +416,7 @@
 <style>
 	#map {
 		width: 100%;
-		height: 100%;
+		height: 66vh;
 		max-width: 1200px;
 		margin: 0 auto;
 		margin-top: 5px;
