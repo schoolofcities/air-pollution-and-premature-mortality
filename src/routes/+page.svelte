@@ -32,7 +32,7 @@
 	</div> -->
 
 	<div class='intro'>
-		<video src='./air-pollution-and-premature-mortality/videoTest2.mp4' poster='./air-pollution-and-premature-mortality/web-card.png' muted preload autoplay loop playsinline></video>
+		<video src='./air-pollution-and-premature-mortality/videoTest2.mp4' poster='./air-pollution-and-premature-mortality/videoPoster.png' muted preload autoplay loop playsinline></video>
 		<div class='intro-overlay'>
 			<h1>How reducing air pollution could extend thousands of lives</h1>
 		</div>
