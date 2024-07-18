@@ -4,6 +4,9 @@ import Select from "svelte-select";
 import livesSaved from "../data/lives-saved-totals.json";
 import {scaleLinear} from "d3";
 
+import { tweened } from 'svelte/motion';
+import { cubicOut } from 'svelte/easing';
+
 
 
 let width;
@@ -24,21 +27,12 @@ function selectPollutionValue(e) {
 	pollutionSelected = e.detail.value;
 }
 
-
 // updating the data for charting:
-
 let data = livesSaved;
-
 function updateStats(sex, pollution) {
-
 	data = livesSaved;
-
-	data = data.filter(d => d.Pollutant === pollution);
-
-	console.log(data)
-	
+	data = data.filter(d => d.Pollutant === pollution);	
 }
-
 $: updateStats(sexSelected, pollutionSelected);
 
 
@@ -47,19 +41,42 @@ $: xScale = scaleLinear()
 	.range([0, width - 100])
 
 
+// setting tween animation for each bar (should be more efficient way but not sure at the moment)
+
+let tweenedWidth1 = tweened(0, {
+	duration: 300,
+	easing: cubicOut
+});
+
+$: tweenedWidth1.set(xScale(data[1][sexSelected]));
+
+let tweenedWidth2 = tweened(0, {
+	duration: 300,
+	easing: cubicOut
+});
+
+$: tweenedWidth2.set(xScale(data[2][sexSelected]));
+
+let tweenedWidth3 = tweened(0, {
+	duration: 300,
+	easing: cubicOut
+});
+
+$: tweenedWidth3.set(xScale(data[3][sexSelected]));
+
+let tweenedWidth4 = tweened(0, {
+	duration: 300,
+	easing: cubicOut
+});
+
+$: tweenedWidth4.set(xScale(data[4][sexSelected]));
+
+
 </script>
 
 
 
-
-
 <div class="chart-wrapper" bind:offsetWidth={width}>
-
-	
-
-	<!-- <svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg">
-		<rect y="10" width="100%" height="1" style="fill:lightgrey"/>
-	</svg> -->
 
 	<p id="chart-title">
 		Summed for 31 Census Metropolitan Areas (CMAs) in Canada
@@ -71,8 +88,8 @@ $: xScale = scaleLinear()
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
 			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
-			<rect y=8 width="{xScale(data[1][sexSelected])}" height="15" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[1][sexSelected]) + 4}" y="26">{data[1][sexSelected]}</text>
+			<rect y=8 width="{$tweenedWidth1}" height="15" style="fill:#00A189" />
+			<text class="scenario-saved" x="{$tweenedWidth1 + 4}" y="26">{data[1][sexSelected]}</text>
 		</svg>
 	</div>
 	
@@ -82,8 +99,8 @@ $: xScale = scaleLinear()
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
 			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
-			<rect y=8 width="{xScale(data[2][sexSelected])}" height="15" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[2][sexSelected]) + 4}" y="26">{data[2][sexSelected].toLocaleString()}</text>
+			<rect y=8 width="{$tweenedWidth2}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{$tweenedWidth2 + 4}" y="26">{data[2][sexSelected].toLocaleString()}</text>
 		</svg>
 	</div>
 
@@ -93,8 +110,8 @@ $: xScale = scaleLinear()
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
 			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
-			<rect y=8 width="{xScale(data[3][sexSelected])}" height="15" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[3][sexSelected]) + 4}" y="26">{data[3][sexSelected].toLocaleString()}</text>
+			<rect y=8 width="{$tweenedWidth3}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{$tweenedWidth3 + 4}" y="26">{data[3][sexSelected].toLocaleString()}</text>
 		</svg>
 	</div>
 
@@ -104,12 +121,10 @@ $: xScale = scaleLinear()
 		</p>
 		<svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
 			<rect y=1 width="{xScale(99999)}" height="30" style="fill:#D0D1C9; opacity: 0.1"/>
-			<rect y=8 width="{xScale(data[4][sexSelected])}" height="15" style="fill:#00A189"/>
-			<text class="scenario-saved" x="{xScale(data[4][sexSelected]) + 4}" y="26">{data[4][sexSelected].toLocaleString()}</text>
+			<rect y=8 width="{$tweenedWidth4}" height="15" style="fill:#00A189"/>
+			<text class="scenario-saved" x="{$tweenedWidth4 + 4}" y="26">{data[4][sexSelected].toLocaleString()}</text>
 		</svg>
 	</div>
-
-	
 
 </div>
 
@@ -171,9 +186,6 @@ $: xScale = scaleLinear()
 	</svg>
 
 </div>
-
-
-
 
 
 
