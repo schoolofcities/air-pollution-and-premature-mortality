@@ -27,14 +27,22 @@
 
 <main>
 
-	<div class="top-image">
+	<!-- <div class="top-image">
 		<img src="{topImage}" alt="Your Image Description">
+	</div> -->
+
+	<div class='intro'>
+		<video src='./air-pollution-and-premature-mortality/videoTest2.mp4' poster='./air-pollution-and-premature-mortality/web-card.png' muted preload autoplay loop playsinline></video>
+		<div class='intro-overlay'>
+			<h1>How reducing air pollution could extend thousands of lives</h1>
+		</div>
 	</div>
+	<!-- https://www.pexels.com/video/drone-footage-of-intense-traffic-on-ontario-highway-401-12260942/ -->
 	
 	<div class="text">
 
 		<div class="title">
-			<h1>How reducing air pollution could extend thousands of lives</h1>
+			<!-- <h1>How reducing air pollution could extend thousands of lives</h1> -->
 			<p><b><u>Research</u></b>: Sabrina Chiodo; Lief Pagalan; Mackenzie Hurst; Meghan O’Neill; Helen Stylianou; Lori M. Diemert; Hong Chen; Jeffrey R. Brook; Andy Hong; Laura C. Rosella<br>
 			<b><u>Writing</u></b>: Kosta Diochnos
 			<br>

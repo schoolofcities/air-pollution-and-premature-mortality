@@ -1,12 +1,10 @@
 <script>
 
 import Select from "svelte-select";
-import livesSaved from "../data/lives-saved-totals.json";
 import {scaleLinear} from "d3";
-
 import { tweened } from 'svelte/motion';
 import { cubicOut } from 'svelte/easing';
-
+import livesSaved from "../data/lives-saved-totals.json";
 
 
 let width;
@@ -41,7 +39,7 @@ $: xScale = scaleLinear()
 	.range([0, width - 100])
 
 
-// setting tween animation for each bar (should be more efficient way but not sure at the moment)
+// setting tween animation for each bar (should be more efficient way, do all at once, but not sure how at the moment)
 
 let tweenedWidth1 = tweened(0, {
 	duration: 300,
@@ -70,6 +68,8 @@ let tweenedWidth4 = tweened(0, {
 });
 
 $: tweenedWidth4.set(xScale(data[4][sexSelected]));
+
+
 
 
 </script>
