@@ -42,7 +42,7 @@
 
 	// Functions for what happens when the CMA changes
 
-	let cmanameSelected = 'Toronto'; // default to Toronto for now
+	let cmanameSelected = 'Vancouver'; // default to Toronto for now
 	let filteredData;
 	$: filteredData = cmaSummary.filter(
 		(item) => item.cmaSummary === cmanameSelected
@@ -155,8 +155,8 @@
 	}
 
 	// function for changing the type of pollution displayed
-	let checkValue = 'PM2.5';
-	let checked = false;
+	let checkValue = 'NO2';
+	let checked = true;
 			
 	async function loadPollution(checked) {
 		if (checked === false) {
@@ -218,7 +218,7 @@
 
 		map = new maplibregl.Map({
 			container: 'map',
-			center: [-79.5, 43.7],
+			center: [-122.92, 49.28],
 			zoom: 9,
 			minZoom: 6,
 			maxZoom: 11,
@@ -268,7 +268,7 @@
 				"source": "protomaps",
 				"source-layer": "water",
 				"paint": {
-					"fill-color": "#bdbfbf",
+					"fill-color": "#fff",
 					"fill-outline-color": "#dedede"
 				}
 			})
