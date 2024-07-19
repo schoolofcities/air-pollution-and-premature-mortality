@@ -218,7 +218,7 @@
 
 		map = new maplibregl.Map({
 			container: 'map',
-			center: [-122.92, 49.28],
+			center: [-122.921, 49.285],
 			zoom: 9,
 			minZoom: 6,
 			maxZoom: 11,
@@ -425,6 +425,7 @@
 		background-color: white;
 		z-index: 1;
 		position:relative;
+		/* overflow-x: hidden; */
 	}
 
 	#map:hover {
@@ -461,14 +462,14 @@
 
 	.toggle button:hover {
 		cursor: pointer;
-		background-color:lightgray;
+		background-color: #6fc7ea7e;
 	}
 
 	.toggle button {
 		padding: 0px;
 		margin-top: 0px;
 		height: 35px;
-		min-width: 110px;
+		min-width: 120px;
 		background-color: #fff;
 		border: 1px solid #cdcdcd;
 		border-radius: 5px;
@@ -476,8 +477,11 @@
    
 	.toggle button span {
 		pointer-events:none;
-		padding: 6px;
+		padding: 5px;
 		padding-bottom: 10px;
+		width: 45px;
+		margin-right: 4px;
+		/* margin-left: 2px; */
 	}
 
 

@@ -42,6 +42,12 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: var(--brandWhite);
+    overflow-x: hidden;
+}
+@media (max-width: 400px) {
+    body {
+        overflow-x: scroll;
+    }
 }
 
 main {

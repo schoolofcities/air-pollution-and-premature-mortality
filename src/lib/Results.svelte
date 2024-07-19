@@ -8,10 +8,12 @@ import * as d3 from "d3";
 const sexAll = ["All", "Female", "Male"];
 const pollutionAll = ["PM2.5 and NO2", "PM2.5", "NO2"];
 const ageAll = ["All Ages", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74"]
-let cmaAll = [...new Set(predictedDeaths.map(item => item.CMA))];
+let cmaAll = [...new Set(predictedDeaths.map(item => item.CMA))].sort();
+
+console.log(cmaAll);
 
 // initial variables
-let cmanameSelected = "Toronto";
+let cmanameSelected = "Winnipeg";
 let sexSelected = "All";
 let pollutionSelected = "PM2.5 and NO2"
 // let ageSelected = "All Ages"
