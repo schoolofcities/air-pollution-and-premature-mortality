@@ -40,7 +40,7 @@
 			<b><u>Writing</u></b>: Kosta Diochnos
 			<br>
 			<b><u>Maps & Graphics</u></b>: Jeff Allen, Emily Sakaguchi</p>
-			<p>Funded by a <a href="https://schoolofcities.utoronto.ca/programs-opportunities/urban-challenge-grant/" target = 'blank'>School of Cities Urban Challenge Grant</a>. Read the full paper here.</p>
+			<p>Funded by a <a href="https://schoolofcities.utoronto.ca/programs-opportunities/urban-challenge-grant/" target = 'blank'>School of Cities Urban Challenge Grant</a>. Read the full paper in the <a href="https://doi.org/10.3138/jccpe-2023-0019" target = '_blank'>Journal of City Climate Policy and Economy</a>.</p>
 		</div>
 		<p>
 			Climate change is the largest global health threat of the 21st century, and one of the most important measures that can be taken to lessen its toll on human health is to reduce air pollution. 
@@ -101,7 +101,7 @@
 		</p>
 		<br><br>
 		<p class="notes">
-			Research funded by a <a href="https://schoolofcities.utoronto.ca/programs-opportunities/urban-challenge-grant/" target = 'blank'> School of Cities Urban Challenge Grant</a>
+			Research funded by a <a href="https://schoolofcities.utoronto.ca/programs-opportunities/urban-challenge-grant/" target = 'blank'> School of Cities Urban Challenge Grant</a>. Read the full paper in the <a href="https://doi.org/10.3138/jccpe-2023-0019" target = '_blank'>Journal of City Climate Policy and Economy</a>
 		</p>
 	</div>
 
