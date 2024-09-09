@@ -27,7 +27,7 @@
 <main>
 
 	<div class='intro'>
-		<video src='./air-pollution-and-premature-mortality/videoTest2.mp4' poster='./air-pollution-and-premature-mortality/videoPoster.png' muted preload autoplay loop playsinline></video>
+		<video src='./air-pollution-and-premature-mortality/skylineVideo.mp4' poster='./air-pollution-and-premature-mortality/skylineVideoPoster.png' muted preload autoplay loop playsinline></video>
 		<div class='intro-overlay'>
 			<h1>How reducing air pollution could extend thousands of lives</h1>
 		</div>
